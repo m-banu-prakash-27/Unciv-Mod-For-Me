@@ -1,0 +1,51 @@
+[ 
+
+{ "name": "Magalanadu", "leaderName": "Magalanadu Banu Prakash Sai", "adjective": ["Magalanadu"], "startBias": ["Coast"], "preferredVictoryType": "Cultural", "startIntroPart1": "JUSTICE Prevails", "declaringWar": "JUSTICE will be Served!!!", "attacked": "You will REPENT!!!", "defeated": "oh well, I hope you serve the weak and needy...", "introduction": "Greetings my fellow...", "neutralHello": "Hello!", "hateHello": "oh..you, tell me what you want", "tradeRequest": "It appears that you have some interest or interests", "cities": ["Visakhapatnam", "Andhra", "Ramnagar", "Sree", "Sai", "Surya", "Vizag", "Arunachalam", "Bharat", "Dravida", "Pradesham", "Telugu","M1","M2","M3","M4","M5"], "outerColor": [255,0,96], "innerColor": [254,98,68], "uniqueName": "The way of JUSTICE!!!", "uniques": [ //normal// //growth// 
+"[+100000 Gold, +100000 Production, +100000 Science, +100000 Food, +100000 Culture, +100000 Faith, +100000 Happiness] per [1] population [in all cities]", 
+"[+100]% [Gold] [Food] [Science]      [Faith] [Culture] [Production] [in all cities]",
+"Quantity of strategic resources produced by the empire +[500000]%",
+"Quantity of luxury resources produced by the empire +[500000]%",
+"Quantity of bonus resources produced by the empire +[500000]%", 
+"[+1000]% Golden Age length",
+"[+1000]% growth [in all cities]", 
+"[10] Happiness from each type of luxury resource", 
+//cost reduction//
+"[-1000]% tile improvement construction time", 
+"[-1000]% Unhappiness from [Population] [in all cities]",
+"No Maintenance costs for improvements in [All] tiles", 
+"[-1000]% maintenance costs <for [All] units>", 
+"[-1000]% maintenance on road & railroads",
+"[-1000]% maintenance cost for buildings [in all cities]",
+"[-1000]% maintenance costs", 
+"[Gold] cost of purchasing [All] units [-1000]%", 
+"[Gold] cost of purchasing [All] buildings [-1000]%",
+"May buy [All] buildings for [0] [Culture] [in all cities]", 
+"May buy [All] units for [0] [Culture] [in all cities]", 
+"[-1000]% Culture cost of adopting new Policies",
+//city states//
+"Can spend Gold to annex or puppet a City-State that has been your ally for [1] turns.", 
+"City-State territory always counts as friendly territory",
+"[1000]% resources gifted by City-States", 
+"[-1000]% City-State Influence degradation", 
+"Resting point for Influence with City-States is increased by [1000]",
+"Influence of all other civilizations with all city-states degrades [1000]% faster", 
+"Gifts of Gold to City-States generate [1000]% more Influence",
+//other//
+"Enables conversion of city production to [Gold]", 
+"May not generate great prophet equivalents naturally", 
+"\"Borrows\" city names from other civilizations in the game",
+//religion//
+"[+100]% Natural religion spread [in all cities]", 
+"May choose [2] additional belief(s) of any type when [founding] a religion", "May choose [2] additional belief(s) of any type when [enhancing] a religion"
+//war//
+"Units fight as though they were at full strength even when damaged", 
+"Enables [All] units to enter ocean tiles", 
+"Units ending their turn on [All] tiles take [-100] damage"
+"[1] Movement point cost to disembark", "[1] Movement point cost to embark",
+"Military Units gifted from City-States start with [500000] XP", 
+"New [All] units start with [500000] Experience [in all cities]", 
+"No movement cost to pillage",
+"[+50] Sight <for [All] units>", 
+"All newly-trained [All] units [in all cities] receive the [1st Magnificent Ability] promotion" ] }
+ 
+]

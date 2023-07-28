@@ -1,0 +1,330 @@
+[
+
+	/* Ancient Era */
+
+	{
+		"name": "Indian Bowman",
+		"unitType": "Archery",
+		"movement": 20,
+		"strength": 50,
+		"rangedStrength": 45,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"replaces": "Archer",
+		"uniqueTo": "Magalanadu","India",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Indian War Elephant",
+		"unitType": "Archery",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Chariot Archer",
+		"movement": 30,
+		"strength": 60,
+		"rangedStrength": 50,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "elephant"
+	},
+
+	// Industrial Era
+
+	{
+		"name": "Indian Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 20,
+		"strength": 75,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs cities> <when attacking>",
+			"[+5] Sight"],
+		"promotions": ["Formation I"],
+		"attackSound": "shot"
+	},
+
+	// Modern era
+
+	{
+		"name": "Indian Carrier",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Carrier",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 500,
+		"strength": 5000,
+		"cost": 375,
+		"requiredTech": "Flight",
+		"uniques": ["Cannot attack", "Can carry [10] [Aircraft] units"]
+	},
+
+	{
+		"name": "Indian Anti-Aircraft Gun",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Aircraft Gun",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 20,
+		"interceptRange": 500,
+		"strength": 500,
+		"cost": 375,
+		"requiredTech": "Radio",
+		"upgradesTo": "Indian Mobile SAM",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Indian Destroyer",
+		"unitType": "Melee Water",
+		"replaces": "Destroyer",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 60,
+		"strength": 550,
+		"interceptRange": 500,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+
+	// Atomic Era
+
+	{
+		"name": "MAG-41",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 100,
+		"strength": 700,
+		"rangedStrength": 700,
+		"range": 100,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"promotions": ["Evasion", "Siege I"],
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Indian Paratrooper",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Magalanadu","India",
+		"movement": 20,
+		"strength": 150,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [500] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+
+	{
+		"name": "Indian Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Tank",
+		"movement": 60,
+		"strength": 800,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Indian Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Indian Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Anti-Tank Gun",
+		"movement": 20,
+		"strength": 500,
+		"cost": 300,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Indian Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Indian Mobile SAM",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Mobile SAM",
+		"movement": 30,
+		"interceptRange": 200,
+		"strength": 500,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+
+	{
+		"name": "Indian Guided Missile",
+		"unitType": "Missile",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Guided Missile",
+		"movement": 10,
+		"strength": 600,
+		"rangedStrength": 600,
+		"range": 800,
+		"cost": 150,
+		"requiredTech": "Satellites",
+		"promotions" : ["Evasion"],
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "missile"
+	},
+
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Indian Helicopter Gunship",
+		"unitType": "Helicopter",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Helicopter Gunship",
+		"movement": 60,
+		"strength": 600,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [All] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+
+	// Information Era
+
+	{
+		"name": "Indian Nuclear Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Nuclear Submarine",
+		"movement": 60,
+		"strength": 500,
+		"range": 300,
+		"rangedStrength": 850,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"uniques": ["[+175]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [10] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+
+	{
+		"name": "Indian Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Mechanized Infantry",
+		"movement": 30,
+		"strength": 250,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Indian Missile Cruiser",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Missile Cruiser",
+		"movement": 70,
+		"strength": 800,
+		"rangedStrength": 500,
+		"range": 300,
+		"interceptRange": 500,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [10] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+
+	{
+		"name": "Indian Modern Armor",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Modern Armor",
+		"movement": 50,
+		"strength": 900,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Indian Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Indian Jet Fighter",
+		"unitType": "Fighter",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Jet Fighter",
+		"movement": 10,
+		"strength": 750,
+		"rangedStrength": 500,
+		"range": 250,
+		"interceptRange": 500,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>", "Can carry [10] [Missile] units"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Indian Giant Death Robot",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Giant Death Robot",
+		"movement": 500,
+		"strength": 1500,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [5] [Missile] units"],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Indian Stealth Bomber",
+		"unitType": "Bomber",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Stealth Bomber",
+		"movement": 20,
+		"strength": 850,
+		"rangedStrength": 500,
+		"range": 200,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Can carry [10] [Missile] units", "[+50] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+
+
+	{
+		"name": "Veer",
+		"unitType": "Civilian",
+		"uniqueTo": "Magalanadu","India",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+150]% Strength bonus for [Military] units within [20] tiles",
+			"All adjacent units heal [+150] HP when healing", "[+150] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 50
+	},
+
+
+
+]
