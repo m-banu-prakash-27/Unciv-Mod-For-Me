@@ -1,7 +1,0 @@
-[ 
-  
-{ "name": "Magalanadu Tower", "uniqueTo": "Magalanadu", "cost": 1, "isWonder": true, "uniques": [ "Destroyed when the city is captured", "Can only be built [in capital]", "When defeating a [All] unit, earn [1000] Gold and recruit it", "All newly-trained [All] units [in all cities] receive the [2nd Magnificent Ability] promotion", "[5] Movement", "[+1000]% Strength <vs [All] units>", "[+999] Range", "[9] additional attacks per turn", "Defense bonus when embarked <for [All] units>" ] } 
-
-{ "name": "Justice For Everyone!", "isNationalWonder": true, "cost": 1, "uniques": [ "Destroyed when the city is captured", "\"Borrows\" city names from other civilizations in the game", "Can only be built [in capital]", "All newly-trained [All] units [in all cities] receive the [Magnificent! Ability] promotion", "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in all cities]", "Enables conversion of city production to [Gold]", "May buy [All] units with [Culture] for [3] times their normal Production cost", "May buy [All] units with [Faith] for [3] times their normal Production cost", "May buy [All] buildings with [Culture] for [3] times their normal Production cost", "May buy [All] buildings with [Faith] for [3] times their normal Production cost" ] } 
-
- ] 
