@@ -1,9 +1,9 @@
 [ 
 
-{ "name": "1st Magnificent Ability", "uniques": [ "May Paradrop up to [5] tiles from inside friendly territory", "Can perform Air Sweep", "Normal vision when embarked", "May attack when embarked", "Can see over obstacles", "May enter foreign tiles without open borders", "Ranged attacks may be performed over obstacles", "Can enter ice tiles", "[100]% chance to intercept air attacks", "Can move immediately once bought", "Can move after attacking", "Unit will heal every turn, even if it performs an action", "No movement cost to pillage", "All tiles cost 1 movement", "Can pass through impassable tiles", "Can instantly construct a [Citadel] improvement"] }, 
+{ "name": "1st Magnificent Ability", "uniques": [ "May Paradrop up to [5] tiles from inside friendly territory", "Can perform Air Sweep", "+1 Sight <when Embarked>", "May attack when embarked", "Can see over obstacles", "May enter foreign tiles without open borders", "Ranged attacks may be performed over obstacles", "Can enter ice tiles", "[100]% chance to intercept air attacks", "Can move immediately once bought", "Can move after attacking", "Unit will heal every turn, even if it performs an action", "No movement cost to pillage", "All tiles cost 1 movement", "Can pass through impassable tiles", "Can instantly construct a [Citadel] improvement"] }, 
 
 { "name": "2nd Magnificent Ability", "uniques": [ "Blast radius [1]", "May capture killed [All] units", "Uncapturable", "[100]% chance to intercept air attacks", "[5] additional attacks per turn", "Invisible to others", "Can pass through impassable tiles" ] }, 
 
-{ "name": "Magnificent! Ability", "uniques": [ "Can move after attacking", "Normal vision when embarked", "May attack when embarked", "Can see over obstacles", "May enter foreign tiles without open borders", "Ranged attacks may be performed over obstacles", "Can enter ice tiles", "Can pass through impassable tiles", "Can instantly construct a [Citadel] improvement" ] }
+{ "name": "Magnificent! Ability", "uniques": [ "Can move after attacking", "+1 Sight <when Embarked>", "May attack when embarked", "Can see over obstacles", "May enter foreign tiles without open borders", "Ranged attacks may be performed over obstacles", "Can enter ice tiles", "Can pass through impassable tiles", "Can instantly construct a [Citadel] improvement" ] }
 
 ]
