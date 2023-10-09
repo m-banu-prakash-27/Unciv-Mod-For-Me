@@ -39,7 +39,7 @@
 "[+100]% Natural religion spread [in all cities]", 
 "May choose [2] additional belief(s) of any type when [founding] a religion", "May choose [2] additional belief(s) of any type when [enhancing] a religion"
 //war//
-"Units fight as though they were at full strength even when damaged", 
+"Damage is ignored when determining unit Strength <for All units>", 
 "Enables [All] units to enter ocean tiles", 
 "Units ending their turn on [All] tiles take [-100] damage"
 "[1] Movement point cost to disembark", "[1] Movement point cost to embark",
