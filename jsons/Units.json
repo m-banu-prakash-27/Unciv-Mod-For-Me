@@ -44,7 +44,6 @@
 		"strength": 50,
 		"cost": 225,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs cities> <when attacking>",
 			"[+5] Sight"],
@@ -63,7 +62,7 @@
 		"strength": 100,
 		"cost": 375,
 		"requiredTech": "Flight",
-		"uniques": ["Cannot attack", "Can carry [10] [Aircraft] units"]
+		"uniques": ["Can carry [10] [Missile] units", "Can carry [10] [Aircraft] units"]
 	},
 
 	{
