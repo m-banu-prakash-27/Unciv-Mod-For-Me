@@ -328,8 +328,8 @@
             "Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "[+100]% Strength bonus for [Military] units within [20] tiles",
 			"All adjacent units heal [+150] HP when healing", "[+150] HP when healing",
-            "Can instantly construct a [Citadel] <by consuming this unit>",
-            "Great Person - [War]", "Unbuildable", "Uncapturable", "Can move immediately once bought"],
+            "Can instantly construct a [Citadel] <by consuming this unit>", "Can move immediately once bought"
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 10
 	},
 
