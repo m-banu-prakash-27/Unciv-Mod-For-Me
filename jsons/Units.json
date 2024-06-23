@@ -1,0 +1,338 @@
+[
+
+{ "name": "Super Cheat Worker", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "May create improvements on water resources", "Uncapturable", "[5] Sight" ], "cost": 10 }
+
+{ "name": "Super Cheat Settler", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Founds a new city", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[5] Sight" ], "cost": 10 }
+
+{ "name": "Super Cheat Warrior", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100, "rangedStrength": 100, "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "May withdraw before melee ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
+
+{ "name": "Super Cheat Trooper", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100,  "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "May withdraw before melee ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
+
+
+	/* Ancient Era */
+
+	{
+		"name": "Indian Bowman",
+		"unitType": "Archery",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Machinery",
+		"replaces": "Archer",
+		"uniqueTo": "Magalanadu",
+		"uniques": ["Never appears as a Barbarian unit","Can move immediately once bought"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Indian War Elephant",
+		"unitType": "Archery",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 10,
+		"rangedStrength": 15,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Never appears as a Barbarian unit","Can move immediately once bought"],
+		"attackSound": "elephant"
+	},
+
+	// Industrial Era
+
+	{
+		"name": "Indian Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Magalanadu",
+		"movement": 5,
+		"strength": 50,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Infantry",
+		"uniques": ["Never appears as a Barbarian unit","Can move immediately once bought"],
+		"attackSound": "shot"
+	},
+
+	// Modern era
+
+	{
+		"name": "Indian Carrier",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Carrier",
+		"uniqueTo": "Magalanadu",
+		"movement": 10,
+		"strength": 100,
+		"cost": 375,
+		"requiredTech": "Flight",
+		"uniques": ["Can carry [10] [Missile] units", "Can carry [10] [Aircraft] units", "Can move immediately once bought"]
+	},
+
+	{
+		"name": "Indian Anti-Aircraft Gun",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Aircraft Gun",
+		"uniqueTo": "Magalanadu",
+		"movement": 5,
+		"interceptRange": 50,
+		"strength": 100,
+		"cost": 375,
+		"requiredTech": "Radio",
+		"upgradesTo": "Indian Mobile SAM",
+		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Air] units>", "[+100]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Indian Destroyer",
+		"unitType": "Melee Water",
+		"replaces": "Destroyer",
+		"uniqueTo": "Magalanadu",
+		"movement": 10,
+		"strength": 100,
+		"interceptRange": 50,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "Can move immediately once bought"],
+		"attackSound": "shipguns"
+	},
+
+	// Atomic Era
+
+	{
+		"name": "MAG-41",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "Magalanadu",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 150,
+		"range": 20,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"promotions": ["Evasion", "Siege I"],
+		"uniques": ["Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "bombing"
+	},
+
+	{
+		"name": "Indian Paratrooper",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Magalanadu",
+		"movement": 5,
+		"strength": 100,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop up to [20] tiles from inside friendly territory", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+
+	{
+		"name": "Indian Tank",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Tank",
+		"movement": 10,
+		"strength": 100,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Indian Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Indian Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Anti-Tank Gun",
+		"movement": 5,
+		"strength": 100,
+		"cost": 200,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Indian Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Indian Mobile SAM",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Mobile SAM",
+		"movement": 5,
+		"interceptRange": 20,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "missile"
+	},
+
+	{
+		"name": "Indian Guided Missile",
+		"unitType": "Missile",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Guided Missile",
+		"movement": 5,
+		"strength": 500,
+		"rangedStrength": 400,
+		"range": 10,
+		"cost": 150,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[-100]% maintenance costs", "Can move immediately once bought"],
+		"attackSound": "missile"
+	},
+
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Indian Helicopter Gunship",
+		"unitType": "Helicopter",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Helicopter Gunship",
+		"movement": 10,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [All] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "machinegun"
+	},
+
+	// Information Era
+
+	{
+		"name": "Indian Nuclear Submarine",
+		"unitType": "Submarine",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Nuclear Submarine",
+		"movement": 10,
+		"strength": 100,
+		"range": 10,
+		"rangedStrength": 150,
+		"cost": 425,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+100]% Strength <when attacking>", "Can attack [All] tiles", "[+1] Sight", "Can carry [10] [Missile] units", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "torpedo"
+	},
+
+	{
+		"name": "Indian Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Mechanized Infantry",
+		"movement": 5,
+		"strength": 150,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "tankshot"
+	},
+
+	{
+		"name": "Indian Missile Cruiser",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Missile Cruiser",
+		"movement": 10,
+		"strength": 150,
+		"rangedStrength": 200,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [10] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+
+	{
+		"name": "Indian Modern Armor",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Modern Armor",
+		"movement": 10,
+		"strength": 200,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Indian Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Indian Jet Fighter",
+		"unitType": "Fighter",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Jet Fighter",
+		"movement": 5,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 20,
+		"interceptRange": 20,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[100]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Can carry [10] [Missile] units", "Can move immediately once bought"],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Indian Giant Death Robot",
+		"unitType": "Armored",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Giant Death Robot",
+		"movement": 10,
+		"strength": 300,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [5] [Missile] units", "Can move immediately once bought"],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Indian Stealth Bomber",
+		"unitType": "Bomber",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Stealth Bomber",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 150,
+		"range": 50,
+		"cost": 425,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "Can carry [10] [Missile] units", "[+50] Sight", "Can see over obstacles", "Can move immediately once bought"],
+		"attackSound": "bombing"
+	},
+
+	/* Great people */
+
+	{
+		"name": "Veer",
+		"unitType": "Civilian",
+		"uniqueTo": "Magalanadu",
+		"replaces": "Great General",
+		"uniques": [
+            "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+            "[+100]% Strength bonus for [Military] units within [20] tiles",
+			"All adjacent units heal [+150] HP when healing", "[+150] HP when healing",
+            "Can instantly construct a [Citadel] <by consuming this unit>", "Can move immediately once bought"
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 10
+	},
+
+
+
+]
