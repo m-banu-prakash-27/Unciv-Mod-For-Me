@@ -1,6 +1,6 @@
 [
 
-{ "name": "Super Cheat Worker", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "May create improvements on water resources", "Uncapturable", "[5] Sight", "Can instantly construct a [Citadel]" ], "cost": 10 }
+{ "name": "Super Cheat Worker", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "May create improvements on water resources", "Uncapturable", "[5] Sight", "Can instantly construct a [Citadel] improvement" ], "cost": 10 }
 
 { "name": "Super Cheat Settler", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Founds a new city", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[5] Sight" ], "cost": 10 }
 
@@ -327,7 +327,7 @@
             "Empire enters a [10]-turn Golden Age <by consuming this unit>",
             "[+100]% Strength bonus for [Military] units within [20] tiles",
 			"All adjacent units heal [+150] HP when healing", "[+150] HP when healing",
-            "Can instantly construct a [Citadel] <by consuming this unit>", "Can move immediately once bought"
+            "Can instantly construct a [Citadel] improvement", "Can move immediately once bought"
             "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 10
 	},
