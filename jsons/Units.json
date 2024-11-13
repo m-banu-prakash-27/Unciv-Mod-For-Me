@@ -1,6 +1,6 @@
 [
 
-{ "name": "Super Cheat Worker", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "May create improvements on water resources", "Uncapturable", "[5] Sight", "Can instantly construct a [Citadel] improvement" ], "cost": 10 }
+{ "name": "Super Cheat Worker", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "May create improvements on water resources", "Uncapturable", "[5] Sight", "Can instantly construct a [Indian Citadel] improvement" ], "cost": 10 }
 
 { "name": "Super Cheat Settler", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Founds a new city", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[5] Sight" ], "cost": 10 }
 
