@@ -1,0 +1,19 @@
+[
+
+  {
+		"name": "Indian Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [100] damage",
+			"Can be built outside your borders",
+			"Gain control over [all] tiles in a [10]-tile radius",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		]
+	},
+
+
+
+]
