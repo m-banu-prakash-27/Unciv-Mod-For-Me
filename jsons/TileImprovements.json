@@ -16,10 +16,48 @@
   },
 
   {
+		"name": "Bonus Resource Generator",
+	  	"uniqueTo": "Magalanadu",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1000,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Provides [10] [Cattle]",
+			"Provides [10] [Sheep]",
+			"Provides [10] [Deer]",
+			"Provides [10] [Bananas]",
+			"Provides [10] [Wheat]",
+			"Provides [10] [Stone]",
+			"Provides [10] [Fish]",
+			"Provides [10] [Bison]",
+			"Pillaging this improvement yields approximately [-10000 Gold]"
+		]
+  },
+
+	
+  {
+		"name": "Strategic Resource Generator",
+	  	"uniqueTo": "Magalanadu",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1000,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Provides [10] [Horses]",
+			"Provides [10] [Iron]",
+			"Provides [10] [Coal]",
+			"Provides [10] [Oil]",
+			"Provides [10] [Aluminum]",
+			"Provides [10] [Uranium]",
+			"Pillaging this improvement yields approximately [-10000 Gold]"
+		]
+  },
+
+
+  {
 		"name": "Lurxury Resource Generator",
 	  	"uniqueTo": "Magalanadu",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 1,
+		"gold": 1000,
 		"turnsToBuild": 7,
 		"uniques": [
 			"Provides [10] [Furs]",
