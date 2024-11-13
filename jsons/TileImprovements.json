@@ -29,8 +29,7 @@
 			"Provides [10] [Wheat]",
 			"Provides [10] [Stone]",
 			"Provides [10] [Fish]",
-			"Provides [10] [Bison]",
-			"Pillaging this improvement yields approximately [0 Gold]"
+			"Provides [10] [Bison]"
 		]
   },
 
@@ -47,8 +46,7 @@
 			"Provides [10] [Coal]",
 			"Provides [10] [Oil]",
 			"Provides [10] [Aluminum]",
-			"Provides [10] [Uranium]",
-			"Pillaging this improvement yields approximately [0 Gold]"
+			"Provides [10] [Uranium]"
 		]
   },
 
@@ -82,8 +80,7 @@
 			"Provides [10] [Cocoa]",
 			"Provides [10] [Crab]",
 			"Provides [10] [Salt]",
-			"Provides [10] [Truffles]",
-			"Pillaging this improvement yields approximately [0 Gold]"
+			"Provides [10] [Truffles]"
 		]
   },
 
