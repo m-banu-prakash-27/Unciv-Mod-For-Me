@@ -16,7 +16,7 @@
 
 { "name": "Magalanadu Food Hack", "uniqueTo": "Magalanadu", "cost": 1, "isWonder": true, "uniques": [ "Destroyed when the city is captured", "Can only be built [in in capital cities]", "[+1 Food] per [1] population [in all cities]", "[+1000000]% [Food] [in all cities]", "[+1000]% growth [in all cities]" ] }
 
-{ "name": "Magalanadu Science Hack", "uniqueTo": "Magalanadu", "cost": 1, "isWonder": true, "uniques": [ "Destroyed when the city is captured", "Can only be built [in in capital cities]", "[+1 Science] per [1] population [in all cities]", "[+1000000]% [Science] [in all cities]" ] }
+{ "name": "Magalanadu Science Hack", "uniqueTo": "Magalanadu", "cost": 1, "isWonder": true, "uniques": [ "Destroyed when the city is captured", "Can only be built [in in capital cities]", "[+1 Science] per [1] population [in all cities]", "[+1000]% [Science] [in all cities]" ] }
 
 { "name": "Magalanadu Production Hack", "uniqueTo": "Magalanadu", "cost": 1, "isWonder": true, "uniques": [ "Destroyed when the city is captured", "Can only be built [in in capital cities]", "[+1 Production] per [1] population [in all cities]", "[+1000000]% [Production] [in all cities]", "Quantity of strategic resources produced by the empire +[200000]%", "[-1000]% construction time for All improvements" ] }
   
