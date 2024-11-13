@@ -4,9 +4,9 @@
 
 { "name": "Super Cheat Settler", "uniqueTo": "Magalanadu", "unitType": "Civilian", "movement": 5, "attackSound": "arrow", "uniques": ["Founds a new city", "Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[5] Sight" ], "cost": 10 }
 
-{ "name": "Super Cheat Warrior", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100, "rangedStrength": 100, "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "May withdraw before melee ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
+{ "name": "Super Cheat Warrior", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100, "rangedStrength": 100, "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "Withdraws before melee combat with ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
 
-{ "name": "Super Cheat Trooper", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100,  "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "May withdraw before melee ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
+{ "name": "Super Cheat Trooper", "uniqueTo": "Magalanadu", "unitType": "Ranged Gunpowder", "movement": 5, "strength": 100,  "attackSound": "arrow", "uniques": ["Never appears as a Barbarian unit", "Can move after attacking", "Can move immediately once bought", "Uncapturable", "[2] additional attacks per turn", "[5] Sight", "[5] Range", "Withdraws before melee combat with ([50]%)", "Can move after attacking", "Can see over obstacles", "Invisible to non-adjacent units", "Can see invisible [All] units", "All tiles cost 1 movement", "May travel on Water tiles without embarking", "No movement cost to pillage", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "Eliminates combat penalty for attacking over a river", "Ranged attacks may be performed over obstacles" ], "cost": 10 }
 
 
 	/* Ancient Era */
@@ -99,7 +99,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[100]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>", "Can move immediately once bought"],
+			"Withdraws before melee combat with ([80]%)", "[+100]% Strength <vs [Submarine] units>", "Can move immediately once bought"],
 		"attackSound": "shipguns"
 	},
 
@@ -223,7 +223,7 @@
 		"rangedStrength": 150,
 		"cost": 425,
 		"requiredTech": "Telecommunications",
-		"uniques": ["[+100]% Strength <when attacking>", "Can attack [All] tiles", "[+1] Sight", "Can carry [10] [Missile] units", "Never appears as a Barbarian unit", "Can move immediately once bought"],
+		"uniques": ["[+100]% Strength <when attacking>", "Can attack [Water] tiles", "Can attack [Land] tiles", "[+1] Sight", "Can carry [10] [Missile] units", "Never appears as a Barbarian unit", "Can move immediately once bought"],
 		"attackSound": "torpedo"
 	},
 
