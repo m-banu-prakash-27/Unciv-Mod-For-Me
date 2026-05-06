@@ -1,0 +1,6 @@
+{
+    "constants":  {
+                      "cityWorkRange":  15,
+                      "cityExpandRange":  15
+                  }
+}
