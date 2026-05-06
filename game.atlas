@@ -1,0 +1,489 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+BuildingIcons/Justice For Everyone!
+  rotate: false
+  xy: 16, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu City-States Hack
+  rotate: false
+  xy: 236, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Culture Hack
+  rotate: false
+  xy: 456, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Faith Hack
+  rotate: false
+  xy: 676, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Food Hack
+  rotate: false
+  xy: 896, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Gold Hack
+  rotate: false
+  xy: 1116, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Happiness Hack
+  rotate: false
+  xy: 1336, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Infinite Borders Office
+  rotate: false
+  xy: 1556, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Military Hack 1
+  rotate: false
+  xy: 1776, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Military Hack 2
+  rotate: false
+  xy: 16, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Natural Wonder Institute
+  rotate: false
+  xy: 236, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Production Hack
+  rotate: false
+  xy: 456, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Science Hack
+  rotate: false
+  xy: 676, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu World Forge
+  rotate: false
+  xy: 896, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Arms Depot
+  rotate: false
+  xy: 1116, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Artificial Freshwater Garden
+  rotate: false
+  xy: 1336, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bonus Resource Generator
+  rotate: false
+  xy: 1556, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Indian Citadel
+  rotate: false
+  xy: 1776, 236
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Luxury Fabricator
+  rotate: false
+  xy: 16, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Luxury Resource Generator
+  rotate: false
+  xy: 236, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Omni Resource Generator
+  rotate: false
+  xy: 456, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Strategic Resource Generator
+  rotate: false
+  xy: 676, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wonder City Core
+  rotate: false
+  xy: 896, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Magalanadu
+  rotate: false
+  xy: 1116, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Corporate Mercenary
+  rotate: false
+  xy: 1336, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Anti-Aircraft Gun
+  rotate: false
+  xy: 1556, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Anti-Tank Gun
+  rotate: false
+  xy: 1776, 456
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Bowman
+  rotate: false
+  xy: 16, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Carrier
+  rotate: false
+  xy: 236, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Destroyer
+  rotate: false
+  xy: 456, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Giant Death Robot
+  rotate: false
+  xy: 676, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Guided Missile
+  rotate: false
+  xy: 896, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Helicopter Gunship
+  rotate: false
+  xy: 1116, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Infantry
+  rotate: false
+  xy: 1336, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Jet Fighter
+  rotate: false
+  xy: 1556, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Mechanized Infantry
+  rotate: false
+  xy: 1776, 676
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Missile Cruiser
+  rotate: false
+  xy: 16, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Mobile SAM
+  rotate: false
+  xy: 236, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Modern Armor
+  rotate: false
+  xy: 456, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Nuclear Submarine
+  rotate: false
+  xy: 676, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Paratrooper
+  rotate: false
+  xy: 896, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Stealth Bomber
+  rotate: false
+  xy: 1116, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian Tank
+  rotate: false
+  xy: 1336, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indian War Elephant
+  rotate: false
+  xy: 1556, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/MAG-41
+  rotate: false
+  xy: 1776, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Architect of Wonders
+  rotate: false
+  xy: 16, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Arms Dealer
+  rotate: false
+  xy: 236, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Black Ops Cell
+  rotate: false
+  xy: 456, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Cyber Warfare Cell
+  rotate: false
+  xy: 676, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Divine Apostle
+  rotate: false
+  xy: 896, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Drone Swarm
+  rotate: false
+  xy: 1116, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu False Flag Operative
+  rotate: false
+  xy: 1336, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Orbital Strike Team
+  rotate: false
+  xy: 1556, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Peacekeeper Battalion
+  rotate: false
+  xy: 1776, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Proxy Commander
+  rotate: false
+  xy: 16, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Religious Agitator
+  rotate: false
+  xy: 236, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Resource Smuggler
+  rotate: false
+  xy: 456, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Saboteur
+  rotate: false
+  xy: 676, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Shadow Agent
+  rotate: false
+  xy: 896, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu War Profiteer
+  rotate: false
+  xy: 1116, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu World Shaper
+  rotate: false
+  xy: 1336, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Cheat Settler
+  rotate: false
+  xy: 1556, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Cheat Trooper
+  rotate: false
+  xy: 1776, 1336
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Cheat Warrior
+  rotate: false
+  xy: 16, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Cheat Worker
+  rotate: false
+  xy: 236, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Veer
+  rotate: false
+  xy: 456, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/1st Magalanadu Ability
+  rotate: false
+  xy: 676, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/2nd Magalanadu Ability
+  rotate: false
+  xy: 896, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Justice For Everyone! Ability
+  rotate: false
+  xy: 1116, 1556
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
