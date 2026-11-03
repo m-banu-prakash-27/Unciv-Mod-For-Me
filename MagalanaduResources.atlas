@@ -1,0 +1,285 @@
+MagalanaduResources.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+ImprovementIcons/Magalanadu Strategic Fabricator - Horses
+  rotate: false
+  xy: 8, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Strategic Fabricator - Iron
+  rotate: false
+  xy: 136, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Strategic Fabricator - Coal
+  rotate: false
+  xy: 264, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Strategic Fabricator - Oil
+  rotate: false
+  xy: 392, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Strategic Fabricator - Aluminum
+  rotate: false
+  xy: 520, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Strategic Fabricator - Uranium
+  rotate: false
+  xy: 648, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Furs
+  rotate: false
+  xy: 776, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Cotton
+  rotate: false
+  xy: 904, 8
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Dyes
+  rotate: false
+  xy: 8, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Gems
+  rotate: false
+  xy: 136, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Gold Ore
+  rotate: false
+  xy: 264, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Silver
+  rotate: false
+  xy: 392, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Incense
+  rotate: false
+  xy: 520, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Ivory
+  rotate: false
+  xy: 648, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Silk
+  rotate: false
+  xy: 776, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Spices
+  rotate: false
+  xy: 904, 136
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Wine
+  rotate: false
+  xy: 8, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Sugar
+  rotate: false
+  xy: 136, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Marble
+  rotate: false
+  xy: 264, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Whales
+  rotate: false
+  xy: 392, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Pearls
+  rotate: false
+  xy: 520, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Jewelry
+  rotate: false
+  xy: 648, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Porcelain
+  rotate: false
+  xy: 776, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Citrus
+  rotate: false
+  xy: 904, 264
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Copper
+  rotate: false
+  xy: 8, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Crab
+  rotate: false
+  xy: 136, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Salt
+  rotate: false
+  xy: 264, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Luxury Fabricator - Truffles
+  rotate: false
+  xy: 392, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Cattle
+  rotate: false
+  xy: 520, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Sheep
+  rotate: false
+  xy: 648, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Deer
+  rotate: false
+  xy: 776, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Bananas
+  rotate: false
+  xy: 904, 392
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Wheat
+  rotate: false
+  xy: 8, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Stone
+  rotate: false
+  xy: 136, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Magalanadu Bonus Fabricator - Fish
+  rotate: false
+  xy: 264, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Strategic Fabricator
+  rotate: false
+  xy: 392, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Luxury Fabricator I
+  rotate: false
+  xy: 520, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Luxury Fabricator II
+  rotate: false
+  xy: 648, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Bonus Fabricator
+  rotate: false
+  xy: 776, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Natural Deposit Surveyor
+  rotate: false
+  xy: 904, 520
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1

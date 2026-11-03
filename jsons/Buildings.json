@@ -1,229 +1,1283 @@
 [
-    {
-        "name":  "Magalanadu Military Hack 2",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "When defeating a [All] unit, earn [1000] Gold and recruit it",
-                        "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
-                        "[5] Movement",
-                        "[+1000]% Strength \u003cvs [All] units\u003e",
-                        "[+5] Range",
-                        "[3] additional attacks per turn",
-                        "[+100]% Strength \u003cwhen defending\u003e \u003cwhen [Embarked]\u003e"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Military Hack 1",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "[1] additional attacks per turn",
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "No damage penalty for wounded units",
-                        "Enables [All] units to enter ocean tiles",
-                        "[1] Movement point cost to disembark",
-                        "[1] Movement point cost to embark",
-                        "Military Units gifted from City-States start with [200000] XP",
-                        "New [All] units start with [200000] XP [in all cities]",
-                        "No movement cost to pillage",
-                        "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Gold Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Gold] per [1] population [in all cities]",
-                        "[+1000000]% [Gold] [in all cities]",
-                        "No Maintenance costs for improvements in [All] tiles",
-                        "[-1000]% maintenance costs",
-                        "[-1000]% maintenance on road \u0026 railroads",
-                        "[-1000]% maintenance cost for [All] buildings [in all cities]",
-                        "[Gold] cost of purchasing [All] units [-1000]%",
-                        "[Gold] cost of purchasing [All] buildings [-1000]%",
-                        "May buy [All] buildings for [0] [Culture] [in all cities]",
-                        "May buy [All] units for [0] [Culture] [in all cities]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu City-States Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns",
-                        "City-State territory always counts as friendly territory",
-                        "[+1000]% resources gifted by City-States",
-                        "[-1000]% City-State Influence degradation",
-                        "Resting point for Influence with City-States is increased by [1000]",
-                        "Influence of all other civilizations with all city-states degrades [1000]% faster",
-                        "Gifts of Gold to City-States generate [+1000]% more Influence"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Culture Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Culture] per [1] population [in all cities]",
-                        "[+1000000]% [Culture] [in all cities]",
-                        "[+1000]% Golden Age length",
-                        "[-1000]% Culture cost of adopting new Policies"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Faith Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Faith] per [1] population [in all cities]",
-                        "[+1000000]% [Faith] [in all cities]",
-                        "May not generate great prophet equivalents naturally",
-                        "May choose [2] additional belief(s) of any type when [founding] a religion",
-                        "May choose [2] additional belief(s) of any type when [enhancing] a religion"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Happiness Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Happiness] per [1] population [in all cities]",
-                        "[+1000000]% [Happiness] [in all cities]",
-                        "[10] Happiness from each type of luxury resource",
-                        "[-1000]% Unhappiness from [Population] [in all cities]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Food Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Food] per [1] population [in all cities]",
-                        "[+1000000]% [Food] [in all cities]",
-                        "[+1000]% growth [in all cities]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Science Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Science] per [1] population [in all cities]",
-                        "[+1000]% [Science] [in all cities]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Production Hack",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+1 Production] per [1] population [in all cities]",
-                        "[+1000000]% [Production] [in all cities]",
-                        "[+200000]% [Strategic] resource production",
-                        "[-1000]% construction time for [All] improvements"
-                    ]
-    },
-    {
-        "name":  "Justice For Everyone!",
-        "uniqueTo":  "Magalanadu",
-        "isNationalWonder":  true,
-        "cost":  1,
-        "uniques":  [
-                        "Enables Open Borders agreements",
-                        "Enables Research agreements",
-                        "Enables Defensive Pacts",
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "\"Borrows\" city names from other civilizations in the game",
-                        "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
-                        "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in all cities]",
-                        "Enables conversion of city production to [Gold]",
-                        "May buy [All] units with [Culture] for [3] times their normal Production cost",
-                        "May buy [All] units with [Faith] for [3] times their normal Production cost",
-                        "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
-                        "May buy [All] buildings with [Faith] for [3] times their normal Production cost"
-                    ]
-    },
-    {
-        "name":  "Magalanadu World Forge",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "Gain control over [all] tiles in a [5]-tile radius",
-                        "Gain control over [100] tiles [in this city]",
-                        "[-100]% Gold cost of acquiring tiles [in all cities]",
-                        "[-100]% Culture cost of natural border growth [in all cities]",
-                        "[+1000]% Production when constructing [All] wonders [in this city]",
-                        "[+1000]% Production when constructing [All] buildings [in this city]",
-                        "[+1000]% growth [in this city]",
-                        "[100]% Food is carried over after population increases [in this city]",
-                        "[-100]% Food consumption by [Population] [in this city]",
-                        "[-1000]% Unhappiness from [Population] [in this city]",
-                        "[+10 Food, +10 Production, +10 Gold, +10 Science, +10 Culture, +10 Faith] per [1] population [in this city]",
-                        "[+25 Food, +25 Production, +25 Gold, +25 Science, +25 Culture, +25 Faith] from every [Wonder]",
-                        "[50] population [in this city]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Infinite Borders Office",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isNationalWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "Gain control over [all] tiles in a [5]-tile radius",
-                        "Gain control over [100] tiles [in all cities]",
-                        "[-100]% Gold cost of acquiring tiles [in all cities]",
-                        "[-100]% Culture cost of natural border growth [in all cities]",
-                        "[+1000]% [Culture] [in all cities]"
-                    ]
-    },
-    {
-        "name":  "Magalanadu Natural Wonder Institute",
-        "uniqueTo":  "Magalanadu",
-        "cost":  1,
-        "isWonder":  true,
-        "uniques":  [
-                        "Destroyed when the city is captured",
-                        "Can only be built \u003cin [Capital] cities\u003e",
-                        "[+100 Food, +100 Production, +100 Gold, +100 Science, +100 Culture, +100 Faith] for every known Natural Wonder",
-                        "[+1000 Gold, +1000 Science, +1000 Culture] for discovering a Natural Wonder (bonus enhanced to [+5000 Gold, +5000 Science, +5000 Culture] if first to discover it)",
-                        "Reveals the entire map"
-                    ]
-    }
+  {
+    "name": "Magalanadu Military Hack 2",
+    "uniqueTo": "Magalanadu",
+    "cost": 450,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "When defeating a [All] unit, earn [50] Gold and recruit it",
+      "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
+      "[1] Movement",
+      "[+20]% Strength <vs [All] units>",
+      "[+1] Range",
+      "[1] additional attacks per turn",
+      "[+15]% Strength <when defending> <when [Embarked]>"
+    ]
+  },
+  {
+    "name": "Magalanadu Military Hack 1",
+    "uniqueTo": "Magalanadu",
+    "cost": 300,
+    "isWonder": true,
+    "uniques": [
+      "[1] additional attacks per turn",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "No damage penalty for wounded units",
+      "Enables [All] units to enter ocean tiles",
+      "[1] Movement point cost to disembark",
+      "[1] Movement point cost to embark",
+      "Military Units gifted from City-States start with [20] XP",
+      "New [All] units start with [20] XP [in all cities]",
+      "No movement cost to pillage",
+      "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion"
+    ]
+  },
+  {
+    "name": "Magalanadu Gold Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 250,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Gold] per [5] population [in all cities]",
+      "[+35]% [Gold] [in all cities]",
+      "No Maintenance costs for improvements in [All] tiles",
+      "[-20]% maintenance costs",
+      "[-20]% maintenance on road & railroads",
+      "[-20]% maintenance cost for [All] buildings [in all cities]",
+      "[Gold] cost of purchasing [All] units [-15]%",
+      "[Gold] cost of purchasing [All] buildings [-15]%",
+      "May buy [All] buildings for [200] [Culture] [in all cities]",
+      "May buy [All] units for [200] [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Magalanadu City-States Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 275,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
+      "City-State territory always counts as friendly territory",
+      "[+25]% resources gifted by City-States",
+      "[-20]% City-State Influence degradation",
+      "Resting point for Influence with City-States is increased by [15]",
+      "Influence of all other civilizations with all city-states degrades [20]% faster",
+      "Gifts of Gold to City-States generate [+25]% more Influence"
+    ]
+  },
+  {
+    "name": "Magalanadu Culture Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 235,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Culture] per [5] population [in all cities]",
+      "[+30]% [Culture] [in all cities]",
+      "[+15]% Golden Age length",
+      "[-10]% Culture cost of adopting new Policies"
+    ]
+  },
+  {
+    "name": "Magalanadu Faith Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 250,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Faith] per [5] population [in all cities]",
+      "[+30]% [Faith] [in all cities]",
+      "May choose [1] additional belief(s) of any type when [founding] a religion",
+      "May choose [1] additional belief(s) of any type when [enhancing] a religion"
+    ]
+  },
+  {
+    "name": "Magalanadu Happiness Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 225,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Happiness] per [5] population [in all cities]",
+      "[+20]% [Happiness] [in all cities]",
+      "[2] Happiness from each type of luxury resource",
+      "[-20]% Unhappiness from [Population] [in all cities]"
+    ]
+  },
+  {
+    "name": "Magalanadu Food Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Food] per [5] population [in all cities]",
+      "[+30]% [Food] [in all cities]",
+      "[+20]% growth [in all cities]"
+    ]
+  },
+  {
+    "name": "Magalanadu Science Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 250,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Science] per [5] population [in all cities]",
+      "[+30]% [Science] [in all cities]"
+    ]
+  },
+  {
+    "name": "Magalanadu Production Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 260,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Production] per [5] population [in all cities]",
+      "[+35]% [Production] [in all cities]",
+      "[+25]% [Strategic] resource production",
+      "[-20]% construction time for [All] improvements"
+    ]
+  },
+  {
+    "name": "Justice For Everyone!",
+    "uniqueTo": "Magalanadu",
+    "isNationalWonder": true,
+    "cost": 330,
+    "uniques": [
+      "Enables Open Borders agreements",
+      "Enables Research agreements",
+      "Enables Defensive Pacts",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "\"Borrows\" city names from other civilizations in the game",
+      "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
+      "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in all cities]",
+      "Enables conversion of city production to [Gold]",
+      "May buy [All] units with [Culture] for [3] times their normal Production cost",
+      "May buy [All] units with [Faith] for [3] times their normal Production cost",
+      "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
+      "May buy [All] buildings with [Faith] for [3] times their normal Production cost"
+    ]
+  },
+  {
+    "name": "Magalanadu World Forge",
+    "uniqueTo": "Magalanadu",
+    "cost": 525,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Gain control over [12] tiles [in this city]",
+      "[-25]% Gold cost of acquiring tiles [in all cities]",
+      "[-25]% Culture cost of natural border growth [in all cities]",
+      "[+25]% Production when constructing [All] wonders [in this city]",
+      "[+25]% Production when constructing [All] buildings [in this city]",
+      "[+20]% growth [in this city]",
+      "[20]% Food is carried over after population increases [in this city]",
+      "[-15]% Food consumption by [Population] [in this city]",
+      "[-20]% Unhappiness from [Population] [in this city]",
+      "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] per [5] population [in this city]",
+      "[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from every [Wonder]",
+      "[3] population [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Infinite Borders Office",
+    "uniqueTo": "Magalanadu",
+    "cost": 390,
+    "isNationalWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Gain control over [6] tiles [in all cities]",
+      "[-25]% Gold cost of acquiring tiles [in all cities]",
+      "[-25]% Culture cost of natural border growth [in all cities]",
+      "[+20]% [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Magalanadu Natural Wonder Institute",
+    "uniqueTo": "Magalanadu",
+    "cost": 400,
+    "isWonder": true,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+5 Food, +5 Production, +5 Gold, +5 Science, +5 Culture, +5 Faith] for every known Natural Wonder",
+      "[+100 Gold, +100 Science, +100 Culture] for discovering a Natural Wonder (bonus enhanced to [+250 Gold, +250 Science, +250 Culture] if first to discover it)",
+      "Reveals the entire map"
+    ]
+  },
+  {
+    "name": "Magalanadu Treasury Contract",
+    "uniqueTo": "Magalanadu",
+    "cost": 300,
+    "uniques": [
+      "Cannot be purchased",
+      "Gain [999999999] [Gold]",
+      "[+9999 Gold] [in capital] <for [9999] turns>",
+      "Remove [Magalanadu Treasury Contract] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Science Grant",
+    "uniqueTo": "Magalanadu",
+    "cost": 330,
+    "uniques": [
+      "Cannot be purchased",
+      "Gain [999999] [Science]",
+      "[+9999 Science] [in capital] <for [9999] turns>",
+      "Remove [Magalanadu Science Grant] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Cultural Endowment",
+    "uniqueTo": "Magalanadu",
+    "cost": 330,
+    "uniques": [
+      "Cannot be purchased",
+      "Gain [999999] [Culture]",
+      "[+9999 Culture] [in capital] <for [9999] turns>",
+      "Remove [Magalanadu Cultural Endowment] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Faith Foundation",
+    "uniqueTo": "Magalanadu",
+    "cost": 330,
+    "uniques": [
+      "Cannot be purchased",
+      "Gain [999999] [Faith]",
+      "[+9999 Faith] [in capital] <for [9999] turns>",
+      "Remove [Magalanadu Faith Foundation] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Industrial Surge",
+    "uniqueTo": "Magalanadu",
+    "cost": 370,
+    "uniques": [
+      "Cannot be purchased",
+      "[+999 Production] [in capital] <for [9999] turns>",
+      "[+15]% [Production] [in all cities] <for [9999] turns>",
+      "Remove [Magalanadu Industrial Surge] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Agricultural Programme",
+    "uniqueTo": "Magalanadu",
+    "cost": 340,
+    "uniques": [
+      "Cannot be purchased",
+      "[+999 Food] [in capital] <for [9999] turns>",
+      "[+15]% growth [in all cities] <for [9999] turns>",
+      "Remove [Magalanadu Agricultural Programme] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Happiness Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 320,
+    "uniques": [
+      "Cannot be purchased",
+      "[+999 Happiness] [in capital] <for [9999] turns>",
+      "[-10]% Unhappiness from [Population] [in all cities] <for [9999] turns>",
+      "Remove [Magalanadu Happiness Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Military Mobilization",
+    "uniqueTo": "Magalanadu",
+    "cost": 420,
+    "uniques": [
+      "Cannot be purchased",
+      "[+10]% Strength <for [9999] turns>",
+      "[+15]% Production when constructing [All] units [in all cities] <for [9999] turns>",
+      "Remove [Magalanadu Military Mobilization] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Frontier Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 400,
+    "uniques": [
+      "Cannot be purchased",
+      "Gain control over [12] tiles [in this city]",
+      "[-10]% Culture cost of natural border growth [in all cities] <for [9999] turns>",
+      "Remove [Magalanadu Frontier Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Diplomatic Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 350,
+    "uniques": [
+      "Cannot be purchased",
+      "Gifts of Gold to City-States generate [+15]% more Influence <for [9999] turns>",
+      "Resting point for Influence with City-States is increased by [5] <for [9999] turns>",
+      "Remove [Magalanadu Diplomatic Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Bananas Plantation",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Bananas Plantation] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Bananas Plantation adds another +100 Bananas to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Bananas"
+  },
+  {
+    "name": "Cattle Ranch",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Cattle Ranch] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Cattle Ranch adds another +100 Cattle to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Cattle"
+  },
+  {
+    "name": "Deer Game Reserve",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Deer Game Reserve] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Deer Game Reserve adds another +100 Deer to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Deer"
+  },
+  {
+    "name": "Fish Hatchery",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Fish Hatchery] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Fish Hatchery adds another +100 Fish to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Fish"
+  },
+  {
+    "name": "Sheep Pastures",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Sheep Pastures] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Sheep Pastures adds another +100 Sheep to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Sheep"
+  },
+  {
+    "name": "Stone Quarry",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Stone Quarry] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Stone Quarry adds another +100 Stone to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Stone"
+  },
+  {
+    "name": "Wheat Granary",
+    "uniqueTo": "Magalanadu",
+    "cost": 160,
+    "maintenance": 1,
+    "uniques": [
+      "Remove [Wheat Granary] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / BONUS / REPEATABLE"
+      },
+      {
+        "text": "Constructing Wheat Granary adds another +100 Wheat to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Food benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Bonus / Repeatable +100 Wheat"
+  },
+  {
+    "name": "Citrus Grove Estate",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Citrus Grove Estate] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Citrus Grove Estate adds another +100 Citrus to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Citrus"
+  },
+  {
+    "name": "Copper Smelting Works",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Copper Smelting Works] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Copper Smelting Works adds another +100 Copper to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Copper"
+  },
+  {
+    "name": "Cotton Weaving House",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Cotton Weaving House] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Cotton Weaving House adds another +100 Cotton to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Cotton"
+  },
+  {
+    "name": "Crab Aquaculture Farm",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Crab Aquaculture Farm] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Crab Aquaculture Farm adds another +100 Crab to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Crab"
+  },
+  {
+    "name": "Dyes Pigment Workshop",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Dyes Pigment Workshop] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Dyes Pigment Workshop adds another +100 Dyes to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Dyes"
+  },
+  {
+    "name": "Furs Trading Lodge",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Furs Trading Lodge] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Furs Trading Lodge adds another +100 Furs to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Furs"
+  },
+  {
+    "name": "Gems Cutting Atelier",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Gems Cutting Atelier] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Gems Cutting Atelier adds another +100 Gems to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Gems"
+  },
+  {
+    "name": "Gold Ore Mintworks",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Gold Ore Mintworks] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Gold Ore Mintworks adds another +100 Gold Ore to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Gold Ore"
+  },
+  {
+    "name": "Incense Distillery",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Incense Distillery] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Incense Distillery adds another +100 Incense to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Incense"
+  },
+  {
+    "name": "Ivory Artisan Hall",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Ivory Artisan Hall] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Ivory Artisan Hall adds another +100 Ivory to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Ivory"
+  },
+  {
+    "name": "Jewelry Guildhall",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Jewelry Guildhall] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Jewelry Guildhall adds another +100 Jewelry to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Jewelry"
+  },
+  {
+    "name": "Marble Stoneworks",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Marble Stoneworks] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Marble Stoneworks adds another +100 Marble to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Marble"
+  },
+  {
+    "name": "Pearls Cultivation Laboratory",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Pearls Cultivation Laboratory] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Pearls Cultivation Laboratory adds another +100 Pearls to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Pearls"
+  },
+  {
+    "name": "Porcelain Kilns",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Porcelain Kilns] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Porcelain Kilns adds another +100 Porcelain to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Porcelain"
+  },
+  {
+    "name": "Salt Evaporation Works",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Salt Evaporation Works] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Salt Evaporation Works adds another +100 Salt to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Salt"
+  },
+  {
+    "name": "Silk Loomworks",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Silk Loomworks] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Silk Loomworks adds another +100 Silk to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Silk"
+  },
+  {
+    "name": "Silver Foundry",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Silver Foundry] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Silver Foundry adds another +100 Silver to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Silver"
+  },
+  {
+    "name": "Spices Trading Bazaar",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Spices Trading Bazaar] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Spices Trading Bazaar adds another +100 Spices to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Spices"
+  },
+  {
+    "name": "Sugar Refinery",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Sugar Refinery] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Sugar Refinery adds another +100 Sugar to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Sugar"
+  },
+  {
+    "name": "Truffles Mycology Conservatory",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Truffles Mycology Conservatory] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Truffles Mycology Conservatory adds another +100 Truffles to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Truffles"
+  },
+  {
+    "name": "Whales Maritime Station",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Whales Maritime Station] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Whales Maritime Station adds another +100 Whales to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Whales"
+  },
+  {
+    "name": "Wine Vintner Cellar",
+    "uniqueTo": "Magalanadu",
+    "cost": 190,
+    "maintenance": 2,
+    "uniques": [
+      "Remove [Wine Vintner Cellar] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / LUXURY / REPEATABLE"
+      },
+      {
+        "text": "Constructing Wine Vintner Cellar adds another +100 Wine to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Gold benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Luxury / Repeatable +100 Wine"
+  },
+  {
+    "name": "Aluminum Smelter",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Aluminum Smelter] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Aluminum Smelter adds another +100 Aluminum to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Aluminum"
+  },
+  {
+    "name": "Coal Processing Plant",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Coal Processing Plant] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Coal Processing Plant adds another +100 Coal to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Coal"
+  },
+  {
+    "name": "Horses Stable",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Horses Stable] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Horses Stable adds another +100 Horses to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Horses"
+  },
+  {
+    "name": "Iron Mill",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Iron Mill] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Iron Mill adds another +100 Iron to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Iron"
+  },
+  {
+    "name": "Oil Refinery",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Oil Refinery] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Oil Refinery adds another +100 Oil to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Oil"
+  },
+  {
+    "name": "Uranium Enrichment Facility",
+    "uniqueTo": "Magalanadu",
+    "cost": 220,
+    "maintenance": 3,
+    "uniques": [
+      "Remove [Uranium Enrichment Facility] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "RESOURCE SUPPLY / STRATEGIC / REPEATABLE"
+      },
+      {
+        "text": "Constructing Uranium Enrichment Facility adds another +100 Uranium to your empire-wide available supply for 999,999 turns. Every construction stacks. The building then removes itself so you can immediately construct it again."
+      },
+      {
+        "text": "Also grants a continuing +2 Production benefit in your capital per construction. This preserves the original facility's small extra yield as an accumulating national benefit."
+      },
+      {
+        "text": "This creates resource supply, not a map deposit or 100 copies added to a stockpile each turn."
+      },
+      {
+        "text": "Resource facilities are grouped by their colored icons and RESOURCE SUPPLY descriptions within the normal Buildings section. JSON mods cannot add a new construction tab."
+      }
+    ],
+    "quote": "Resource Supply / Strategic / Repeatable +100 Uranium"
+  }
 ]

@@ -1,0 +1,62 @@
+Unit,Decision,Intended usable role,Required technology,Notes
+Super Cheat Worker,"KEEP: tested syntax, runtime pending",Worker and instant improvement construction,,Gameplay needs in-game confirmation
+Super Cheat Settler,"KEEP: tested syntax, runtime pending",Found cities,,Gameplay needs in-game confirmation
+Super Cheat Warrior,KEEP: combat / utility,Early ranged combat,,Gameplay needs in-game confirmation
+Super Cheat Trooper,KEEP: combat / utility,Upgraded early ranged combat,,Gameplay needs in-game confirmation
+Indian Bowman,KEEP: combat / utility,Civilization-specific replacement of Archer,Archery,Gameplay needs in-game confirmation
+Indian War Elephant,KEEP: combat / utility,Civilization-specific replacement of Chariot Archer,The Wheel,Gameplay needs in-game confirmation
+Indian Infantry,KEEP: combat / utility,Civilization-specific replacement of Rifleman,Rifling,Gameplay needs in-game confirmation
+Indian Carrier,KEEP: combat / utility,Civilization-specific replacement of Carrier,Flight,Gameplay needs in-game confirmation
+Indian Anti-Aircraft Gun,KEEP: combat / utility,Civilization-specific replacement of Anti-Aircraft Gun,Radio,Gameplay needs in-game confirmation
+Indian Destroyer,KEEP: combat / utility,Civilization-specific replacement of Destroyer,Combustion,Gameplay needs in-game confirmation
+MAG-41,KEEP: combat / utility,Civilization-specific replacement of Bomber,Radar,Gameplay needs in-game confirmation
+Indian Paratrooper,KEEP: combat / utility,Civilization-specific replacement of Paratrooper,Radar,Gameplay needs in-game confirmation
+Indian Tank,KEEP: combat / utility,Civilization-specific replacement of Tank,Combined Arms,Gameplay needs in-game confirmation
+Indian Anti-Tank Gun,KEEP: combat / utility,Civilization-specific replacement of Anti-Tank Gun,Combined Arms,Gameplay needs in-game confirmation
+Indian Mobile SAM,KEEP: combat / utility,Civilization-specific replacement of Mobile SAM,Rocketry,Gameplay needs in-game confirmation
+Indian Guided Missile,KEEP: combat / utility,Civilization-specific replacement of Guided Missile,Advanced Ballistics,Gameplay needs in-game confirmation
+Indian Helicopter Gunship,KEEP: combat / utility,Civilization-specific replacement of Helicopter Gunship,Computers,Gameplay needs in-game confirmation
+Indian Nuclear Submarine,KEEP: combat / utility,Civilization-specific replacement of Nuclear Submarine,Telecommunications,Gameplay needs in-game confirmation
+Indian Mechanized Infantry,KEEP: combat / utility,Civilization-specific replacement of Mechanized Infantry,Mobile Tactics,Gameplay needs in-game confirmation
+Indian Missile Cruiser,KEEP: combat / utility,Civilization-specific replacement of Missile Cruiser,Robotics,Gameplay needs in-game confirmation
+Indian Modern Armor,KEEP: combat / utility,Civilization-specific replacement of Modern Armor,Lasers,Gameplay needs in-game confirmation
+Indian Jet Fighter,KEEP: combat / utility,Civilization-specific replacement of Jet Fighter,Lasers,Gameplay needs in-game confirmation
+Indian Giant Death Robot,KEEP: combat / utility,Civilization-specific replacement of Giant Death Robot,Nuclear Fusion,Gameplay needs in-game confirmation
+Indian Stealth Bomber,KEEP: combat / utility,Civilization-specific replacement of Stealth Bomber,Stealth,Gameplay needs in-game confirmation
+Magalanadu Shadow Agent,KEEP: combat / utility,Stealth scout / ranged raider,Printing Press,Gameplay needs in-game confirmation
+Magalanadu Divine Apostle,KEEP: combat / utility,Religion spreading / theological actions,,Gameplay needs in-game confirmation
+Veer,KEEP: limited/clarified,Great Person with combat aura / citadel / golden age,,Gameplay needs in-game confirmation
+Magalanadu Saboteur,KEEP: combat / utility,Stealth pillager and scout,Dynamite,Gameplay needs in-game confirmation
+Magalanadu False Flag Operative,KEEP: limited/clarified,"Stealth raider, not diplomatic false flags",Replaceable Parts,Gameplay needs in-game confirmation
+Magalanadu Proxy Commander,KEEP: combat / utility,Combat aura and nearby healing,Radio,Gameplay needs in-game confirmation
+Magalanadu Religious Agitator,KEEP: combat / utility,Advanced religious conversion,Acoustics,Gameplay needs in-game confirmation
+Magalanadu Black Ops Cell,KEEP: combat / utility,Late-game stealth ranged combat,Radar,Gameplay needs in-game confirmation
+Magalanadu Arms Dealer,KEEP: limited/clarified,Consumable instant Arms Depot constructor,Economics,Gameplay needs in-game confirmation
+Magalanadu Drone Swarm,KEEP: combat / utility,Fast ranged support,Robotics,Gameplay needs in-game confirmation
+Magalanadu Cyber Warfare Cell,KEEP: limited/clarified,"Stealth raider, not cyber espionage",Computers,Gameplay needs in-game confirmation
+Magalanadu Resource Smuggler,KEEP: limited/clarified,Consumable depot/resource construction,Industrialization,Gameplay needs in-game confirmation
+Corporate Mercenary,KEEP: combat / utility,Buildable bonus melee mercenary,Gunpowder,Gameplay needs in-game confirmation
+Magalanadu War Profiteer,KEEP: limited/clarified,"Combat support aura, not passive Gold generation",Economics,Gameplay needs in-game confirmation
+Magalanadu Peacekeeper Battalion,KEEP: combat / utility,Defensive support/healing,Globalization,Gameplay needs in-game confirmation
+Magalanadu Orbital Strike Team,KEEP: limited/clarified,"Long-range land attack, not map-wide orbital attack",Satellites,Gameplay needs in-game confirmation
+Magalanadu World Shaper,REMOVE,NO ACTION: terrain changes were not exposed as unit controls,Construction,"One-time tile effects lacked <unit-action> modifiers, so cannot be invoked as intended"
+Magalanadu Architect of Wonders,"KEEP: tested syntax, runtime pending",Hurry buildings/wonders or place improvement,Architecture,Gameplay needs in-game confirmation
+Magalanadu Foreign Aid Battalion,KEEP: combat / utility,Giftable military combat unit,Rifling,Gameplay needs in-game confirmation
+Magalanadu Relief Engineer,KEEP: combat / utility,Giftable infrastructure worker,Engineering,Gameplay needs in-game confirmation
+Magalanadu Science Envoy,KEEP: limited/clarified,Science consumable or hurry research,Education,Gameplay needs in-game confirmation
+Magalanadu Technology Ambassador,KEEP: limited/clarified,Free-tech consumable or hurry research,Scientific Theory,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Writing,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Writing,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Education,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Education,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Gunpowder,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Gunpowder,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Scientific Theory,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Scientific Theory,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Industrialization,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Industrialization,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Electricity,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Electricity,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Flight,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Flight,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Radio,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Radio,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Plastics,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Plastics,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Electronics,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Electronics,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Radar,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Radar,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Rocketry,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Rocketry,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Computers,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Computers,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Satellites,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Satellites,Gameplay needs in-game confirmation
+Magalanadu Blueprint - Robotics,KEEP: limited/clarified,Giftable researched-tech package (human receiver action; AI may use Hurry Research),Robotics,Gameplay needs in-game confirmation

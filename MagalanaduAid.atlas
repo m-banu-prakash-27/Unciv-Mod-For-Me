@@ -1,0 +1,139 @@
+
+MagalanaduAid.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+UnitIcons/Magalanadu Foreign Aid Battalion
+  rotate: false
+  xy: 18, 18
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Relief Engineer
+  rotate: false
+  xy: 210, 18
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Science Envoy
+  rotate: false
+  xy: 402, 18
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Technology Ambassador
+  rotate: false
+  xy: 594, 18
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Writing
+  rotate: false
+  xy: 786, 18
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Education
+  rotate: false
+  xy: 18, 210
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Gunpowder
+  rotate: false
+  xy: 210, 210
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Scientific Theory
+  rotate: false
+  xy: 402, 210
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Industrialization
+  rotate: false
+  xy: 594, 210
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Electricity
+  rotate: false
+  xy: 786, 210
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Flight
+  rotate: false
+  xy: 18, 402
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Radio
+  rotate: false
+  xy: 210, 402
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Plastics
+  rotate: false
+  xy: 402, 402
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Electronics
+  rotate: false
+  xy: 594, 402
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Radar
+  rotate: false
+  xy: 786, 402
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Rocketry
+  rotate: false
+  xy: 18, 594
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Computers
+  rotate: false
+  xy: 210, 594
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Satellites
+  rotate: false
+  xy: 402, 594
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+UnitIcons/Magalanadu Blueprint - Robotics
+  rotate: false
+  xy: 594, 594
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

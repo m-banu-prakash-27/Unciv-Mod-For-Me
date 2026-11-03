@@ -1,0 +1,112 @@
+{
+  "basedOn": "Unciv 4.22.16",
+  "originalObjectNames": {
+    "Nations.json": [
+      "Magalanadu"
+    ],
+    "Buildings.json": [
+      "Magalanadu Military Hack 2",
+      "Magalanadu Military Hack 1",
+      "Magalanadu Gold Hack",
+      "Magalanadu City-States Hack",
+      "Magalanadu Culture Hack",
+      "Magalanadu Faith Hack",
+      "Magalanadu Happiness Hack",
+      "Magalanadu Food Hack",
+      "Magalanadu Science Hack",
+      "Magalanadu Production Hack",
+      "Justice For Everyone!",
+      "Magalanadu World Forge",
+      "Magalanadu Infinite Borders Office",
+      "Magalanadu Natural Wonder Institute"
+    ],
+    "Units.json": [
+      "Super Cheat Worker",
+      "Super Cheat Settler",
+      "Super Cheat Warrior",
+      "Super Cheat Trooper",
+      "Indian Bowman",
+      "Indian War Elephant",
+      "Indian Infantry",
+      "Indian Carrier",
+      "Indian Anti-Aircraft Gun",
+      "Indian Destroyer",
+      "MAG-41",
+      "Indian Paratrooper",
+      "Indian Tank",
+      "Indian Anti-Tank Gun",
+      "Indian Mobile SAM",
+      "Indian Guided Missile",
+      "Indian Helicopter Gunship",
+      "Indian Nuclear Submarine",
+      "Indian Mechanized Infantry",
+      "Indian Missile Cruiser",
+      "Indian Modern Armor",
+      "Indian Jet Fighter",
+      "Indian Giant Death Robot",
+      "Indian Stealth Bomber",
+      "Magalanadu Shadow Agent",
+      "Magalanadu Divine Apostle",
+      "Veer",
+      "Magalanadu Saboteur",
+      "Magalanadu False Flag Operative",
+      "Magalanadu Proxy Commander",
+      "Magalanadu Religious Agitator",
+      "Magalanadu Black Ops Cell",
+      "Magalanadu Arms Dealer",
+      "Magalanadu Drone Swarm",
+      "Magalanadu Cyber Warfare Cell",
+      "Magalanadu Resource Smuggler",
+      "Corporate Mercenary",
+      "Magalanadu War Profiteer",
+      "Magalanadu Peacekeeper Battalion",
+      "Magalanadu Orbital Strike Team",
+      "Magalanadu World Shaper",
+      "Magalanadu Architect of Wonders"
+    ],
+    "UnitPromotions.json": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ],
+    "TileImprovements.json": [
+      "Indian Citadel",
+      "Bonus Resource Generator",
+      "Strategic Resource Generator",
+      "Luxury Resource Generator",
+      "Arms Depot",
+      "Omni Resource Generator",
+      "Luxury Fabricator",
+      "Wonder City Core",
+      "Artificial Freshwater Garden"
+    ]
+  },
+  "newRepeatableProjects": [
+    "Magalanadu Treasury Contract",
+    "Magalanadu Science Grant",
+    "Magalanadu Cultural Endowment",
+    "Magalanadu Faith Foundation",
+    "Magalanadu Industrial Surge",
+    "Magalanadu Agricultural Programme",
+    "Magalanadu Happiness Initiative",
+    "Magalanadu Military Mobilization",
+    "Magalanadu Frontier Initiative",
+    "Magalanadu Diplomatic Initiative"
+  ],
+  "originalUniqueEntries": 614,
+  "originalRuleHashes": {
+    "Units.json": "397124976723b7c61b76dc8c4d5c697d023247d1d82c72093ca3b1404e81172f",
+    "Nations.json": "938500bc459c87c4d6e6ab56433f1014017476d70aecc7938df8face50d05e9d",
+    "ModOptions.json": "bb98b7a1013f40e82e12270f912e246a98acf464439d049f7bb5e39660143cc6",
+    "TileImprovements.json": "2dda984e76a39a07f02260e73acd4aa191826b3e3896be8cfdb85ebb3d247444",
+    "Buildings.json": "f316a8e7f9c0eb2313f7c5a5897eb05fce1fdf28a1ff3a81b19887705fd846f2",
+    "UnitPromotions.json": "32f1cae247893eb8e856252f73c550ca6c158ef974a59c4f552fea0e38db3aa0"
+  },
+  "newUniqueEntries": 653,
+  "atlasPages": [
+    "game",
+    "MagalanaduProjects"
+  ],
+  "projectIncomeDurationTurns": 9999,
+  "projectImplementation": "Timed bonuses and self-removal; no unsupported multiple-build unique."
+}

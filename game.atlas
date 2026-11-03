@@ -424,13 +424,6 @@ UnitIcons/Magalanadu War Profiteer
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Magalanadu World Shaper
-  rotate: false
-  xy: 1336, 1336
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Super Cheat Settler
   rotate: false
   xy: 1556, 1336

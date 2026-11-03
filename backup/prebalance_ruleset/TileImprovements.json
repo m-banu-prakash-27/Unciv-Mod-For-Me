@@ -1,0 +1,223 @@
+[
+    {
+        "name":  "Indian Citadel",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land",
+                                     "Coast",
+                                     "Ocean"
+                                 ],
+        "uniques":  [
+                        "Great Improvement",
+                        "Gives a defensive bonus of [100]%",
+                        "Adjacent enemy units ending their turn take [100] damage",
+                        "Can be built outside your borders",
+                        "Gain control over [all] tiles in a [5]-tile radius",
+                        "Removes removable features when built",
+                        "Will not be replaced by automated units"
+                    ],
+        "production":  1
+    },
+    {
+        "name":  "Bonus Resource Generator",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land"
+                                 ],
+        "gold":  1000,
+        "turnsToBuild":  7,
+        "uniques":  [
+                        "Provides [10] [Cattle]",
+                        "Provides [10] [Sheep]",
+                        "Provides [10] [Deer]",
+                        "Provides [10] [Bananas]",
+                        "Provides [10] [Wheat]",
+                        "Provides [10] [Stone]",
+                        "Provides [10] [Fish]"
+                    ]
+    },
+    {
+        "name":  "Strategic Resource Generator",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land"
+                                 ],
+        "gold":  1000,
+        "turnsToBuild":  7,
+        "uniques":  [
+                        "Provides [10] [Horses]",
+                        "Provides [10] [Iron]",
+                        "Provides [10] [Coal]",
+                        "Provides [10] [Oil]",
+                        "Provides [10] [Aluminum]",
+                        "Provides [10] [Uranium]"
+                    ]
+    },
+    {
+        "name":  "Luxury Resource Generator",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land"
+                                 ],
+        "gold":  1000,
+        "turnsToBuild":  7,
+        "uniques":  [
+                        "Provides [10] [Furs]",
+                        "Provides [10] [Cotton]",
+                        "Provides [10] [Dyes]",
+                        "Provides [10] [Gems]",
+                        "Provides [10] [Gold Ore]",
+                        "Provides [10] [Silver]",
+                        "Provides [10] [Incense]",
+                        "Provides [10] [Ivory]",
+                        "Provides [10] [Silk]",
+                        "Provides [10] [Spices]",
+                        "Provides [10] [Wine]",
+                        "Provides [10] [Sugar]",
+                        "Provides [10] [Marble]",
+                        "Provides [10] [Whales]",
+                        "Provides [10] [Pearls]",
+                        "Provides [10] [Jewelry]",
+                        "Provides [10] [Porcelain]",
+                        "Provides [10] [Citrus]",
+                        "Provides [10] [Copper]",
+                        "Provides [10] [Crab]",
+                        "Provides [10] [Salt]",
+                        "Provides [10] [Truffles]"
+                    ]
+    },
+    {
+        "name":  "Arms Depot",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land"
+                                 ],
+        "production":  25,
+        "gold":  25,
+        "science":  10,
+        "turnsToBuild":  7,
+        "uniques":  [
+                        "Great Improvement",
+                        "Can be built outside your borders",
+                        "Pillaging this improvement yields approximately [+100 Gold]",
+                        "Destroyed when pillaged",
+                        "Will not be replaced by automated units"
+                    ]
+    },
+    {
+        "name":  "Omni Resource Generator",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land",
+                                     "Coast",
+                                     "Ocean"
+                                 ],
+        "food":  50,
+        "production":  50,
+        "gold":  50,
+        "science":  25,
+        "culture":  25,
+        "faith":  25,
+        "turnsToBuild":  1,
+        "uniques":  [
+                        "Great Improvement",
+                        "Can be built outside your borders",
+                        "Gain control over [all] tiles in a [3]-tile radius",
+                        "Tile provides yield without assigned population",
+                        "Provides [1000] [Horses]",
+                        "Provides [1000] [Iron]",
+                        "Provides [1000] [Coal]",
+                        "Provides [1000] [Oil]",
+                        "Provides [1000] [Aluminum]",
+                        "Provides [1000] [Uranium]",
+                        "Provides [1000] [Cattle]",
+                        "Provides [1000] [Sheep]",
+                        "Provides [1000] [Deer]",
+                        "Provides [1000] [Bananas]",
+                        "Provides [1000] [Wheat]",
+                        "Provides [1000] [Stone]",
+                        "Provides [1000] [Fish]",
+                        "Provides [1000] [Whales]",
+                        "Provides [1000] [Pearls]",
+                        "Pillaging this improvement yields approximately [+500 Gold]",
+                        "Will not be replaced by automated units"
+                    ]
+    },
+    {
+        "name":  "Luxury Fabricator",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land",
+                                     "Coast",
+                                     "Ocean"
+                                 ],
+        "gold":  75,
+        "culture":  25,
+        "turnsToBuild":  1,
+        "uniques":  [
+                        "Great Improvement",
+                        "Can be built outside your borders",
+                        "Tile provides yield without assigned population",
+                        "Provides [500] [Furs]",
+                        "Provides [500] [Cotton]",
+                        "Provides [500] [Dyes]",
+                        "Provides [500] [Gems]",
+                        "Provides [500] [Gold Ore]",
+                        "Provides [500] [Silver]",
+                        "Provides [500] [Incense]",
+                        "Provides [500] [Ivory]",
+                        "Provides [500] [Silk]",
+                        "Provides [500] [Spices]",
+                        "Provides [500] [Wine]",
+                        "Provides [500] [Sugar]",
+                        "Provides [500] [Marble]",
+                        "Provides [500] [Jewelry]",
+                        "Provides [500] [Porcelain]",
+                        "Provides [500] [Whales]",
+                        "Provides [500] [Pearls]",
+                        "Will not be replaced by automated units"
+                    ]
+    },
+    {
+        "name":  "Wonder City Core",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land",
+                                     "Coast",
+                                     "Ocean"
+                                 ],
+        "food":  100,
+        "production":  100,
+        "gold":  100,
+        "science":  50,
+        "culture":  50,
+        "faith":  50,
+        "turnsToBuild":  1,
+        "uniques":  [
+                        "Great Improvement",
+                        "Can be built outside your borders",
+                        "Gain control over [all] tiles in a [5]-tile radius",
+                        "Tile provides yield without assigned population",
+                        "Gives a defensive bonus of [100]%",
+                        "Removes removable features when built",
+                        "Will not be replaced by automated units"
+                    ]
+    },
+    {
+        "name":  "Artificial Freshwater Garden",
+        "uniqueTo":  "Magalanadu",
+        "terrainsCanBeBuiltOn":  [
+                                     "Land"
+                                 ],
+        "food":  75,
+        "culture":  25,
+        "turnsToBuild":  1,
+        "uniques":  [
+                        "Great Improvement",
+                        "Can be built outside your borders",
+                        "Tile provides yield without assigned population",
+                        "Can also be built on tiles adjacent to fresh water",
+                        "Will not be replaced by automated units"
+                    ]
+    }
+]

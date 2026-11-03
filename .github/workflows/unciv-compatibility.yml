@@ -1,0 +1,33 @@
+name: Magalanadu balance validation (Unciv 4.22.16)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate original content, balanced gameplay and repeatable projects
+        run: python tests/validate_mod.py
+      - name: Validate diplomacy, unit utility, fabrication and repeatable resource facilities
+        run: |
+          python tests/validate_diplomatic_aid.py
+          python tests/validate_unit_utility.py
+          python tests/validate_resource_fabrication.py
+          python tests/validate_resource_buildings.py
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Official Unciv 4.22.16 mod ruleset checker
+        run: |
+          curl --fail --location --retry 3 --silent --show-error \
+            -o Unciv.jar \
+            https://github.com/yairm210/Unciv/releases/download/4.22.16/Unciv.jar
+          java -jar Unciv.jar mod-ci

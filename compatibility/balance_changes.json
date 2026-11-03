@@ -1,0 +1,3409 @@
+[
+  {
+    "file": "Nations.json",
+    "name": "Magalanadu",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu",
+      "leaderName": "Magalanadu Banu Prakash Sai",
+      "adjective": [
+        "Magalanadu"
+      ],
+      "startBias": [
+        "Coast",
+        "River"
+      ],
+      "preferredVictoryType": "Diplomatic",
+      "startIntroPart1": "JUSTICE Prevails",
+      "declaringWar": "JUSTICE will be Served!!!",
+      "attacked": "You will REPENT!!!",
+      "defeated": "oh well, I hope you serve the weak and needy...",
+      "introduction": "Greetings my fellow...",
+      "neutralHello": "Hello!",
+      "hateHello": "oh..you, tell me what you want",
+      "tradeRequest": "It appears that you have some interest or interests",
+      "cities": [
+        "Visakhapatnam",
+        "Andhra",
+        "Ramnagar",
+        "Sree",
+        "Sai",
+        "Surya",
+        "Vizag",
+        "Arunachalam",
+        "Bharat",
+        "Dravida",
+        "Pradesham",
+        "Telugu",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "outerColor": [
+        255,
+        153,
+        51
+      ],
+      "innerColor": [
+        255,
+        255,
+        255
+      ],
+      "uniqueName": "The way of JUSTICE!!!",
+      "uniques": [
+        "Enables construction of Spaceship parts",
+        "Roads connect tiles across rivers",
+        "[+1000]% [Gold] [in all cities]",
+        "[+1000]% [Food] [in all cities]",
+        "[+1000]% [Science] [in all cities]",
+        "[+1000]% [Faith] [in all cities]",
+        "[+1000]% [Culture] [in all cities]",
+        "[+1000]% [Production] [in all cities]",
+        "Enables conversion of city production to [Gold]",
+        "\"Borrows\" city names from other civilizations in the game",
+        "[-100]% Strength <when not at war>",
+        "[+100]% Strength <when defending>",
+        "Cities are razed [5] times as fast",
+        "[-100]% Gold cost of acquiring tiles [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu",
+      "leaderName": "Magalanadu Banu Prakash Sai",
+      "adjective": [
+        "Magalanadu"
+      ],
+      "startBias": [
+        "Coast",
+        "River"
+      ],
+      "preferredVictoryType": "Diplomatic",
+      "startIntroPart1": "JUSTICE Prevails",
+      "declaringWar": "JUSTICE will be Served!!!",
+      "attacked": "You will REPENT!!!",
+      "defeated": "oh well, I hope you serve the weak and needy...",
+      "introduction": "Greetings my fellow...",
+      "neutralHello": "Hello!",
+      "hateHello": "oh..you, tell me what you want",
+      "tradeRequest": "It appears that you have some interest or interests",
+      "cities": [
+        "Visakhapatnam",
+        "Andhra",
+        "Ramnagar",
+        "Sree",
+        "Sai",
+        "Surya",
+        "Vizag",
+        "Arunachalam",
+        "Bharat",
+        "Dravida",
+        "Pradesham",
+        "Telugu",
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ],
+      "outerColor": [
+        255,
+        153,
+        51
+      ],
+      "innerColor": [
+        255,
+        255,
+        255
+      ],
+      "uniqueName": "The way of JUSTICE!!!",
+      "uniques": [
+        "Enables construction of Spaceship parts",
+        "Roads connect tiles across rivers",
+        "[+20]% [Gold] [in all cities]",
+        "[+15]% [Food] [in all cities]",
+        "[+20]% [Science] [in all cities]",
+        "[+15]% [Faith] [in all cities]",
+        "[+20]% [Culture] [in all cities]",
+        "[+25]% [Production] [in all cities]",
+        "Enables conversion of city production to [Gold]",
+        "\"Borrows\" city names from other civilizations in the game",
+        "[+10]% Strength <when not at war>",
+        "[+15]% Strength <when defending>",
+        "Cities are razed [2] times as fast",
+        "[-15]% Gold cost of acquiring tiles [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Military Hack 2",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Military Hack 2",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "When defeating a [All] unit, earn [1000] Gold and recruit it",
+        "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
+        "[5] Movement",
+        "[+1000]% Strength <vs [All] units>",
+        "[+5] Range",
+        "[3] additional attacks per turn",
+        "[+100]% Strength <when defending> <when [Embarked]>"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Military Hack 2",
+      "uniqueTo": "Magalanadu",
+      "cost": 450,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "When defeating a [All] unit, earn [50] Gold and recruit it",
+        "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
+        "[1] Movement",
+        "[+20]% Strength <vs [All] units>",
+        "[+1] Range",
+        "[1] additional attacks per turn",
+        "[+15]% Strength <when defending> <when [Embarked]>"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Military Hack 1",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Military Hack 1",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "[1] additional attacks per turn",
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "No damage penalty for wounded units",
+        "Enables [All] units to enter ocean tiles",
+        "[1] Movement point cost to disembark",
+        "[1] Movement point cost to embark",
+        "Military Units gifted from City-States start with [200000] XP",
+        "New [All] units start with [200000] XP [in all cities]",
+        "No movement cost to pillage",
+        "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Military Hack 1",
+      "uniqueTo": "Magalanadu",
+      "cost": 300,
+      "isWonder": true,
+      "uniques": [
+        "[1] additional attacks per turn",
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "No damage penalty for wounded units",
+        "Enables [All] units to enter ocean tiles",
+        "[1] Movement point cost to disembark",
+        "[1] Movement point cost to embark",
+        "Military Units gifted from City-States start with [20] XP",
+        "New [All] units start with [20] XP [in all cities]",
+        "No movement cost to pillage",
+        "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Gold Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Gold Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Gold] per [1] population [in all cities]",
+        "[+1000000]% [Gold] [in all cities]",
+        "No Maintenance costs for improvements in [All] tiles",
+        "[-1000]% maintenance costs",
+        "[-1000]% maintenance on road & railroads",
+        "[-1000]% maintenance cost for [All] buildings [in all cities]",
+        "[Gold] cost of purchasing [All] units [-1000]%",
+        "[Gold] cost of purchasing [All] buildings [-1000]%",
+        "May buy [All] buildings for [0] [Culture] [in all cities]",
+        "May buy [All] units for [0] [Culture] [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Gold Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 250,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Gold] per [5] population [in all cities]",
+        "[+35]% [Gold] [in all cities]",
+        "No Maintenance costs for improvements in [All] tiles",
+        "[-20]% maintenance costs",
+        "[-20]% maintenance on road & railroads",
+        "[-20]% maintenance cost for [All] buildings [in all cities]",
+        "[Gold] cost of purchasing [All] units [-15]%",
+        "[Gold] cost of purchasing [All] buildings [-15]%",
+        "May buy [All] buildings for [200] [Culture] [in all cities]",
+        "May buy [All] units for [200] [Culture] [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu City-States Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu City-States Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns",
+        "City-State territory always counts as friendly territory",
+        "[+1000]% resources gifted by City-States",
+        "[-1000]% City-State Influence degradation",
+        "Resting point for Influence with City-States is increased by [1000]",
+        "Influence of all other civilizations with all city-states degrades [1000]% faster",
+        "Gifts of Gold to City-States generate [+1000]% more Influence"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu City-States Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 275,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
+        "City-State territory always counts as friendly territory",
+        "[+25]% resources gifted by City-States",
+        "[-20]% City-State Influence degradation",
+        "Resting point for Influence with City-States is increased by [15]",
+        "Influence of all other civilizations with all city-states degrades [20]% faster",
+        "Gifts of Gold to City-States generate [+25]% more Influence"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Culture Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Culture Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Culture] per [1] population [in all cities]",
+        "[+1000000]% [Culture] [in all cities]",
+        "[+1000]% Golden Age length",
+        "[-1000]% Culture cost of adopting new Policies"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Culture Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 235,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Culture] per [5] population [in all cities]",
+        "[+30]% [Culture] [in all cities]",
+        "[+15]% Golden Age length",
+        "[-10]% Culture cost of adopting new Policies"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Faith Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Faith Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Faith] per [1] population [in all cities]",
+        "[+1000000]% [Faith] [in all cities]",
+        "May not generate great prophet equivalents naturally",
+        "May choose [2] additional belief(s) of any type when [founding] a religion",
+        "May choose [2] additional belief(s) of any type when [enhancing] a religion"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Faith Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 250,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Faith] per [5] population [in all cities]",
+        "[+30]% [Faith] [in all cities]",
+        "May choose [1] additional belief(s) of any type when [founding] a religion",
+        "May choose [1] additional belief(s) of any type when [enhancing] a religion"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Happiness Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Happiness Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Happiness] per [1] population [in all cities]",
+        "[+1000000]% [Happiness] [in all cities]",
+        "[10] Happiness from each type of luxury resource",
+        "[-1000]% Unhappiness from [Population] [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Happiness Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 225,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Happiness] per [5] population [in all cities]",
+        "[+20]% [Happiness] [in all cities]",
+        "[2] Happiness from each type of luxury resource",
+        "[-20]% Unhappiness from [Population] [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Food Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Food Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Food] per [1] population [in all cities]",
+        "[+1000000]% [Food] [in all cities]",
+        "[+1000]% growth [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Food Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 220,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Food] per [5] population [in all cities]",
+        "[+30]% [Food] [in all cities]",
+        "[+20]% growth [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Science Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Science Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Science] per [1] population [in all cities]",
+        "[+1000]% [Science] [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Science Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 250,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Science] per [5] population [in all cities]",
+        "[+30]% [Science] [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Production Hack",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Production Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Production] per [1] population [in all cities]",
+        "[+1000000]% [Production] [in all cities]",
+        "[+200000]% [Strategic] resource production",
+        "[-1000]% construction time for [All] improvements"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Production Hack",
+      "uniqueTo": "Magalanadu",
+      "cost": 260,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+1 Production] per [5] population [in all cities]",
+        "[+35]% [Production] [in all cities]",
+        "[+25]% [Strategic] resource production",
+        "[-20]% construction time for [All] improvements"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Justice For Everyone!",
+    "action": "balanced",
+    "before": {
+      "name": "Justice For Everyone!",
+      "uniqueTo": "Magalanadu",
+      "isNationalWonder": true,
+      "cost": 1,
+      "uniques": [
+        "Enables Open Borders agreements",
+        "Enables Research agreements",
+        "Enables Defensive Pacts",
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "\"Borrows\" city names from other civilizations in the game",
+        "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
+        "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [1] population [in all cities]",
+        "Enables conversion of city production to [Gold]",
+        "May buy [All] units with [Culture] for [3] times their normal Production cost",
+        "May buy [All] units with [Faith] for [3] times their normal Production cost",
+        "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
+        "May buy [All] buildings with [Faith] for [3] times their normal Production cost"
+      ]
+    },
+    "after": {
+      "name": "Justice For Everyone!",
+      "uniqueTo": "Magalanadu",
+      "isNationalWonder": true,
+      "cost": 330,
+      "uniques": [
+        "Enables Open Borders agreements",
+        "Enables Research agreements",
+        "Enables Defensive Pacts",
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "\"Borrows\" city names from other civilizations in the game",
+        "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
+        "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in all cities]",
+        "Enables conversion of city production to [Gold]",
+        "May buy [All] units with [Culture] for [3] times their normal Production cost",
+        "May buy [All] units with [Faith] for [3] times their normal Production cost",
+        "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
+        "May buy [All] buildings with [Faith] for [3] times their normal Production cost"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu World Forge",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu World Forge",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Gain control over [all] tiles in a [5]-tile radius",
+        "Gain control over [100] tiles [in this city]",
+        "[-100]% Gold cost of acquiring tiles [in all cities]",
+        "[-100]% Culture cost of natural border growth [in all cities]",
+        "[+1000]% Production when constructing [All] wonders [in this city]",
+        "[+1000]% Production when constructing [All] buildings [in this city]",
+        "[+1000]% growth [in this city]",
+        "[100]% Food is carried over after population increases [in this city]",
+        "[-100]% Food consumption by [Population] [in this city]",
+        "[-1000]% Unhappiness from [Population] [in this city]",
+        "[+10 Food, +10 Production, +10 Gold, +10 Science, +10 Culture, +10 Faith] per [1] population [in this city]",
+        "[+25 Food, +25 Production, +25 Gold, +25 Science, +25 Culture, +25 Faith] from every [Wonder]",
+        "[50] population [in this city]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu World Forge",
+      "uniqueTo": "Magalanadu",
+      "cost": 525,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Gain control over [all] tiles in a [2]-tile radius",
+        "Gain control over [12] tiles [in this city]",
+        "[-25]% Gold cost of acquiring tiles [in all cities]",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "[+25]% Production when constructing [All] wonders [in this city]",
+        "[+25]% Production when constructing [All] buildings [in this city]",
+        "[+20]% growth [in this city]",
+        "[20]% Food is carried over after population increases [in this city]",
+        "[-15]% Food consumption by [Population] [in this city]",
+        "[-20]% Unhappiness from [Population] [in this city]",
+        "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] per [5] population [in this city]",
+        "[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from every [Wonder]",
+        "[3] population [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Infinite Borders Office",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Infinite Borders Office",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isNationalWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Gain control over [all] tiles in a [5]-tile radius",
+        "Gain control over [100] tiles [in all cities]",
+        "[-100]% Gold cost of acquiring tiles [in all cities]",
+        "[-100]% Culture cost of natural border growth [in all cities]",
+        "[+1000]% [Culture] [in all cities]"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Infinite Borders Office",
+      "uniqueTo": "Magalanadu",
+      "cost": 390,
+      "isNationalWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "Gain control over [all] tiles in a [2]-tile radius",
+        "Gain control over [6] tiles [in all cities]",
+        "[-25]% Gold cost of acquiring tiles [in all cities]",
+        "[-25]% Culture cost of natural border growth [in all cities]",
+        "[+20]% [Culture] [in all cities]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Natural Wonder Institute",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Natural Wonder Institute",
+      "uniqueTo": "Magalanadu",
+      "cost": 1,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+100 Food, +100 Production, +100 Gold, +100 Science, +100 Culture, +100 Faith] for every known Natural Wonder",
+        "[+1000 Gold, +1000 Science, +1000 Culture] for discovering a Natural Wonder (bonus enhanced to [+5000 Gold, +5000 Science, +5000 Culture] if first to discover it)",
+        "Reveals the entire map"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Natural Wonder Institute",
+      "uniqueTo": "Magalanadu",
+      "cost": 400,
+      "isWonder": true,
+      "uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built <in [Capital] cities>",
+        "[+5 Food, +5 Production, +5 Gold, +5 Science, +5 Culture, +5 Faith] for every known Natural Wonder",
+        "[+100 Gold, +100 Science, +100 Culture] for discovering a Natural Wonder (bonus enhanced to [+250 Gold, +250 Science, +250 Culture] if first to discover it)",
+        "Reveals the entire map"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Treasury Contract",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Treasury Contract",
+      "uniqueTo": "Magalanadu",
+      "cost": 300,
+      "uniques": [
+        "Cannot be purchased",
+        "Gain [999999999] [Gold]",
+        "[+9999 Gold] [in capital] <for [9999] turns>",
+        "Remove [Magalanadu Treasury Contract] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Science Grant",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Science Grant",
+      "uniqueTo": "Magalanadu",
+      "cost": 330,
+      "uniques": [
+        "Cannot be purchased",
+        "Gain [999999] [Science]",
+        "[+9999 Science] [in capital] <for [9999] turns>",
+        "Remove [Magalanadu Science Grant] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Cultural Endowment",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Cultural Endowment",
+      "uniqueTo": "Magalanadu",
+      "cost": 330,
+      "uniques": [
+        "Cannot be purchased",
+        "Gain [999999] [Culture]",
+        "[+9999 Culture] [in capital] <for [9999] turns>",
+        "Remove [Magalanadu Cultural Endowment] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Faith Foundation",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Faith Foundation",
+      "uniqueTo": "Magalanadu",
+      "cost": 330,
+      "uniques": [
+        "Cannot be purchased",
+        "Gain [999999] [Faith]",
+        "[+9999 Faith] [in capital] <for [9999] turns>",
+        "Remove [Magalanadu Faith Foundation] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Industrial Surge",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Industrial Surge",
+      "uniqueTo": "Magalanadu",
+      "cost": 370,
+      "uniques": [
+        "Cannot be purchased",
+        "[+999 Production] [in capital] <for [9999] turns>",
+        "[+15]% [Production] [in all cities] <for [9999] turns>",
+        "Remove [Magalanadu Industrial Surge] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Agricultural Programme",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Agricultural Programme",
+      "uniqueTo": "Magalanadu",
+      "cost": 340,
+      "uniques": [
+        "Cannot be purchased",
+        "[+999 Food] [in capital] <for [9999] turns>",
+        "[+15]% growth [in all cities] <for [9999] turns>",
+        "Remove [Magalanadu Agricultural Programme] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Happiness Initiative",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Happiness Initiative",
+      "uniqueTo": "Magalanadu",
+      "cost": 320,
+      "uniques": [
+        "Cannot be purchased",
+        "[+999 Happiness] [in capital] <for [9999] turns>",
+        "[-10]% Unhappiness from [Population] [in all cities] <for [9999] turns>",
+        "Remove [Magalanadu Happiness Initiative] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Military Mobilization",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Military Mobilization",
+      "uniqueTo": "Magalanadu",
+      "cost": 420,
+      "uniques": [
+        "Cannot be purchased",
+        "[+10]% Strength <for [9999] turns>",
+        "[+15]% Production when constructing [All] units [in all cities] <for [9999] turns>",
+        "Remove [Magalanadu Military Mobilization] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Frontier Initiative",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Frontier Initiative",
+      "uniqueTo": "Magalanadu",
+      "cost": 400,
+      "uniques": [
+        "Cannot be purchased",
+        "Gain control over [12] tiles [in this city]",
+        "[-10]% Culture cost of natural border growth [in all cities] <for [9999] turns>",
+        "Remove [Magalanadu Frontier Initiative] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Buildings.json",
+    "name": "Magalanadu Diplomatic Initiative",
+    "action": "added",
+    "object": {
+      "name": "Magalanadu Diplomatic Initiative",
+      "uniqueTo": "Magalanadu",
+      "cost": 350,
+      "uniques": [
+        "Cannot be purchased",
+        "Gifts of Gold to City-States generate [+15]% more Influence <for [9999] turns>",
+        "Resting point for Influence with City-States is increased by [5] <for [9999] turns>",
+        "Remove [Magalanadu Diplomatic Initiative] [in this city]"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Super Cheat Worker",
+    "action": "balanced",
+    "before": {
+      "name": "Super Cheat Worker",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Civilian",
+      "movement": 5,
+      "attackSound": "arrow",
+      "uniques": [
+        "Can build [Land] improvements on tiles",
+        "Can build [Water] improvements on tiles",
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "May create improvements on water resources",
+        "Uncapturable",
+        "[5] Sight",
+        "Can instantly construct a [Indian Citadel] improvement",
+        "Can instantly construct a [Omni Resource Generator] improvement",
+        "Can instantly construct a [Luxury Fabricator] improvement",
+        "Can instantly construct a [Wonder City Core] improvement",
+        "Can instantly construct a [Artificial Freshwater Garden] improvement"
+      ],
+      "cost": 10
+    },
+    "after": {
+      "name": "Super Cheat Worker",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Civilian",
+      "movement": 3,
+      "attackSound": "arrow",
+      "uniques": [
+        "Can build [Land] improvements on tiles",
+        "Can build [Water] improvements on tiles",
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "May create improvements on water resources",
+        "Uncapturable",
+        "[3] Sight",
+        "Can instantly construct a [Indian Citadel] improvement",
+        "Can instantly construct a [Omni Resource Generator] improvement",
+        "Can instantly construct a [Luxury Fabricator] improvement",
+        "Can instantly construct a [Wonder City Core] improvement",
+        "Can instantly construct a [Artificial Freshwater Garden] improvement"
+      ],
+      "cost": 100
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Super Cheat Settler",
+    "action": "balanced",
+    "before": {
+      "name": "Super Cheat Settler",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Civilian",
+      "movement": 5,
+      "attackSound": "arrow",
+      "uniques": [
+        "Founds a new city",
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[5] Sight"
+      ],
+      "cost": 10
+    },
+    "after": {
+      "name": "Super Cheat Settler",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Civilian",
+      "movement": 3,
+      "attackSound": "arrow",
+      "uniques": [
+        "Founds a new city",
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[3] Sight"
+      ],
+      "cost": 160
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Super Cheat Warrior",
+    "action": "balanced",
+    "before": {
+      "name": "Super Cheat Warrior",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Ranged Gunpowder",
+      "movement": 5,
+      "strength": 100,
+      "rangedStrength": 100,
+      "attackSound": "arrow",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[2] additional attacks per turn",
+        "[5] Sight",
+        "[5] Range",
+        "Withdraws before melee combat <with [50]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles"
+      ],
+      "cost": 10
+    },
+    "after": {
+      "name": "Super Cheat Warrior",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Ranged Gunpowder",
+      "movement": 3,
+      "strength": 16,
+      "rangedStrength": 12,
+      "attackSound": "arrow",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[1] additional attacks per turn",
+        "[3] Sight",
+        "[+1] Range",
+        "Withdraws before melee combat <with [20]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles"
+      ],
+      "cost": 120,
+      "range": 2
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Super Cheat Trooper",
+    "action": "balanced",
+    "before": {
+      "name": "Super Cheat Trooper",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Ranged Gunpowder",
+      "movement": 5,
+      "strength": 100,
+      "rangedStrength": 100,
+      "attackSound": "arrow",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[2] additional attacks per turn",
+        "[5] Sight",
+        "[5] Range",
+        "Withdraws before melee combat <with [50]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles"
+      ],
+      "cost": 10
+    },
+    "after": {
+      "name": "Super Cheat Trooper",
+      "uniqueTo": "Magalanadu",
+      "unitType": "Ranged Gunpowder",
+      "movement": 3,
+      "strength": 22,
+      "rangedStrength": 18,
+      "attackSound": "arrow",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "[1] additional attacks per turn",
+        "[3] Sight",
+        "[+1] Range",
+        "Withdraws before melee combat <with [20]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles"
+      ],
+      "cost": 160,
+      "range": 2
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Bowman",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Bowman",
+      "unitType": "Archery",
+      "movement": 5,
+      "strength": 10,
+      "rangedStrength": 15,
+      "cost": 40,
+      "requiredTech": "Archery",
+      "obsoleteTech": "Machinery",
+      "replaces": "Archer",
+      "uniqueTo": "Magalanadu",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "upgradesTo": "Crossbowman",
+      "attackSound": "arrow"
+    },
+    "after": {
+      "name": "Indian Bowman",
+      "unitType": "Archery",
+      "movement": 3,
+      "strength": 6,
+      "rangedStrength": 9,
+      "cost": 40,
+      "requiredTech": "Archery",
+      "obsoleteTech": "Machinery",
+      "replaces": "Archer",
+      "uniqueTo": "Magalanadu",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "upgradesTo": "Crossbowman",
+      "attackSound": "arrow"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian War Elephant",
+    "action": "balanced",
+    "before": {
+      "name": "Indian War Elephant",
+      "unitType": "Archery",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Chariot Archer",
+      "movement": 5,
+      "strength": 10,
+      "rangedStrength": 15,
+      "cost": 70,
+      "requiredTech": "The Wheel",
+      "upgradesTo": "Knight",
+      "obsoleteTech": "Chivalry",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "elephant"
+    },
+    "after": {
+      "name": "Indian War Elephant",
+      "unitType": "Archery",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Chariot Archer",
+      "movement": 5,
+      "strength": 8,
+      "rangedStrength": 13,
+      "cost": 56,
+      "requiredTech": "The Wheel",
+      "upgradesTo": "Knight",
+      "obsoleteTech": "Chivalry",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "elephant"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Infantry",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Infantry",
+      "unitType": "Gunpowder",
+      "replaces": "Rifleman",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "strength": 50,
+      "cost": 225,
+      "requiredTech": "Rifling",
+      "upgradesTo": "Infantry",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shot"
+    },
+    "after": {
+      "name": "Indian Infantry",
+      "unitType": "Gunpowder",
+      "replaces": "Rifleman",
+      "uniqueTo": "Magalanadu",
+      "movement": 3,
+      "strength": 44,
+      "cost": 225,
+      "requiredTech": "Rifling",
+      "upgradesTo": "Infantry",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shot"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Carrier",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Carrier",
+      "unitType": "Aircraft Carrier",
+      "replaces": "Carrier",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "strength": 100,
+      "cost": 375,
+      "requiredTech": "Flight",
+      "uniques": [
+        "Can carry [10] [Missile] units",
+        "Can carry [10] [Aircraft] units",
+        "Can move immediately once bought"
+      ]
+    },
+    "after": {
+      "name": "Indian Carrier",
+      "unitType": "Aircraft Carrier",
+      "replaces": "Carrier",
+      "uniqueTo": "Magalanadu",
+      "movement": 6,
+      "strength": 52,
+      "cost": 375,
+      "requiredTech": "Flight",
+      "uniques": [
+        "Can carry [3] [Missile] units",
+        "Can carry [4] [Aircraft] units",
+        "Can move immediately once bought"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Anti-Aircraft Gun",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Anti-Aircraft Gun",
+      "unitType": "Gunpowder",
+      "replaces": "Anti-Aircraft Gun",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "interceptRange": 50,
+      "strength": 100,
+      "cost": 375,
+      "requiredTech": "Radio",
+      "upgradesTo": "Indian Mobile SAM",
+      "uniques": [
+        "[+100]% chance to intercept air attacks",
+        "[+100]% Strength <vs [Air] units>",
+        "[+100]% Strength <vs [Helicopter] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    },
+    "after": {
+      "name": "Indian Anti-Aircraft Gun",
+      "unitType": "Gunpowder",
+      "replaces": "Anti-Aircraft Gun",
+      "uniqueTo": "Magalanadu",
+      "movement": 3,
+      "interceptRange": 3,
+      "strength": 65,
+      "cost": 375,
+      "requiredTech": "Radio",
+      "upgradesTo": "Indian Mobile SAM",
+      "uniques": [
+        "[+25]% chance to intercept air attacks",
+        "[+25]% Strength <vs [Air] units>",
+        "[+25]% Strength <vs [Helicopter] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Destroyer",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Destroyer",
+      "unitType": "Melee Water",
+      "replaces": "Destroyer",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "strength": 100,
+      "interceptRange": 50,
+      "cost": 375,
+      "requiredTech": "Combustion",
+      "uniques": [
+        "Can see invisible [Submarine] units",
+        "[+100]% chance to intercept air attacks",
+        "Withdraws before melee combat <with [80]% chance>",
+        "[+100]% Strength <vs [Submarine] units>",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shipguns"
+    },
+    "after": {
+      "name": "Indian Destroyer",
+      "unitType": "Melee Water",
+      "replaces": "Destroyer",
+      "uniqueTo": "Magalanadu",
+      "movement": 7,
+      "strength": 72,
+      "interceptRange": 3,
+      "cost": 375,
+      "requiredTech": "Combustion",
+      "uniques": [
+        "Can see invisible [Submarine] units",
+        "[+25]% chance to intercept air attacks",
+        "Withdraws before melee combat <with [20]% chance>",
+        "[+25]% Strength <vs [Submarine] units>",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shipguns"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "MAG-41",
+    "action": "balanced",
+    "before": {
+      "name": "MAG-41",
+      "unitType": "Bomber",
+      "replaces": "Bomber",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "strength": 100,
+      "rangedStrength": 150,
+      "range": 20,
+      "cost": 375,
+      "requiredTech": "Radar",
+      "promotions": [
+        "Evasion",
+        "Siege I"
+      ],
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "bombing"
+    },
+    "after": {
+      "name": "MAG-41",
+      "unitType": "Bomber",
+      "replaces": "Bomber",
+      "uniqueTo": "Magalanadu",
+      "movement": 2,
+      "strength": 84,
+      "rangedStrength": 84,
+      "range": 11,
+      "cost": 375,
+      "requiredTech": "Radar",
+      "promotions": [
+        "Evasion",
+        "Siege I"
+      ],
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "bombing"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Paratrooper",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Paratrooper",
+      "unitType": "Gunpowder",
+      "replaces": "Paratrooper",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "strength": 100,
+      "cost": 375,
+      "requiredTech": "Radar",
+      "uniques": [
+        "May Paradrop to [All] tiles up to [20] tiles away",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shot"
+    },
+    "after": {
+      "name": "Indian Paratrooper",
+      "unitType": "Gunpowder",
+      "replaces": "Paratrooper",
+      "uniqueTo": "Magalanadu",
+      "movement": 3,
+      "strength": 84,
+      "cost": 375,
+      "requiredTech": "Radar",
+      "uniques": [
+        "May Paradrop to [All] tiles up to [8] tiles away",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "shot"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Tank",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Tank",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Tank",
+      "movement": 10,
+      "strength": 100,
+      "cost": 375,
+      "requiredTech": "Combined Arms",
+      "upgradesTo": "Indian Modern Armor",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    },
+    "after": {
+      "name": "Indian Tank",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Tank",
+      "movement": 6,
+      "strength": 91,
+      "cost": 375,
+      "requiredTech": "Combined Arms",
+      "upgradesTo": "Indian Modern Armor",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Anti-Tank Gun",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Anti-Tank Gun",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Anti-Tank Gun",
+      "movement": 5,
+      "strength": 100,
+      "cost": 200,
+      "requiredTech": "Combined Arms",
+      "upgradesTo": "Indian Helicopter Gunship",
+      "uniques": [
+        "[+100]% Strength <vs [Armored] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    },
+    "after": {
+      "name": "Indian Anti-Tank Gun",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Anti-Tank Gun",
+      "movement": 3,
+      "strength": 65,
+      "cost": 300,
+      "requiredTech": "Combined Arms",
+      "upgradesTo": "Indian Helicopter Gunship",
+      "uniques": [
+        "[+25]% Strength <vs [Armored] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Mobile SAM",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Mobile SAM",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Mobile SAM",
+      "movement": 5,
+      "interceptRange": 20,
+      "strength": 100,
+      "cost": 425,
+      "requiredTech": "Rocketry",
+      "uniques": [
+        "[+100]% chance to intercept air attacks",
+        "[+100]% Strength <vs [Air] units>",
+        "[+100]% Strength <vs [Helicopter] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "missile"
+    },
+    "after": {
+      "name": "Indian Mobile SAM",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Mobile SAM",
+      "movement": 4,
+      "interceptRange": 3,
+      "strength": 84,
+      "cost": 425,
+      "requiredTech": "Rocketry",
+      "uniques": [
+        "[+25]% chance to intercept air attacks",
+        "[+25]% Strength <vs [Air] units>",
+        "[+25]% Strength <vs [Helicopter] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "missile"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Guided Missile",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Guided Missile",
+      "unitType": "Missile",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Guided Missile",
+      "movement": 5,
+      "strength": 500,
+      "rangedStrength": 400,
+      "range": 10,
+      "cost": 150,
+      "requiredTech": "Advanced Ballistics",
+      "uniques": [
+        "[-100]% maintenance costs",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "missile"
+    },
+    "after": {
+      "name": "Indian Guided Missile",
+      "unitType": "Missile",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Guided Missile",
+      "movement": 2,
+      "strength": 78,
+      "rangedStrength": 78,
+      "range": 9,
+      "cost": 150,
+      "requiredTech": "Advanced Ballistics",
+      "uniques": [
+        "[-20]% maintenance costs",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "missile"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Helicopter Gunship",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Helicopter Gunship",
+      "unitType": "Helicopter",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Helicopter Gunship",
+      "movement": 10,
+      "strength": 100,
+      "cost": 425,
+      "requiredTech": "Computers",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "[+100]% Strength <vs [All] units>",
+        "No defensive terrain bonus",
+        "Can move after attacking",
+        "All tiles cost 1 movement",
+        "Ignores Zone of Control",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    },
+    "after": {
+      "name": "Indian Helicopter Gunship",
+      "unitType": "Helicopter",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Helicopter Gunship",
+      "movement": 7,
+      "strength": 78,
+      "cost": 425,
+      "requiredTech": "Computers",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "[+25]% Strength <vs [All] units>",
+        "No defensive terrain bonus",
+        "Can move after attacking",
+        "All tiles cost 1 movement",
+        "Ignores Zone of Control",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "machinegun"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Nuclear Submarine",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Nuclear Submarine",
+      "unitType": "Submarine",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Nuclear Submarine",
+      "movement": 10,
+      "strength": 100,
+      "range": 10,
+      "rangedStrength": 150,
+      "cost": 425,
+      "requiredTech": "Telecommunications",
+      "uniques": [
+        "[+100]% Strength <when attacking>",
+        "[+1] Sight",
+        "Can carry [10] [Missile] units",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "torpedo"
+    },
+    "after": {
+      "name": "Indian Nuclear Submarine",
+      "unitType": "Submarine",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Nuclear Submarine",
+      "movement": 7,
+      "strength": 65,
+      "range": 4,
+      "rangedStrength": 110,
+      "cost": 425,
+      "requiredTech": "Telecommunications",
+      "uniques": [
+        "[+25]% Strength <when attacking>",
+        "[+1] Sight",
+        "Can carry [3] [Missile] units",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "torpedo"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Mechanized Infantry",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Mechanized Infantry",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Mechanized Infantry",
+      "movement": 5,
+      "strength": 150,
+      "cost": 375,
+      "requiredTech": "Mobile Tactics",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    },
+    "after": {
+      "name": "Indian Mechanized Infantry",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Mechanized Infantry",
+      "movement": 4,
+      "strength": 117,
+      "cost": 375,
+      "requiredTech": "Mobile Tactics",
+      "uniques": [
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Missile Cruiser",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Missile Cruiser",
+      "unitType": "Ranged Water",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Missile Cruiser",
+      "movement": 10,
+      "strength": 150,
+      "rangedStrength": 200,
+      "range": 10,
+      "interceptRange": 10,
+      "cost": 425,
+      "requiredTech": "Robotics",
+      "uniques": [
+        "[+100]% chance to intercept air attacks",
+        "Can see invisible [Submarine] units",
+        "Can carry [10] [Missile] units",
+        "[+100]% Strength <vs [Submarine] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "promotions": [
+        "Indirect Fire"
+      ],
+      "attackSound": "shipguns"
+    },
+    "after": {
+      "name": "Indian Missile Cruiser",
+      "unitType": "Ranged Water",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Missile Cruiser",
+      "movement": 8,
+      "strength": 104,
+      "rangedStrength": 130,
+      "range": 4,
+      "interceptRange": 3,
+      "cost": 425,
+      "requiredTech": "Robotics",
+      "uniques": [
+        "[+25]% chance to intercept air attacks",
+        "Can see invisible [Submarine] units",
+        "Can carry [3] [Missile] units",
+        "[+25]% Strength <vs [Submarine] units>",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "promotions": [
+        "Indirect Fire"
+      ],
+      "attackSound": "shipguns"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Modern Armor",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Modern Armor",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Modern Armor",
+      "movement": 10,
+      "strength": 200,
+      "cost": 425,
+      "requiredTech": "Lasers",
+      "requiredResource": "Aluminum",
+      "upgradesTo": "Indian Giant Death Robot",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    },
+    "after": {
+      "name": "Indian Modern Armor",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Modern Armor",
+      "movement": 6,
+      "strength": 130,
+      "cost": 425,
+      "requiredTech": "Lasers",
+      "requiredResource": "Aluminum",
+      "upgradesTo": "Indian Giant Death Robot",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "tankshot"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Jet Fighter",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Jet Fighter",
+      "unitType": "Fighter",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Jet Fighter",
+      "movement": 5,
+      "strength": 150,
+      "rangedStrength": 150,
+      "range": 20,
+      "interceptRange": 20,
+      "cost": 425,
+      "requiredTech": "Lasers",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "[+100]% chance to intercept air attacks",
+        "[+100]% Strength <vs [Bomber] units>",
+        "[+100]% Strength <vs [Helicopter] units>",
+        "Can carry [10] [Missile] units",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "jetgun"
+    },
+    "after": {
+      "name": "Indian Jet Fighter",
+      "unitType": "Fighter",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Jet Fighter",
+      "movement": 2,
+      "strength": 98,
+      "rangedStrength": 98,
+      "range": 11,
+      "interceptRange": 11,
+      "cost": 425,
+      "requiredTech": "Lasers",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "[+25]% chance to intercept air attacks",
+        "[+25]% Strength <vs [Bomber] units>",
+        "[+25]% Strength <vs [Helicopter] units>",
+        "Can carry [3] [Missile] units",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "jetgun"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Giant Death Robot",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Giant Death Robot",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Giant Death Robot",
+      "movement": 10,
+      "strength": 300,
+      "cost": 425,
+      "requiredTech": "Nuclear Fusion",
+      "requiredResource": "Uranium",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can carry [5] [Missile] units",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "gdrAttack"
+    },
+    "after": {
+      "name": "Indian Giant Death Robot",
+      "unitType": "Armored",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Giant Death Robot",
+      "movement": 6,
+      "strength": 195,
+      "cost": 425,
+      "requiredTech": "Nuclear Fusion",
+      "requiredResource": "Uranium",
+      "uniques": [
+        "Can move after attacking",
+        "No defensive terrain bonus",
+        "Never appears as a Barbarian unit",
+        "Can carry [2] [Missile] units",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "gdrAttack"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Indian Stealth Bomber",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Stealth Bomber",
+      "unitType": "Bomber",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Stealth Bomber",
+      "movement": 5,
+      "strength": 100,
+      "rangedStrength": 150,
+      "range": 50,
+      "cost": 425,
+      "requiredTech": "Stealth",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "Damage taken from interception reduced by [+100]%",
+        "Can carry [10] [Missile] units",
+        "[+50] Sight",
+        "Can see over obstacles",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "bombing"
+    },
+    "after": {
+      "name": "Indian Stealth Bomber",
+      "unitType": "Bomber",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Stealth Bomber",
+      "movement": 3,
+      "strength": 110,
+      "rangedStrength": 110,
+      "range": 21,
+      "cost": 425,
+      "requiredTech": "Stealth",
+      "requiredResource": "Aluminum",
+      "uniques": [
+        "Damage taken from interception reduced by [+35]%",
+        "Can carry [3] [Missile] units",
+        "[+2] Sight",
+        "Can see over obstacles",
+        "Can move immediately once bought"
+      ],
+      "attackSound": "bombing"
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Shadow Agent",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Shadow Agent",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "strength": 120,
+      "rangedStrength": 120,
+      "range": 5,
+      "cost": 10,
+      "requiredTech": "Printing Press",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "May enter foreign tiles without open borders",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[5] Sight",
+        "[2] additional attacks per turn",
+        "Withdraws before melee combat <with [80]% chance>",
+        "No movement cost to pillage",
+        "May capture killed [All] units",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Shadow Agent",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 34,
+      "rangedStrength": 32,
+      "range": 2,
+      "cost": 180,
+      "requiredTech": "Printing Press",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "May enter foreign tiles without open borders",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[3] Sight",
+        "[1] additional attacks per turn",
+        "Withdraws before melee combat <with [20]% chance>",
+        "No movement cost to pillage",
+        "May capture killed [All] units",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Divine Apostle",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Divine Apostle",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Missionary",
+      "movement": 10,
+      "cost": 10,
+      "religiousStrength": 10000,
+      "uniques": [
+        "Can Spread Religion <for [1] movement> <[10] times> <after which this unit is consumed>",
+        "Removes other religions when spreading religion",
+        "Can remove other religions from cities <in [Friendly] tiles> <[5] times> <after which this unit is consumed>",
+        "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+        "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+        "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+        "Prevents spreading of religion to the city it is next to",
+        "May enter foreign tiles without open borders",
+        "Takes your religion over the one in their birth city",
+        "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+        "[+5] Sight",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "Religious Unit",
+        "Great Person - [Faith]",
+        "Only available <when religion is enabled>"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Divine Apostle",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "replaces": "Missionary",
+      "movement": 5,
+      "cost": 200,
+      "religiousStrength": 1500,
+      "uniques": [
+        "Can Spread Religion <for [1] movement> <[10] times> <after which this unit is consumed>",
+        "Removes other religions when spreading religion",
+        "Can remove other religions from cities <in [Friendly] tiles> <[5] times> <after which this unit is consumed>",
+        "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+        "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+        "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+        "Prevents spreading of religion to the city it is next to",
+        "May enter foreign tiles without open borders",
+        "Takes your religion over the one in their birth city",
+        "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+        "[+2] Sight",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "Religious Unit",
+        "Great Person - [Faith]",
+        "Only available <when religion is enabled>"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Veer",
+    "action": "balanced",
+    "before": {
+      "name": "Veer",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "uniques": [
+        "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+        "[+100]% Strength bonus for [Military] units within [20] tiles",
+        "All adjacent units heal [150] HP when healing",
+        "[150] HP when healing",
+        "Can instantly construct a [Citadel] improvement",
+        "Can move immediately once bought",
+        "Great Person - [War]",
+        "Unbuildable",
+        "Uncapturable"
+      ],
+      "movement": 10
+    },
+    "after": {
+      "name": "Veer",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "uniques": [
+        "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+        "[+15]% Strength bonus for [Military] units within [3] tiles",
+        "All adjacent units heal [15] HP when healing",
+        "[15] HP when healing",
+        "Can instantly construct a [Citadel] improvement",
+        "Can move immediately once bought",
+        "Great Person - [War]",
+        "Unbuildable",
+        "Uncapturable"
+      ],
+      "movement": 4
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Saboteur",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Saboteur",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "strength": 80,
+      "cost": 10,
+      "requiredTech": "Dynamite",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Withdraws before melee combat <with [90]% chance>",
+        "[6] Sight",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Saboteur",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 48,
+      "cost": 220,
+      "requiredTech": "Dynamite",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Withdraws before melee combat <with [25]% chance>",
+        "[3] Sight",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu False Flag Operative",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu False Flag Operative",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "strength": 110,
+      "cost": 10,
+      "requiredTech": "Replaceable Parts",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "No movement cost to pillage",
+        "May capture killed [All] units",
+        "[+100]% Strength <vs [Wounded] units>",
+        "Withdraws before melee combat <with [75]% chance>",
+        "[6] Sight",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu False Flag Operative",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 62,
+      "cost": 280,
+      "requiredTech": "Replaceable Parts",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "No movement cost to pillage",
+        "May capture killed [All] units",
+        "[+25]% Strength <vs [Wounded] units>",
+        "Withdraws before melee combat <with [20]% chance>",
+        "[3] Sight",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Proxy Commander",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Proxy Commander",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 8,
+      "strength": 140,
+      "cost": 10,
+      "requiredTech": "Radio",
+      "attackSound": "shot",
+      "uniques": [
+        "[+50]% Strength bonus for [Military] units within [3] tiles",
+        "All adjacent units heal [50] HP when healing",
+        "May capture killed [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[5] Sight",
+        "Great Person - [War]",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Proxy Commander",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 3,
+      "strength": 76,
+      "cost": 350,
+      "requiredTech": "Radio",
+      "attackSound": "shot",
+      "uniques": [
+        "[+20]% Strength bonus for [Military] units within [3] tiles",
+        "All adjacent units heal [10] HP when healing",
+        "May capture killed [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[3] Sight",
+        "Great Person - [War]",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Religious Agitator",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Religious Agitator",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "cost": 10,
+      "religiousStrength": 9000,
+      "requiredTech": "Acoustics",
+      "uniques": [
+        "Can Spread Religion <for [1] movement> <[8] times> <after which this unit is consumed>",
+        "Removes other religions when spreading religion",
+        "Can remove other religions from cities <in [Foreign] tiles> <[4] times> <after which this unit is consumed>",
+        "May enter foreign tiles without open borders",
+        "Prevents spreading of religion to the city it is next to",
+        "Takes your religion over the one in their birth city",
+        "[+200]% Spread Religion Strength",
+        "[6] Sight",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "Religious Unit",
+        "Only available <when religion is enabled>"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Religious Agitator",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "cost": 250,
+      "religiousStrength": 1500,
+      "requiredTech": "Acoustics",
+      "uniques": [
+        "Can Spread Religion <for [1] movement> <[8] times> <after which this unit is consumed>",
+        "Removes other religions when spreading religion",
+        "Can remove other religions from cities <in [Foreign] tiles> <[4] times> <after which this unit is consumed>",
+        "May enter foreign tiles without open borders",
+        "Prevents spreading of religion to the city it is next to",
+        "Takes your religion over the one in their birth city",
+        "[+35]% Spread Religion Strength",
+        "[3] Sight",
+        "Can move immediately once bought",
+        "Uncapturable",
+        "Religious Unit",
+        "Only available <when religion is enabled>"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Black Ops Cell",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Black Ops Cell",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "strength": 100,
+      "rangedStrength": 160,
+      "range": 6,
+      "cost": 10,
+      "requiredTech": "Radar",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "No movement cost to pillage",
+        "[2] additional attacks per turn",
+        "[7] Sight",
+        "Withdraws before melee combat <with [90]% chance>",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Black Ops Cell",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 85,
+      "rangedStrength": 100,
+      "range": 3,
+      "cost": 420,
+      "requiredTech": "Radar",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "No movement cost to pillage",
+        "[1] additional attacks per turn",
+        "[4] Sight",
+        "Withdraws before melee combat <with [25]% chance>",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Arms Dealer",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Arms Dealer",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "cost": 10,
+      "requiredTech": "Economics",
+      "uniques": [
+        "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "[5] Sight",
+        "Great Person - [War]",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Arms Dealer",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "cost": 200,
+      "requiredTech": "Economics",
+      "uniques": [
+        "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "[3] Sight",
+        "Great Person - [War]",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Drone Swarm",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Drone Swarm",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 14,
+      "strength": 90,
+      "rangedStrength": 180,
+      "range": 7,
+      "cost": 10,
+      "requiredTech": "Robotics",
+      "attackSound": "jetgun",
+      "uniques": [
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Ignores Zone of Control",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[3] additional attacks per turn",
+        "[8] Sight",
+        "Can see invisible [All] units",
+        "Invisible to non-adjacent units",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Drone Swarm",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 6,
+      "strength": 90,
+      "rangedStrength": 125,
+      "range": 3,
+      "cost": 480,
+      "requiredTech": "Robotics",
+      "attackSound": "jetgun",
+      "uniques": [
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Ignores Zone of Control",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[1] additional attacks per turn",
+        "[4] Sight",
+        "Can see invisible [All] units",
+        "Invisible to non-adjacent units",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Cyber Warfare Cell",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Cyber Warfare Cell",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "strength": 95,
+      "cost": 10,
+      "requiredTech": "Computers",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Ignores Zone of Control",
+        "Withdraws before melee combat <with [95]% chance>",
+        "[8] Sight",
+        "[+150]% Strength <vs [Wounded] units>",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Cyber Warfare Cell",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "strength": 85,
+      "cost": 430,
+      "requiredTech": "Computers",
+      "attackSound": "shot",
+      "uniques": [
+        "Invisible to others",
+        "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
+        "Can see invisible [All] units",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "Ignores Zone of Control",
+        "Withdraws before melee combat <with [25]% chance>",
+        "[4] Sight",
+        "[+30]% Strength <vs [Wounded] units>",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Resource Smuggler",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Resource Smuggler",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "cost": 10,
+      "requiredTech": "Industrialization",
+      "uniques": [
+        "Can instantly construct a [Strategic Resource Generator] improvement <by consuming this unit>",
+        "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[6] Sight",
+        "Great Person - [Gold]",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Resource Smuggler",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "cost": 240,
+      "requiredTech": "Industrialization",
+      "uniques": [
+        "Can instantly construct a [Strategic Resource Generator] improvement <by consuming this unit>",
+        "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[3] Sight",
+        "Great Person - [Gold]",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Corporate Mercenary",
+    "action": "balanced",
+    "before": {
+      "name": "Corporate Mercenary",
+      "unitType": "Gunpowder",
+      "movement": 5,
+      "strength": 55,
+      "cost": 80,
+      "requiredTech": "Gunpowder",
+      "upgradesTo": "Infantry",
+      "attackSound": "shot",
+      "uniques": [
+        "Can move immediately once bought",
+        "[+25]% Strength <when attacking>",
+        "No movement cost to pillage",
+        "[2] XP gained from combat",
+        "Never appears as a Barbarian unit"
+      ]
+    },
+    "after": {
+      "name": "Corporate Mercenary",
+      "unitType": "Gunpowder",
+      "movement": 3,
+      "strength": 36,
+      "cost": 190,
+      "requiredTech": "Gunpowder",
+      "upgradesTo": "Infantry",
+      "attackSound": "shot",
+      "uniques": [
+        "Can move immediately once bought",
+        "[+25]% Strength <when attacking>",
+        "No movement cost to pillage",
+        "[2] XP gained from combat",
+        "Never appears as a Barbarian unit"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu War Profiteer",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu War Profiteer",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 8,
+      "strength": 120,
+      "cost": 10,
+      "requiredTech": "Economics",
+      "attackSound": "shot",
+      "uniques": [
+        "[+35]% Strength bonus for [Military] units within [3] tiles",
+        "All adjacent units heal [40] HP when healing",
+        "May capture killed [All] units",
+        "[+100]% XP gained from combat",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "[6] Sight",
+        "Great Person - [War]",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu War Profiteer",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 58,
+      "cost": 350,
+      "requiredTech": "Economics",
+      "attackSound": "shot",
+      "uniques": [
+        "[+15]% Strength bonus for [Military] units within [3] tiles",
+        "All adjacent units heal [10] HP when healing",
+        "May capture killed [All] units",
+        "[+25]% XP gained from combat",
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "No movement cost to pillage",
+        "All tiles cost 1 movement",
+        "[3] Sight",
+        "Great Person - [War]",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Peacekeeper Battalion",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Peacekeeper Battalion",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 8,
+      "strength": 170,
+      "cost": 10,
+      "requiredTech": "Globalization",
+      "attackSound": "shot",
+      "uniques": [
+        "May enter foreign tiles without open borders",
+        "[+75]% Strength <when defending>",
+        "[+25]% Strength bonus for [Military] units within [2] tiles",
+        "All adjacent units heal [60] HP when healing",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[7] Sight",
+        "Can see invisible [All] units",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Peacekeeper Battalion",
+      "unitType": "Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 110,
+      "cost": 470,
+      "requiredTech": "Globalization",
+      "attackSound": "shot",
+      "uniques": [
+        "May enter foreign tiles without open borders",
+        "[+25]% Strength <when defending>",
+        "[+15]% Strength bonus for [Military] units within [2] tiles",
+        "All adjacent units heal [10] HP when healing",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[4] Sight",
+        "Can see invisible [All] units",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Orbital Strike Team",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Orbital Strike Team",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 8,
+      "strength": 120,
+      "rangedStrength": 260,
+      "range": 12,
+      "cost": 10,
+      "requiredTech": "Satellites",
+      "attackSound": "missile",
+      "uniques": [
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[2] additional attacks per turn",
+        "[10] Sight",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Orbital Strike Team",
+      "unitType": "Ranged Gunpowder",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "strength": 95,
+      "rangedStrength": 135,
+      "range": 4,
+      "cost": 550,
+      "requiredTech": "Satellites",
+      "attackSound": "missile",
+      "uniques": [
+        "Can move after attacking",
+        "Can move immediately once bought",
+        "Can see over obstacles",
+        "Ranged attacks may be performed over obstacles",
+        "[1] additional attacks per turn",
+        "[4] Sight",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "Unable to capture cities",
+        "Never appears as a Barbarian unit",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu World Shaper",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu World Shaper",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 12,
+      "cost": 10,
+      "requiredTech": "Construction",
+      "uniques": [
+        "Turn this tile into a [Grassland] tile",
+        "Turn this tile into a [Plains] tile",
+        "Turn this tile into a [Desert] tile",
+        "Turn this tile into a [Tundra] tile",
+        "Turn this tile into a [Snow] tile",
+        "Turn this tile into a [Coast] tile",
+        "Turn this tile into a [Ocean] tile",
+        "Turn this tile into a [Forest] tile",
+        "Turn this tile into a [Jungle] tile",
+        "Remove [All] resources from this tile",
+        "Remove [All] improvements from this tile",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "[8] Sight",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu World Shaper",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 5,
+      "cost": 300,
+      "requiredTech": "Construction",
+      "uniques": [
+        "Turn this tile into a [Grassland] tile",
+        "Turn this tile into a [Plains] tile",
+        "Turn this tile into a [Desert] tile",
+        "Turn this tile into a [Tundra] tile",
+        "Turn this tile into a [Snow] tile",
+        "Turn this tile into a [Coast] tile",
+        "Turn this tile into a [Ocean] tile",
+        "Turn this tile into a [Forest] tile",
+        "Turn this tile into a [Jungle] tile",
+        "Remove [All] resources from this tile",
+        "Remove [All] improvements from this tile",
+        "May enter foreign tiles without open borders",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "Can pass through impassable tiles",
+        "[4] Sight",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "Units.json",
+    "name": "Magalanadu Architect of Wonders",
+    "action": "balanced",
+    "before": {
+      "name": "Magalanadu Architect of Wonders",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 10,
+      "cost": 10,
+      "requiredTech": "Architecture",
+      "uniques": [
+        "Can speed up construction of a building",
+        "Can speed up the construction of a wonder",
+        "Can instantly construct a [Wonder City Core] improvement <by consuming this unit>",
+        "Can instantly construct a [Omni Resource Generator] improvement <by consuming this unit>",
+        "Can instantly construct a [Luxury Fabricator] improvement <by consuming this unit>",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[6] Sight",
+        "Great Person - [Production]",
+        "Uncapturable"
+      ]
+    },
+    "after": {
+      "name": "Magalanadu Architect of Wonders",
+      "unitType": "Civilian",
+      "uniqueTo": "Magalanadu",
+      "movement": 4,
+      "cost": 340,
+      "requiredTech": "Architecture",
+      "uniques": [
+        "Can speed up construction of a building",
+        "Can speed up the construction of a wonder",
+        "Can instantly construct a [Wonder City Core] improvement <by consuming this unit>",
+        "Can instantly construct a [Omni Resource Generator] improvement <by consuming this unit>",
+        "Can instantly construct a [Luxury Fabricator] improvement <by consuming this unit>",
+        "Can move immediately once bought",
+        "All tiles cost 1 movement",
+        "[3] Sight",
+        "Great Person - [Production]",
+        "Uncapturable"
+      ]
+    }
+  },
+  {
+    "file": "UnitPromotions.json",
+    "name": "1st Magalanadu Ability",
+    "action": "balanced",
+    "before": {
+      "name": "1st Magalanadu Ability",
+      "uniques": [
+        "Withdraws before melee combat <with [50]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles",
+        "May Paradrop to [All] tiles up to [10] tiles away",
+        "Can perform Air Sweep",
+        "[+1] Sight <for [Embarked] units>",
+        "May enter foreign tiles without open borders",
+        "Can enter ice tiles",
+        "[+10]% chance to intercept air attacks",
+        "Can move immediately once bought",
+        "Can move after attacking",
+        "Unit will heal every turn, even if it performs an action",
+        "Can pass through impassable tiles"
+      ]
+    },
+    "after": {
+      "name": "1st Magalanadu Ability",
+      "uniques": [
+        "Withdraws before melee combat <with [20]% chance>",
+        "Can see over obstacles",
+        "Invisible to non-adjacent units",
+        "Can see invisible [All] units",
+        "All tiles cost 1 movement",
+        "May travel on Water tiles without embarking",
+        "No movement cost to pillage",
+        "Eliminates combat penalty for attacking across a coast",
+        "May attack when embarked",
+        "Eliminates combat penalty for attacking over a river",
+        "Ranged attacks may be performed over obstacles",
+        "May Paradrop to [All] tiles up to [4] tiles away",
+        "Can perform Air Sweep",
+        "[+1] Sight <for [Embarked] units>",
+        "May enter foreign tiles without open borders",
+        "Can enter ice tiles",
+        "[+10]% chance to intercept air attacks",
+        "Can move immediately once bought",
+        "Can move after attacking",
+        "Unit will heal every turn, even if it performs an action",
+        "Can pass through impassable tiles"
+      ]
+    }
+  },
+  {
+    "file": "UnitPromotions.json",
+    "name": "2nd Magalanadu Ability",
+    "action": "balanced",
+    "before": {
+      "name": "2nd Magalanadu Ability",
+      "uniques": [
+        "Blast radius [1]",
+        "May capture killed [All] units",
+        "Uncapturable",
+        "[+100]% chance to intercept air attacks",
+        "[2] additional attacks per turn",
+        "Invisible to others"
+      ]
+    },
+    "after": {
+      "name": "2nd Magalanadu Ability",
+      "uniques": [
+        "Blast radius [1]",
+        "May capture killed [All] units",
+        "Uncapturable",
+        "[+25]% chance to intercept air attacks",
+        "[1] additional attacks per turn",
+        "Invisible to others"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Indian Citadel",
+    "action": "balanced",
+    "before": {
+      "name": "Indian Citadel",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "uniques": [
+        "Great Improvement",
+        "Gives a defensive bonus of [100]%",
+        "Adjacent enemy units ending their turn take [100] damage",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [5]-tile radius",
+        "Removes removable features when built",
+        "Will not be replaced by automated units"
+      ],
+      "production": 1
+    },
+    "after": {
+      "name": "Indian Citadel",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "uniques": [
+        "Great Improvement",
+        "Gives a defensive bonus of [25]%",
+        "Adjacent enemy units ending their turn take [15] damage",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [2]-tile radius",
+        "Removes removable features when built",
+        "Will not be replaced by automated units"
+      ],
+      "production": 1
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Bonus Resource Generator",
+    "action": "balanced",
+    "before": {
+      "name": "Bonus Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 1000,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [10] [Cattle]",
+        "Provides [10] [Sheep]",
+        "Provides [10] [Deer]",
+        "Provides [10] [Bananas]",
+        "Provides [10] [Wheat]",
+        "Provides [10] [Stone]",
+        "Provides [10] [Fish]"
+      ]
+    },
+    "after": {
+      "name": "Bonus Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 5,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [2] [Cattle]",
+        "Provides [2] [Sheep]",
+        "Provides [2] [Deer]",
+        "Provides [2] [Bananas]",
+        "Provides [2] [Wheat]",
+        "Provides [2] [Stone]",
+        "Provides [2] [Fish]"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Strategic Resource Generator",
+    "action": "balanced",
+    "before": {
+      "name": "Strategic Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 1000,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [10] [Horses]",
+        "Provides [10] [Iron]",
+        "Provides [10] [Coal]",
+        "Provides [10] [Oil]",
+        "Provides [10] [Aluminum]",
+        "Provides [10] [Uranium]"
+      ]
+    },
+    "after": {
+      "name": "Strategic Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 5,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [2] [Horses]",
+        "Provides [2] [Iron]",
+        "Provides [2] [Coal]",
+        "Provides [2] [Oil]",
+        "Provides [2] [Aluminum]",
+        "Provides [2] [Uranium]"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Luxury Resource Generator",
+    "action": "balanced",
+    "before": {
+      "name": "Luxury Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 1000,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [10] [Furs]",
+        "Provides [10] [Cotton]",
+        "Provides [10] [Dyes]",
+        "Provides [10] [Gems]",
+        "Provides [10] [Gold Ore]",
+        "Provides [10] [Silver]",
+        "Provides [10] [Incense]",
+        "Provides [10] [Ivory]",
+        "Provides [10] [Silk]",
+        "Provides [10] [Spices]",
+        "Provides [10] [Wine]",
+        "Provides [10] [Sugar]",
+        "Provides [10] [Marble]",
+        "Provides [10] [Whales]",
+        "Provides [10] [Pearls]",
+        "Provides [10] [Jewelry]",
+        "Provides [10] [Porcelain]",
+        "Provides [10] [Citrus]",
+        "Provides [10] [Copper]",
+        "Provides [10] [Crab]",
+        "Provides [10] [Salt]",
+        "Provides [10] [Truffles]"
+      ]
+    },
+    "after": {
+      "name": "Luxury Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "gold": 5,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Provides [2] [Furs]",
+        "Provides [2] [Cotton]",
+        "Provides [2] [Dyes]",
+        "Provides [2] [Gems]",
+        "Provides [2] [Gold Ore]",
+        "Provides [2] [Silver]",
+        "Provides [2] [Incense]",
+        "Provides [2] [Ivory]",
+        "Provides [2] [Silk]",
+        "Provides [2] [Spices]",
+        "Provides [2] [Wine]",
+        "Provides [2] [Sugar]",
+        "Provides [2] [Marble]",
+        "Provides [2] [Whales]",
+        "Provides [2] [Pearls]",
+        "Provides [2] [Jewelry]",
+        "Provides [2] [Porcelain]",
+        "Provides [2] [Citrus]",
+        "Provides [2] [Copper]",
+        "Provides [2] [Crab]",
+        "Provides [2] [Salt]",
+        "Provides [2] [Truffles]"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Arms Depot",
+    "action": "balanced",
+    "before": {
+      "name": "Arms Depot",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "production": 25,
+      "gold": 25,
+      "science": 10,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Pillaging this improvement yields approximately [+100 Gold]",
+        "Destroyed when pillaged",
+        "Will not be replaced by automated units"
+      ]
+    },
+    "after": {
+      "name": "Arms Depot",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "production": 2,
+      "gold": 2,
+      "science": 2,
+      "turnsToBuild": 7,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Pillaging this improvement yields approximately [+25 Gold]",
+        "Destroyed when pillaged",
+        "Will not be replaced by automated units"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Omni Resource Generator",
+    "action": "balanced",
+    "before": {
+      "name": "Omni Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "food": 50,
+      "production": 50,
+      "gold": 50,
+      "science": 25,
+      "culture": 25,
+      "faith": 25,
+      "turnsToBuild": 1,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [3]-tile radius",
+        "Tile provides yield without assigned population",
+        "Provides [1000] [Horses]",
+        "Provides [1000] [Iron]",
+        "Provides [1000] [Coal]",
+        "Provides [1000] [Oil]",
+        "Provides [1000] [Aluminum]",
+        "Provides [1000] [Uranium]",
+        "Provides [1000] [Cattle]",
+        "Provides [1000] [Sheep]",
+        "Provides [1000] [Deer]",
+        "Provides [1000] [Bananas]",
+        "Provides [1000] [Wheat]",
+        "Provides [1000] [Stone]",
+        "Provides [1000] [Fish]",
+        "Provides [1000] [Whales]",
+        "Provides [1000] [Pearls]",
+        "Pillaging this improvement yields approximately [+500 Gold]",
+        "Will not be replaced by automated units"
+      ]
+    },
+    "after": {
+      "name": "Omni Resource Generator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "food": 4,
+      "production": 4,
+      "gold": 4,
+      "science": 2,
+      "culture": 2,
+      "faith": 2,
+      "turnsToBuild": 6,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [2]-tile radius",
+        "Tile provides yield without assigned population",
+        "Provides [3] [Horses]",
+        "Provides [3] [Iron]",
+        "Provides [3] [Coal]",
+        "Provides [3] [Oil]",
+        "Provides [3] [Aluminum]",
+        "Provides [3] [Uranium]",
+        "Provides [3] [Cattle]",
+        "Provides [3] [Sheep]",
+        "Provides [3] [Deer]",
+        "Provides [3] [Bananas]",
+        "Provides [3] [Wheat]",
+        "Provides [3] [Stone]",
+        "Provides [3] [Fish]",
+        "Provides [3] [Whales]",
+        "Provides [3] [Pearls]",
+        "Pillaging this improvement yields approximately [+50 Gold]",
+        "Will not be replaced by automated units"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Luxury Fabricator",
+    "action": "balanced",
+    "before": {
+      "name": "Luxury Fabricator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "gold": 75,
+      "culture": 25,
+      "turnsToBuild": 1,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Tile provides yield without assigned population",
+        "Provides [500] [Furs]",
+        "Provides [500] [Cotton]",
+        "Provides [500] [Dyes]",
+        "Provides [500] [Gems]",
+        "Provides [500] [Gold Ore]",
+        "Provides [500] [Silver]",
+        "Provides [500] [Incense]",
+        "Provides [500] [Ivory]",
+        "Provides [500] [Silk]",
+        "Provides [500] [Spices]",
+        "Provides [500] [Wine]",
+        "Provides [500] [Sugar]",
+        "Provides [500] [Marble]",
+        "Provides [500] [Jewelry]",
+        "Provides [500] [Porcelain]",
+        "Provides [500] [Whales]",
+        "Provides [500] [Pearls]",
+        "Will not be replaced by automated units"
+      ]
+    },
+    "after": {
+      "name": "Luxury Fabricator",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "gold": 6,
+      "culture": 2,
+      "turnsToBuild": 6,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Tile provides yield without assigned population",
+        "Provides [2] [Furs]",
+        "Provides [2] [Cotton]",
+        "Provides [2] [Dyes]",
+        "Provides [2] [Gems]",
+        "Provides [2] [Gold Ore]",
+        "Provides [2] [Silver]",
+        "Provides [2] [Incense]",
+        "Provides [2] [Ivory]",
+        "Provides [2] [Silk]",
+        "Provides [2] [Spices]",
+        "Provides [2] [Wine]",
+        "Provides [2] [Sugar]",
+        "Provides [2] [Marble]",
+        "Provides [2] [Jewelry]",
+        "Provides [2] [Porcelain]",
+        "Provides [2] [Whales]",
+        "Provides [2] [Pearls]",
+        "Will not be replaced by automated units"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Wonder City Core",
+    "action": "balanced",
+    "before": {
+      "name": "Wonder City Core",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "food": 100,
+      "production": 100,
+      "gold": 100,
+      "science": 50,
+      "culture": 50,
+      "faith": 50,
+      "turnsToBuild": 1,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [5]-tile radius",
+        "Tile provides yield without assigned population",
+        "Gives a defensive bonus of [100]%",
+        "Removes removable features when built",
+        "Will not be replaced by automated units"
+      ]
+    },
+    "after": {
+      "name": "Wonder City Core",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land",
+        "Coast",
+        "Ocean"
+      ],
+      "food": 8,
+      "production": 8,
+      "gold": 8,
+      "science": 4,
+      "culture": 4,
+      "faith": 4,
+      "turnsToBuild": 6,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Gain control over [all] tiles in a [2]-tile radius",
+        "Tile provides yield without assigned population",
+        "Gives a defensive bonus of [25]%",
+        "Removes removable features when built",
+        "Will not be replaced by automated units"
+      ]
+    }
+  },
+  {
+    "file": "TileImprovements.json",
+    "name": "Artificial Freshwater Garden",
+    "action": "balanced",
+    "before": {
+      "name": "Artificial Freshwater Garden",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "food": 75,
+      "culture": 25,
+      "turnsToBuild": 1,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Tile provides yield without assigned population",
+        "Can also be built on tiles adjacent to fresh water",
+        "Will not be replaced by automated units"
+      ]
+    },
+    "after": {
+      "name": "Artificial Freshwater Garden",
+      "uniqueTo": "Magalanadu",
+      "terrainsCanBeBuiltOn": [
+        "Land"
+      ],
+      "food": 6,
+      "culture": 2,
+      "turnsToBuild": 6,
+      "uniques": [
+        "Great Improvement",
+        "Can be built outside your borders",
+        "Tile provides yield without assigned population",
+        "Can also be built on tiles adjacent to fresh water",
+        "Will not be replaced by automated units"
+      ]
+    }
+  }
+]

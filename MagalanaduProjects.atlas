@@ -1,0 +1,76 @@
+
+MagalanaduProjects.png
+size: 1024, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+BuildingIcons/Magalanadu Treasury Contract
+  rotate: false
+  xy: 16, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Science Grant
+  rotate: false
+  xy: 251, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Cultural Endowment
+  rotate: false
+  xy: 486, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Faith Foundation
+  rotate: false
+  xy: 721, 16
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Industrial Surge
+  rotate: false
+  xy: 16, 251
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Agricultural Programme
+  rotate: false
+  xy: 251, 251
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Happiness Initiative
+  rotate: false
+  xy: 486, 251
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Military Mobilization
+  rotate: false
+  xy: 721, 251
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Frontier Initiative
+  rotate: false
+  xy: 16, 486
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Magalanadu Diplomatic Initiative
+  rotate: false
+  xy: 251, 486
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

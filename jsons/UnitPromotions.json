@@ -2,7 +2,7 @@
   {
     "name": "1st Magalanadu Ability",
     "uniques": [
-      "Withdraws before melee combat <with [50]% chance>",
+      "Withdraws before melee combat <with [20]% chance>",
       "Can see over obstacles",
       "Invisible to non-adjacent units",
       "Can see invisible [All] units",
@@ -13,7 +13,7 @@
       "May attack when embarked",
       "Eliminates combat penalty for attacking over a river",
       "Ranged attacks may be performed over obstacles",
-      "May Paradrop to [All] tiles up to [10] tiles away",
+      "May Paradrop to [All] tiles up to [4] tiles away",
       "Can perform Air Sweep",
       "[+1] Sight <for [Embarked] units>",
       "May enter foreign tiles without open borders",
@@ -31,8 +31,8 @@
       "Blast radius [1]",
       "May capture killed [All] units",
       "Uncapturable",
-      "[+100]% chance to intercept air attacks",
-      "[2] additional attacks per turn",
+      "[+25]% chance to intercept air attacks",
+      "[1] additional attacks per turn",
       "Invisible to others"
     ]
   },

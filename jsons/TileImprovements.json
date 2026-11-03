@@ -1,223 +1,1560 @@
 [
-    {
-        "name":  "Indian Citadel",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land",
-                                     "Coast",
-                                     "Ocean"
-                                 ],
-        "uniques":  [
-                        "Great Improvement",
-                        "Gives a defensive bonus of [100]%",
-                        "Adjacent enemy units ending their turn take [100] damage",
-                        "Can be built outside your borders",
-                        "Gain control over [all] tiles in a [5]-tile radius",
-                        "Removes removable features when built",
-                        "Will not be replaced by automated units"
-                    ],
-        "production":  1
-    },
-    {
-        "name":  "Bonus Resource Generator",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land"
-                                 ],
-        "gold":  1000,
-        "turnsToBuild":  7,
-        "uniques":  [
-                        "Provides [10] [Cattle]",
-                        "Provides [10] [Sheep]",
-                        "Provides [10] [Deer]",
-                        "Provides [10] [Bananas]",
-                        "Provides [10] [Wheat]",
-                        "Provides [10] [Stone]",
-                        "Provides [10] [Fish]"
-                    ]
-    },
-    {
-        "name":  "Strategic Resource Generator",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land"
-                                 ],
-        "gold":  1000,
-        "turnsToBuild":  7,
-        "uniques":  [
-                        "Provides [10] [Horses]",
-                        "Provides [10] [Iron]",
-                        "Provides [10] [Coal]",
-                        "Provides [10] [Oil]",
-                        "Provides [10] [Aluminum]",
-                        "Provides [10] [Uranium]"
-                    ]
-    },
-    {
-        "name":  "Luxury Resource Generator",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land"
-                                 ],
-        "gold":  1000,
-        "turnsToBuild":  7,
-        "uniques":  [
-                        "Provides [10] [Furs]",
-                        "Provides [10] [Cotton]",
-                        "Provides [10] [Dyes]",
-                        "Provides [10] [Gems]",
-                        "Provides [10] [Gold Ore]",
-                        "Provides [10] [Silver]",
-                        "Provides [10] [Incense]",
-                        "Provides [10] [Ivory]",
-                        "Provides [10] [Silk]",
-                        "Provides [10] [Spices]",
-                        "Provides [10] [Wine]",
-                        "Provides [10] [Sugar]",
-                        "Provides [10] [Marble]",
-                        "Provides [10] [Whales]",
-                        "Provides [10] [Pearls]",
-                        "Provides [10] [Jewelry]",
-                        "Provides [10] [Porcelain]",
-                        "Provides [10] [Citrus]",
-                        "Provides [10] [Copper]",
-                        "Provides [10] [Crab]",
-                        "Provides [10] [Salt]",
-                        "Provides [10] [Truffles]"
-                    ]
-    },
-    {
-        "name":  "Arms Depot",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land"
-                                 ],
-        "production":  25,
-        "gold":  25,
-        "science":  10,
-        "turnsToBuild":  7,
-        "uniques":  [
-                        "Great Improvement",
-                        "Can be built outside your borders",
-                        "Pillaging this improvement yields approximately [+100 Gold]",
-                        "Destroyed when pillaged",
-                        "Will not be replaced by automated units"
-                    ]
-    },
-    {
-        "name":  "Omni Resource Generator",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land",
-                                     "Coast",
-                                     "Ocean"
-                                 ],
-        "food":  50,
-        "production":  50,
-        "gold":  50,
-        "science":  25,
-        "culture":  25,
-        "faith":  25,
-        "turnsToBuild":  1,
-        "uniques":  [
-                        "Great Improvement",
-                        "Can be built outside your borders",
-                        "Gain control over [all] tiles in a [3]-tile radius",
-                        "Tile provides yield without assigned population",
-                        "Provides [1000] [Horses]",
-                        "Provides [1000] [Iron]",
-                        "Provides [1000] [Coal]",
-                        "Provides [1000] [Oil]",
-                        "Provides [1000] [Aluminum]",
-                        "Provides [1000] [Uranium]",
-                        "Provides [1000] [Cattle]",
-                        "Provides [1000] [Sheep]",
-                        "Provides [1000] [Deer]",
-                        "Provides [1000] [Bananas]",
-                        "Provides [1000] [Wheat]",
-                        "Provides [1000] [Stone]",
-                        "Provides [1000] [Fish]",
-                        "Provides [1000] [Whales]",
-                        "Provides [1000] [Pearls]",
-                        "Pillaging this improvement yields approximately [+500 Gold]",
-                        "Will not be replaced by automated units"
-                    ]
-    },
-    {
-        "name":  "Luxury Fabricator",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land",
-                                     "Coast",
-                                     "Ocean"
-                                 ],
-        "gold":  75,
-        "culture":  25,
-        "turnsToBuild":  1,
-        "uniques":  [
-                        "Great Improvement",
-                        "Can be built outside your borders",
-                        "Tile provides yield without assigned population",
-                        "Provides [500] [Furs]",
-                        "Provides [500] [Cotton]",
-                        "Provides [500] [Dyes]",
-                        "Provides [500] [Gems]",
-                        "Provides [500] [Gold Ore]",
-                        "Provides [500] [Silver]",
-                        "Provides [500] [Incense]",
-                        "Provides [500] [Ivory]",
-                        "Provides [500] [Silk]",
-                        "Provides [500] [Spices]",
-                        "Provides [500] [Wine]",
-                        "Provides [500] [Sugar]",
-                        "Provides [500] [Marble]",
-                        "Provides [500] [Jewelry]",
-                        "Provides [500] [Porcelain]",
-                        "Provides [500] [Whales]",
-                        "Provides [500] [Pearls]",
-                        "Will not be replaced by automated units"
-                    ]
-    },
-    {
-        "name":  "Wonder City Core",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land",
-                                     "Coast",
-                                     "Ocean"
-                                 ],
-        "food":  100,
-        "production":  100,
-        "gold":  100,
-        "science":  50,
-        "culture":  50,
-        "faith":  50,
-        "turnsToBuild":  1,
-        "uniques":  [
-                        "Great Improvement",
-                        "Can be built outside your borders",
-                        "Gain control over [all] tiles in a [5]-tile radius",
-                        "Tile provides yield without assigned population",
-                        "Gives a defensive bonus of [100]%",
-                        "Removes removable features when built",
-                        "Will not be replaced by automated units"
-                    ]
-    },
-    {
-        "name":  "Artificial Freshwater Garden",
-        "uniqueTo":  "Magalanadu",
-        "terrainsCanBeBuiltOn":  [
-                                     "Land"
-                                 ],
-        "food":  75,
-        "culture":  25,
-        "turnsToBuild":  1,
-        "uniques":  [
-                        "Great Improvement",
-                        "Can be built outside your borders",
-                        "Tile provides yield without assigned population",
-                        "Can also be built on tiles adjacent to fresh water",
-                        "Will not be replaced by automated units"
-                    ]
-    }
+  {
+    "name": "Indian Citadel",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Coast",
+      "Ocean"
+    ],
+    "uniques": [
+      "Great Improvement",
+      "Gives a defensive bonus of [25]%",
+      "Adjacent enemy units ending their turn take [15] damage",
+      "Can be built outside your borders",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Removes removable features when built",
+      "Will not be replaced by automated units"
+    ],
+    "production": 1
+  },
+  {
+    "name": "Bonus Resource Generator",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 5,
+    "turnsToBuild": 7,
+    "uniques": [
+      "Provides [2] [Cattle]",
+      "Provides [2] [Sheep]",
+      "Provides [2] [Deer]",
+      "Provides [2] [Bananas]",
+      "Provides [2] [Wheat]",
+      "Provides [2] [Stone]",
+      "Provides [2] [Fish]"
+    ]
+  },
+  {
+    "name": "Strategic Resource Generator",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 5,
+    "turnsToBuild": 7,
+    "uniques": [
+      "Provides [2] [Horses]",
+      "Provides [2] [Iron]",
+      "Provides [2] [Coal]",
+      "Provides [2] [Oil]",
+      "Provides [2] [Aluminum]",
+      "Provides [2] [Uranium]"
+    ]
+  },
+  {
+    "name": "Luxury Resource Generator",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "gold": 5,
+    "turnsToBuild": 7,
+    "uniques": [
+      "Provides [2] [Furs]",
+      "Provides [2] [Cotton]",
+      "Provides [2] [Dyes]",
+      "Provides [2] [Gems]",
+      "Provides [2] [Gold Ore]",
+      "Provides [2] [Silver]",
+      "Provides [2] [Incense]",
+      "Provides [2] [Ivory]",
+      "Provides [2] [Silk]",
+      "Provides [2] [Spices]",
+      "Provides [2] [Wine]",
+      "Provides [2] [Sugar]",
+      "Provides [2] [Marble]",
+      "Provides [2] [Whales]",
+      "Provides [2] [Pearls]",
+      "Provides [2] [Jewelry]",
+      "Provides [2] [Porcelain]",
+      "Provides [2] [Citrus]",
+      "Provides [2] [Copper]",
+      "Provides [2] [Crab]",
+      "Provides [2] [Salt]",
+      "Provides [2] [Truffles]"
+    ]
+  },
+  {
+    "name": "Arms Depot",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "production": 2,
+    "gold": 2,
+    "science": 2,
+    "turnsToBuild": 7,
+    "uniques": [
+      "Great Improvement",
+      "Can be built outside your borders",
+      "Pillaging this improvement yields approximately [+25 Gold]",
+      "Destroyed when pillaged",
+      "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Omni Resource Generator",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Coast",
+      "Ocean"
+    ],
+    "food": 4,
+    "production": 4,
+    "gold": 4,
+    "science": 2,
+    "culture": 2,
+    "faith": 2,
+    "turnsToBuild": 6,
+    "uniques": [
+      "Great Improvement",
+      "Can be built outside your borders",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Tile provides yield without assigned population",
+      "Provides [3] [Horses]",
+      "Provides [3] [Iron]",
+      "Provides [3] [Coal]",
+      "Provides [3] [Oil]",
+      "Provides [3] [Aluminum]",
+      "Provides [3] [Uranium]",
+      "Provides [3] [Cattle]",
+      "Provides [3] [Sheep]",
+      "Provides [3] [Deer]",
+      "Provides [3] [Bananas]",
+      "Provides [3] [Wheat]",
+      "Provides [3] [Stone]",
+      "Provides [3] [Fish]",
+      "Provides [3] [Whales]",
+      "Provides [3] [Pearls]",
+      "Pillaging this improvement yields approximately [+50 Gold]",
+      "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Luxury Fabricator",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Coast",
+      "Ocean"
+    ],
+    "gold": 6,
+    "culture": 2,
+    "turnsToBuild": 6,
+    "uniques": [
+      "Great Improvement",
+      "Can be built outside your borders",
+      "Tile provides yield without assigned population",
+      "Provides [2] [Furs]",
+      "Provides [2] [Cotton]",
+      "Provides [2] [Dyes]",
+      "Provides [2] [Gems]",
+      "Provides [2] [Gold Ore]",
+      "Provides [2] [Silver]",
+      "Provides [2] [Incense]",
+      "Provides [2] [Ivory]",
+      "Provides [2] [Silk]",
+      "Provides [2] [Spices]",
+      "Provides [2] [Wine]",
+      "Provides [2] [Sugar]",
+      "Provides [2] [Marble]",
+      "Provides [2] [Jewelry]",
+      "Provides [2] [Porcelain]",
+      "Provides [2] [Whales]",
+      "Provides [2] [Pearls]",
+      "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Wonder City Core",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Coast",
+      "Ocean"
+    ],
+    "food": 8,
+    "production": 8,
+    "gold": 8,
+    "science": 4,
+    "culture": 4,
+    "faith": 4,
+    "turnsToBuild": 6,
+    "uniques": [
+      "Great Improvement",
+      "Can be built outside your borders",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Tile provides yield without assigned population",
+      "Gives a defensive bonus of [25]%",
+      "Removes removable features when built",
+      "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Artificial Freshwater Garden",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land"
+    ],
+    "food": 6,
+    "culture": 2,
+    "turnsToBuild": 6,
+    "uniques": [
+      "Great Improvement",
+      "Can be built outside your borders",
+      "Tile provides yield without assigned population",
+      "Can also be built on tiles adjacent to fresh water",
+      "Will not be replaced by automated units"
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Horses",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Horses]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Horses for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Iron",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Iron]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Iron for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Coal",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Coal]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Coal for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Oil",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Oil]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Oil for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Aluminum",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Aluminum]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Aluminum for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator - Uranium",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [8] [Uranium]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 8 Uranium for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Furs",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Furs]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Furs for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Cotton",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Cotton]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Cotton for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Dyes",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Dyes]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Dyes for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Gems",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Gems]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Gems for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Gold Ore",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Gold Ore]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Gold Ore for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Silver",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Silver]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Silver for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Incense",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Incense]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Incense for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Ivory",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Ivory]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Ivory for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Silk",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Silk]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Silk for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Spices",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Spices]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Spices for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Wine",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Wine]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Wine for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Sugar",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Sugar]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Sugar for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Marble",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Marble]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Marble for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Whales",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Whales]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Whales for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Pearls",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Pearls]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Pearls for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Jewelry",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Jewelry]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Jewelry for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Porcelain",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Porcelain]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Porcelain for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Citrus",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Citrus]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Citrus for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Copper",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Copper]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Copper for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Crab",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Crab]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Crab for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Salt",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Salt]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Salt for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator - Truffles",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [1] [Truffles]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 1 Truffles for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Cattle",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Cattle]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Cattle for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Sheep",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Sheep]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Sheep for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Deer",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Deer]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Deer for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Bananas",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Bananas]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Bananas for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Wheat",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Wheat]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Wheat for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Stone",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Stone]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Stone for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "production": 1
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator - Fish",
+    "uniqueTo": "Magalanadu",
+    "terrainsCanBeBuiltOn": [
+      "Land",
+      "Water",
+      "Mountain",
+      "Forest",
+      "Jungle",
+      "Marsh",
+      "Fallout",
+      "Oasis",
+      "Ice",
+      "Hill",
+      "Flood plains",
+      "Atoll",
+      "Coast",
+      "Ocean",
+      "Lakes"
+    ],
+    "turnsToBuild": 8,
+    "uniques": [
+      "Provides [2] [Fish]",
+      "Will not be replaced by automated units",
+      "Comment [Resource synthesizer: supplies copies of this resource from the tile. Does not create a natural resource deposit.]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fabricates 2 Fish for the owner while this tile improvement is active."
+      },
+      {
+        "text": "May be placed on supported land, sea, ice, forest, jungle, marsh, oasis and mountain tiles. Not on city centers or natural wonders."
+      },
+      {
+        "text": "This is a tile improvement, not a natural deposit. Building another improvement on the same tile replaces this one. The usual resource icons and revealed-technology restrictions on natural deposits do not apply."
+      }
+    ],
+    "food": 1
+  }
 ]
