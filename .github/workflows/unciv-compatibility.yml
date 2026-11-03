@@ -21,6 +21,9 @@ jobs:
           python tests/validate_unit_utility.py
           python tests/validate_resource_fabrication.py
           python tests/validate_resource_buildings.py
+          python tests/validate_purchase_system.py
+          python tests/validate_unrestricted_purchases.py
+          python tests/validate_movement_upgrade.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin

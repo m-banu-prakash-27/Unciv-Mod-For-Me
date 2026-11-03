@@ -1,0 +1,1369 @@
+[
+  {
+    "name": "Super Cheat Worker",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 3,
+    "attackSound": "arrow",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Can build [Water] improvements on tiles",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought",
+      "May create improvements on water resources",
+      "Uncapturable",
+      "[3] Sight",
+      "Can instantly construct a [Indian Citadel] improvement",
+      "Can instantly construct a [Omni Resource Generator] improvement",
+      "Can instantly construct a [Luxury Fabricator] improvement",
+      "Can instantly construct a [Wonder City Core] improvement",
+      "Can instantly construct a [Artificial Freshwater Garden] improvement"
+    ],
+    "cost": 100
+  },
+  {
+    "name": "Super Cheat Settler",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 3,
+    "attackSound": "arrow",
+    "uniques": [
+      "Founds a new city",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "[3] Sight"
+    ],
+    "cost": 160
+  },
+  {
+    "name": "Super Cheat Warrior",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Ranged Gunpowder",
+    "movement": 3,
+    "strength": 16,
+    "rangedStrength": 12,
+    "attackSound": "arrow",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "[1] additional attacks per turn",
+      "[3] Sight",
+      "[+1] Range",
+      "Withdraws before melee combat <with [20]% chance>",
+      "Can see over obstacles",
+      "Invisible to non-adjacent units",
+      "Can see invisible [All] units",
+      "All tiles cost 1 movement",
+      "May travel on Water tiles without embarking",
+      "No movement cost to pillage",
+      "Eliminates combat penalty for attacking across a coast",
+      "May attack when embarked",
+      "Eliminates combat penalty for attacking over a river",
+      "Ranged attacks may be performed over obstacles"
+    ],
+    "cost": 120,
+    "range": 2
+  },
+  {
+    "name": "Super Cheat Trooper",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Ranged Gunpowder",
+    "movement": 3,
+    "strength": 22,
+    "rangedStrength": 18,
+    "attackSound": "arrow",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "[1] additional attacks per turn",
+      "[3] Sight",
+      "[+1] Range",
+      "Withdraws before melee combat <with [20]% chance>",
+      "Can see over obstacles",
+      "Invisible to non-adjacent units",
+      "Can see invisible [All] units",
+      "All tiles cost 1 movement",
+      "May travel on Water tiles without embarking",
+      "No movement cost to pillage",
+      "Eliminates combat penalty for attacking across a coast",
+      "May attack when embarked",
+      "Eliminates combat penalty for attacking over a river",
+      "Ranged attacks may be performed over obstacles"
+    ],
+    "cost": 160,
+    "range": 2
+  },
+  {
+    "name": "Indian Bowman",
+    "unitType": "Archery",
+    "movement": 3,
+    "strength": 6,
+    "rangedStrength": 9,
+    "cost": 40,
+    "requiredTech": "Archery",
+    "obsoleteTech": "Machinery",
+    "replaces": "Archer",
+    "uniqueTo": "Magalanadu",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "upgradesTo": "Crossbowman",
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Indian War Elephant",
+    "unitType": "Archery",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Chariot Archer",
+    "movement": 5,
+    "strength": 8,
+    "rangedStrength": 13,
+    "cost": 56,
+    "requiredTech": "The Wheel",
+    "upgradesTo": "Knight",
+    "obsoleteTech": "Chivalry",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "elephant"
+  },
+  {
+    "name": "Indian Infantry",
+    "unitType": "Gunpowder",
+    "replaces": "Rifleman",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "strength": 44,
+    "cost": 225,
+    "requiredTech": "Rifling",
+    "upgradesTo": "Infantry",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Indian Carrier",
+    "unitType": "Aircraft Carrier",
+    "replaces": "Carrier",
+    "uniqueTo": "Magalanadu",
+    "movement": 6,
+    "strength": 52,
+    "cost": 375,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Can carry [3] [Missile] units",
+      "Can carry [4] [Aircraft] units",
+      "Can move immediately once bought"
+    ]
+  },
+  {
+    "name": "Indian Anti-Aircraft Gun",
+    "unitType": "Gunpowder",
+    "replaces": "Anti-Aircraft Gun",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "interceptRange": 3,
+    "strength": 65,
+    "cost": 375,
+    "requiredTech": "Radio",
+    "upgradesTo": "Indian Mobile SAM",
+    "uniques": [
+      "[+25]% chance to intercept air attacks",
+      "[+25]% Strength <vs [Air] units>",
+      "[+25]% Strength <vs [Helicopter] units>",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "Indian Destroyer",
+    "unitType": "Melee Water",
+    "replaces": "Destroyer",
+    "uniqueTo": "Magalanadu",
+    "movement": 7,
+    "strength": 72,
+    "interceptRange": 3,
+    "cost": 375,
+    "requiredTech": "Combustion",
+    "uniques": [
+      "Can see invisible [Submarine] units",
+      "[+25]% chance to intercept air attacks",
+      "Withdraws before melee combat <with [20]% chance>",
+      "[+25]% Strength <vs [Submarine] units>",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "MAG-41",
+    "unitType": "Bomber",
+    "replaces": "Bomber",
+    "uniqueTo": "Magalanadu",
+    "movement": 2,
+    "strength": 84,
+    "rangedStrength": 84,
+    "range": 11,
+    "cost": 375,
+    "requiredTech": "Radar",
+    "promotions": [
+      "Evasion",
+      "Siege I"
+    ],
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "bombing"
+  },
+  {
+    "name": "Indian Paratrooper",
+    "unitType": "Gunpowder",
+    "replaces": "Paratrooper",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "strength": 84,
+    "cost": 375,
+    "requiredTech": "Radar",
+    "uniques": [
+      "May Paradrop to [All] tiles up to [8] tiles away",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "shot"
+  },
+  {
+    "name": "Indian Tank",
+    "unitType": "Armored",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Tank",
+    "movement": 6,
+    "strength": 91,
+    "cost": 375,
+    "requiredTech": "Combined Arms",
+    "upgradesTo": "Indian Modern Armor",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Indian Anti-Tank Gun",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Anti-Tank Gun",
+    "movement": 3,
+    "strength": 65,
+    "cost": 300,
+    "requiredTech": "Combined Arms",
+    "upgradesTo": "Indian Helicopter Gunship",
+    "uniques": [
+      "[+25]% Strength <vs [Armored] units>",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "Indian Mobile SAM",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Mobile SAM",
+    "movement": 4,
+    "interceptRange": 3,
+    "strength": 84,
+    "cost": 425,
+    "requiredTech": "Rocketry",
+    "uniques": [
+      "[+25]% chance to intercept air attacks",
+      "[+25]% Strength <vs [Air] units>",
+      "[+25]% Strength <vs [Helicopter] units>",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "missile"
+  },
+  {
+    "name": "Indian Guided Missile",
+    "unitType": "Missile",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Guided Missile",
+    "movement": 2,
+    "strength": 78,
+    "rangedStrength": 78,
+    "range": 9,
+    "cost": 150,
+    "requiredTech": "Advanced Ballistics",
+    "uniques": [
+      "[-20]% maintenance costs",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "missile"
+  },
+  {
+    "name": "Indian Helicopter Gunship",
+    "unitType": "Helicopter",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Helicopter Gunship",
+    "movement": 7,
+    "strength": 78,
+    "cost": 425,
+    "requiredTech": "Computers",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[+25]% Strength <vs [All] units>",
+      "No defensive terrain bonus",
+      "Can move after attacking",
+      "All tiles cost 1 movement",
+      "Ignores Zone of Control",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "machinegun"
+  },
+  {
+    "name": "Indian Nuclear Submarine",
+    "unitType": "Submarine",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Nuclear Submarine",
+    "movement": 7,
+    "strength": 65,
+    "range": 4,
+    "rangedStrength": 110,
+    "cost": 425,
+    "requiredTech": "Telecommunications",
+    "uniques": [
+      "[+25]% Strength <when attacking>",
+      "[+1] Sight",
+      "Can carry [3] [Missile] units",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "torpedo"
+  },
+  {
+    "name": "Indian Mechanized Infantry",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Mechanized Infantry",
+    "movement": 4,
+    "strength": 117,
+    "cost": 375,
+    "requiredTech": "Mobile Tactics",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Indian Missile Cruiser",
+    "unitType": "Ranged Water",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Missile Cruiser",
+    "movement": 8,
+    "strength": 104,
+    "rangedStrength": 130,
+    "range": 4,
+    "interceptRange": 3,
+    "cost": 425,
+    "requiredTech": "Robotics",
+    "uniques": [
+      "[+25]% chance to intercept air attacks",
+      "Can see invisible [Submarine] units",
+      "Can carry [3] [Missile] units",
+      "[+25]% Strength <vs [Submarine] units>",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "promotions": [
+      "Indirect Fire"
+    ],
+    "attackSound": "shipguns"
+  },
+  {
+    "name": "Indian Modern Armor",
+    "unitType": "Armored",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Modern Armor",
+    "movement": 6,
+    "strength": 130,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "upgradesTo": "Indian Giant Death Robot",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "tankshot"
+  },
+  {
+    "name": "Indian Jet Fighter",
+    "unitType": "Fighter",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Jet Fighter",
+    "movement": 2,
+    "strength": 98,
+    "rangedStrength": 98,
+    "range": 11,
+    "interceptRange": 11,
+    "cost": 425,
+    "requiredTech": "Lasers",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "[+25]% chance to intercept air attacks",
+      "[+25]% Strength <vs [Bomber] units>",
+      "[+25]% Strength <vs [Helicopter] units>",
+      "Can carry [3] [Missile] units",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "jetgun"
+  },
+  {
+    "name": "Indian Giant Death Robot",
+    "unitType": "Armored",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Giant Death Robot",
+    "movement": 6,
+    "strength": 195,
+    "cost": 425,
+    "requiredTech": "Nuclear Fusion",
+    "requiredResource": "Uranium",
+    "uniques": [
+      "Can move after attacking",
+      "No defensive terrain bonus",
+      "Never appears as a Barbarian unit",
+      "Can carry [2] [Missile] units",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "gdrAttack"
+  },
+  {
+    "name": "Indian Stealth Bomber",
+    "unitType": "Bomber",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Stealth Bomber",
+    "movement": 3,
+    "strength": 110,
+    "rangedStrength": 110,
+    "range": 21,
+    "cost": 425,
+    "requiredTech": "Stealth",
+    "requiredResource": "Aluminum",
+    "uniques": [
+      "Damage taken from interception reduced by [+35]%",
+      "Can carry [3] [Missile] units",
+      "[+2] Sight",
+      "Can see over obstacles",
+      "Can move immediately once bought"
+    ],
+    "attackSound": "bombing"
+  },
+  {
+    "name": "Magalanadu Shadow Agent",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 34,
+    "rangedStrength": 32,
+    "range": 2,
+    "cost": 180,
+    "requiredTech": "Printing Press",
+    "attackSound": "shot",
+    "uniques": [
+      "Invisible to others",
+      "Invisible to non-adjacent units",
+      "Can see invisible [All] units",
+      "May enter foreign tiles without open borders",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "Can pass through impassable tiles",
+      "Can see over obstacles",
+      "Ranged attacks may be performed over obstacles",
+      "[3] Sight",
+      "[1] additional attacks per turn",
+      "Withdraws before melee combat <with [20]% chance>",
+      "No movement cost to pillage",
+      "May capture killed [All] units",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Divine Apostle",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "replaces": "Missionary",
+    "movement": 5,
+    "cost": 200,
+    "religiousStrength": 1500,
+    "uniques": [
+      "Can Spread Religion <for [1] movement> <[10] times> <after which this unit is consumed>",
+      "Removes other religions when spreading religion",
+      "Can remove other religions from cities <in [Friendly] tiles> <[5] times> <after which this unit is consumed>",
+      "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+      "Prevents spreading of religion to the city it is next to",
+      "May enter foreign tiles without open borders",
+      "Takes your religion over the one in their birth city",
+      "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+      "[+2] Sight",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "Religious Unit",
+      "Great Person - [Faith]",
+      "Only available <when religion is enabled>"
+    ]
+  },
+  {
+    "name": "Veer",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "uniques": [
+      "Empire enters a [10]-turn Golden Age <by consuming this unit>",
+      "[+15]% Strength bonus for [Military] units within [3] tiles",
+      "All adjacent units heal [15] HP when healing",
+      "[15] HP when healing",
+      "Can instantly construct a [Citadel] improvement",
+      "Can move immediately once bought",
+      "Great Person - [War]",
+      "Unbuildable",
+      "Uncapturable",
+      "Comment [Unbuildable Great Person. Gain through Great Person rewards rather than normal city production.]"
+    ],
+    "movement": 4
+  },
+  {
+    "name": "Magalanadu Saboteur",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 48,
+    "cost": 220,
+    "requiredTech": "Dynamite",
+    "attackSound": "shot",
+    "uniques": [
+      "Invisible to others",
+      "Invisible to non-adjacent units",
+      "May enter foreign tiles without open borders",
+      "Can see invisible [All] units",
+      "No movement cost to pillage",
+      "All tiles cost 1 movement",
+      "Can pass through impassable tiles",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "Withdraws before melee combat <with [25]% chance>",
+      "[3] Sight",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu False Flag Operative",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 62,
+    "cost": 280,
+    "requiredTech": "Replaceable Parts",
+    "attackSound": "shot",
+    "uniques": [
+      "Invisible to others",
+      "Invisible to non-adjacent units",
+      "May enter foreign tiles without open borders",
+      "Can see invisible [All] units",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "No movement cost to pillage",
+      "May capture killed [All] units",
+      "[+25]% Strength <vs [Wounded] units>",
+      "Withdraws before melee combat <with [20]% chance>",
+      "[3] Sight",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable",
+      "Comment [Covert combat raider. Its attacks do not create a diplomatic false-flag incident.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Proxy Commander",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "strength": 76,
+    "cost": 350,
+    "requiredTech": "Radio",
+    "attackSound": "shot",
+    "uniques": [
+      "[+20]% Strength bonus for [Military] units within [3] tiles",
+      "All adjacent units heal [10] HP when healing",
+      "May capture killed [All] units",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "[3] Sight",
+      "Great Person - [War]",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Religious Agitator",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 5,
+    "cost": 250,
+    "religiousStrength": 1500,
+    "requiredTech": "Acoustics",
+    "uniques": [
+      "Can Spread Religion <for [1] movement> <[8] times> <after which this unit is consumed>",
+      "Removes other religions when spreading religion",
+      "Can remove other religions from cities <in [Foreign] tiles> <[4] times> <after which this unit is consumed>",
+      "May enter foreign tiles without open borders",
+      "Prevents spreading of religion to the city it is next to",
+      "Takes your religion over the one in their birth city",
+      "[+35]% Spread Religion Strength",
+      "[3] Sight",
+      "Can move immediately once bought",
+      "Uncapturable",
+      "Religious Unit",
+      "Only available <when religion is enabled>"
+    ]
+  },
+  {
+    "name": "Magalanadu Black Ops Cell",
+    "unitType": "Ranged Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 85,
+    "rangedStrength": 100,
+    "range": 3,
+    "cost": 420,
+    "requiredTech": "Radar",
+    "attackSound": "shot",
+    "uniques": [
+      "Invisible to others",
+      "Invisible to non-adjacent units",
+      "May enter foreign tiles without open borders",
+      "Can see invisible [All] units",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "Can pass through impassable tiles",
+      "Can see over obstacles",
+      "Ranged attacks may be performed over obstacles",
+      "No movement cost to pillage",
+      "[1] additional attacks per turn",
+      "[4] Sight",
+      "Withdraws before melee combat <with [25]% chance>",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Arms Dealer",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "cost": 200,
+    "requiredTech": "Economics",
+    "uniques": [
+      "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+      "May enter foreign tiles without open borders",
+      "Can move immediately once bought",
+      "[3] Sight",
+      "Great Person - [War]",
+      "Uncapturable",
+      "Comment [Instantly builds an Arms Depot when consumed on an eligible tile. It does not trade arms with civilizations.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Drone Swarm",
+    "unitType": "Ranged Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 6,
+    "strength": 90,
+    "rangedStrength": 125,
+    "range": 3,
+    "cost": 480,
+    "requiredTech": "Robotics",
+    "attackSound": "jetgun",
+    "uniques": [
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "Can pass through impassable tiles",
+      "Ignores Zone of Control",
+      "Can see over obstacles",
+      "Ranged attacks may be performed over obstacles",
+      "[1] additional attacks per turn",
+      "[4] Sight",
+      "Can see invisible [All] units",
+      "Invisible to non-adjacent units",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Cyber Warfare Cell",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 5,
+    "strength": 85,
+    "cost": 430,
+    "requiredTech": "Computers",
+    "attackSound": "shot",
+    "uniques": [
+      "Invisible to others",
+      "Invisible to non-adjacent units",
+      "May enter foreign tiles without open borders",
+      "Can see invisible [All] units",
+      "No movement cost to pillage",
+      "All tiles cost 1 movement",
+      "Can pass through impassable tiles",
+      "Ignores Zone of Control",
+      "Withdraws before melee combat <with [25]% chance>",
+      "[4] Sight",
+      "[+30]% Strength <vs [Wounded] units>",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable",
+      "Comment [Stealth reconnaissance and pillaging unit. It does not perform computer-network or spy-screen cyberattacks.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Resource Smuggler",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "cost": 240,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Can instantly construct a [Strategic Resource Generator] improvement <by consuming this unit>",
+      "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
+      "May enter foreign tiles without open borders",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "[3] Sight",
+      "Great Person - [Gold]",
+      "Uncapturable",
+      "Comment [Instantly builds a Strategic Resource Generator or Arms Depot on a valid tile; it does not transfer resources diplomatically.]"
+    ]
+  },
+  {
+    "name": "Corporate Mercenary",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "strength": 36,
+    "cost": 190,
+    "requiredTech": "Gunpowder",
+    "upgradesTo": "Infantry",
+    "attackSound": "shot",
+    "uniques": [
+      "Can move immediately once bought",
+      "[+25]% Strength <when attacking>",
+      "No movement cost to pillage",
+      "[2] XP gained from combat",
+      "Never appears as a Barbarian unit"
+    ],
+    "uniqueTo": "Magalanadu"
+  },
+  {
+    "name": "Magalanadu War Profiteer",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 58,
+    "cost": 350,
+    "requiredTech": "Economics",
+    "attackSound": "shot",
+    "uniques": [
+      "[+15]% Strength bonus for [Military] units within [3] tiles",
+      "All adjacent units heal [10] HP when healing",
+      "May capture killed [All] units",
+      "[+25]% XP gained from combat",
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "No movement cost to pillage",
+      "All tiles cost 1 movement",
+      "[3] Sight",
+      "Great Person - [War]",
+      "Never appears as a Barbarian unit",
+      "Uncapturable",
+      "Comment [Combat support commander granting nearby bonuses. It does not automatically earn Gold from wars.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Peacekeeper Battalion",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 110,
+    "cost": 470,
+    "requiredTech": "Globalization",
+    "attackSound": "shot",
+    "uniques": [
+      "May enter foreign tiles without open borders",
+      "[+25]% Strength <when defending>",
+      "[+15]% Strength bonus for [Military] units within [2] tiles",
+      "All adjacent units heal [10] HP when healing",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "[4] Sight",
+      "Can see invisible [All] units",
+      "Never appears as a Barbarian unit",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Orbital Strike Team",
+    "unitType": "Ranged Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "strength": 95,
+    "rangedStrength": 135,
+    "range": 4,
+    "cost": 550,
+    "requiredTech": "Satellites",
+    "attackSound": "missile",
+    "uniques": [
+      "Can move after attacking",
+      "Can move immediately once bought",
+      "Can see over obstacles",
+      "Ranged attacks may be performed over obstacles",
+      "[1] additional attacks per turn",
+      "[4] Sight",
+      "Can see invisible [All] units",
+      "All tiles cost 1 movement",
+      "Unable to capture cities",
+      "Never appears as a Barbarian unit",
+      "Uncapturable",
+      "Comment [Long-range artillery-style land combat unit. It does not launch map-wide orbital attacks.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Architect of Wonders",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 4,
+    "cost": 340,
+    "requiredTech": "Architecture",
+    "uniques": [
+      "Can speed up construction of a building",
+      "Can speed up the construction of a wonder",
+      "Can instantly construct a [Wonder City Core] improvement <by consuming this unit>",
+      "Can instantly construct a [Omni Resource Generator] improvement <by consuming this unit>",
+      "Can instantly construct a [Luxury Fabricator] improvement <by consuming this unit>",
+      "Can move immediately once bought",
+      "All tiles cost 1 movement",
+      "[3] Sight",
+      "Great Person - [Production]",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Magalanadu Foreign Aid Battalion",
+    "unitType": "Gunpowder",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "strength": 46,
+    "cost": 350,
+    "requiredTech": "Rifling",
+    "attackSound": "shot",
+    "uniques": [
+      "Never appears as a Barbarian unit",
+      "Can move immediately once bought",
+      "Comment [Move into friendly major civilization territory, then use the native Gift Unit action to transfer command.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Relief Engineer",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 180,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Can move immediately once bought",
+      "Comment [Can be given to a friendly major civilization to improve roads, farms, and infrastructure.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Science Envoy",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 260,
+    "requiredTech": "Education",
+    "uniques": [
+      "Gain [650] [Science] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Human recipients can activate the Science award. AI recipients may instead use the built-in Hurry Research action.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Technology Ambassador",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 900,
+    "requiredTech": "Scientific Theory",
+    "uniques": [
+      "Free Technology <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Human recipients can activate Free Technology. AI behavior for the custom action is not guaranteed.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Writing",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 140,
+    "requiredTech": "Writing",
+    "uniques": [
+      "Discover [Writing] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Education",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 260,
+    "requiredTech": "Education",
+    "uniques": [
+      "Discover [Education] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Gunpowder",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 340,
+    "requiredTech": "Gunpowder",
+    "uniques": [
+      "Discover [Gunpowder] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Scientific Theory",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 420,
+    "requiredTech": "Scientific Theory",
+    "uniques": [
+      "Discover [Scientific Theory] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Industrialization",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 480,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Discover [Industrialization] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Electricity",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 520,
+    "requiredTech": "Electricity",
+    "uniques": [
+      "Discover [Electricity] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Flight",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 550,
+    "requiredTech": "Flight",
+    "uniques": [
+      "Discover [Flight] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Radio",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 600,
+    "requiredTech": "Radio",
+    "uniques": [
+      "Discover [Radio] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Plastics",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 650,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Discover [Plastics] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Electronics",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 690,
+    "requiredTech": "Electronics",
+    "uniques": [
+      "Discover [Electronics] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Radar",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 720,
+    "requiredTech": "Radar",
+    "uniques": [
+      "Discover [Radar] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Rocketry",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 800,
+    "requiredTech": "Rocketry",
+    "uniques": [
+      "Discover [Rocketry] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Computers",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 850,
+    "requiredTech": "Computers",
+    "uniques": [
+      "Discover [Computers] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Satellites",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 930,
+    "requiredTech": "Satellites",
+    "uniques": [
+      "Discover [Satellites] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Blueprint - Robotics",
+    "unitType": "Civilian",
+    "uniqueTo": "Magalanadu",
+    "movement": 3,
+    "cost": 1030,
+    "requiredTech": "Robotics",
+    "uniques": [
+      "Discover [Robotics] <by consuming this unit>",
+      "Can hurry technology research",
+      "Can move immediately once bought",
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+    ]
+  },
+  {
+    "name": "Magalanadu Strategic Fabricator",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 5,
+    "cost": 225,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Can move immediately once bought",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Uncapturable",
+      "Never appears as a Barbarian unit",
+      "[3] Sight",
+      "Comment [Select a tile within your territory, then choose the Create action for the resource you want. Each action constructs a specialized resource-supplying improvement.]",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Horses] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Iron] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Coal] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Oil] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Aluminum] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Uranium] improvement <for [1] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Select this unit on a non-city-center tile you own. Choose Create and the exact resource. The unit is reusable; each creation costs movement."
+      },
+      {
+        "text": "Works across land and water; can enter otherwise impassable tiles. Forest, jungle, marsh, ice and mountain placement is supported by explicit terrain permissions."
+      },
+      {
+        "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator I",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 5,
+    "cost": 185,
+    "requiredTech": "Currency",
+    "uniques": [
+      "Can move immediately once bought",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Uncapturable",
+      "Never appears as a Barbarian unit",
+      "[3] Sight",
+      "Comment [Select a tile within your territory, then choose the Create action for the resource you want. Each action constructs a specialized resource-supplying improvement.]",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Furs] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Cotton] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Dyes] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Gems] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Gold Ore] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Silver] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Incense] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Ivory] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Silk] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Spices] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Wine] improvement <for [1] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Select this unit on a non-city-center tile you own. Choose Create and the exact resource. The unit is reusable; each creation costs movement."
+      },
+      {
+        "text": "Works across land and water; can enter otherwise impassable tiles. Forest, jungle, marsh, ice and mountain placement is supported by explicit terrain permissions."
+      },
+      {
+        "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Luxury Fabricator II",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 5,
+    "cost": 185,
+    "requiredTech": "Currency",
+    "uniques": [
+      "Can move immediately once bought",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Uncapturable",
+      "Never appears as a Barbarian unit",
+      "[3] Sight",
+      "Comment [Select a tile within your territory, then choose the Create action for the resource you want. Each action constructs a specialized resource-supplying improvement.]",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Sugar] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Marble] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Whales] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Pearls] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Jewelry] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Porcelain] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Citrus] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Copper] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Crab] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Salt] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Truffles] improvement <for [1] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Select this unit on a non-city-center tile you own. Choose Create and the exact resource. The unit is reusable; each creation costs movement."
+      },
+      {
+        "text": "Works across land and water; can enter otherwise impassable tiles. Forest, jungle, marsh, ice and mountain placement is supported by explicit terrain permissions."
+      },
+      {
+        "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Bonus Fabricator",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 5,
+    "cost": 140,
+    "requiredTech": "Agriculture",
+    "uniques": [
+      "Can move immediately once bought",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Uncapturable",
+      "Never appears as a Barbarian unit",
+      "[3] Sight",
+      "Comment [Select a tile within your territory, then choose the Create action for the resource you want. Each action constructs a specialized resource-supplying improvement.]",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Cattle] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Sheep] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Deer] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Bananas] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Wheat] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Stone] improvement <for [1] movement>",
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Fish] improvement <for [1] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Select this unit on a non-city-center tile you own. Choose Create and the exact resource. The unit is reusable; each creation costs movement."
+      },
+      {
+        "text": "Works across land and water; can enter otherwise impassable tiles. Forest, jungle, marsh, ice and mountain placement is supported by explicit terrain permissions."
+      },
+      {
+        "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
+      }
+    ]
+  },
+  {
+    "name": "Magalanadu Natural Deposit Surveyor",
+    "uniqueTo": "Magalanadu",
+    "unitType": "Civilian",
+    "movement": 5,
+    "cost": 180,
+    "requiredTech": "Mining",
+    "uniques": [
+      "Can move immediately once bought",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "Uncapturable",
+      "Comment [Native deposits are limited by original terrain eligibility. For universal placement use a Strategic, Luxury or Bonus Fabricator instead.]",
+      "Add [Horses] to this tile <for [1] movement>",
+      "Add [Iron] to this tile <for [1] movement>",
+      "Add [Coal] to this tile <for [1] movement>",
+      "Add [Oil] to this tile <for [1] movement>",
+      "Add [Aluminum] to this tile <for [1] movement>",
+      "Add [Uranium] to this tile <for [1] movement>",
+      "Add [Furs] to this tile <for [1] movement>",
+      "Add [Cotton] to this tile <for [1] movement>",
+      "Add [Dyes] to this tile <for [1] movement>",
+      "Add [Gems] to this tile <for [1] movement>",
+      "Add [Gold Ore] to this tile <for [1] movement>",
+      "Add [Silver] to this tile <for [1] movement>",
+      "Add [Incense] to this tile <for [1] movement>",
+      "Add [Ivory] to this tile <for [1] movement>",
+      "Add [Silk] to this tile <for [1] movement>",
+      "Add [Spices] to this tile <for [1] movement>",
+      "Add [Wine] to this tile <for [1] movement>",
+      "Add [Sugar] to this tile <for [1] movement>",
+      "Add [Marble] to this tile <for [1] movement>",
+      "Add [Whales] to this tile <for [1] movement>",
+      "Add [Pearls] to this tile <for [1] movement>",
+      "Add [Jewelry] to this tile <for [1] movement>",
+      "Add [Porcelain] to this tile <for [1] movement>",
+      "Add [Citrus] to this tile <for [1] movement>",
+      "Add [Copper] to this tile <for [1] movement>",
+      "Add [Crab] to this tile <for [1] movement>",
+      "Add [Salt] to this tile <for [1] movement>",
+      "Add [Truffles] to this tile <for [1] movement>",
+      "Add [Cattle] to this tile <for [1] movement>",
+      "Add [Sheep] to this tile <for [1] movement>",
+      "Add [Deer] to this tile <for [1] movement>",
+      "Add [Bananas] to this tile <for [1] movement>",
+      "Add [Wheat] to this tile <for [1] movement>",
+      "Add [Stone] to this tile <for [1] movement>",
+      "Add [Fish] to this tile <for [1] movement>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "This unit adds REAL natural resources, but Unciv permits them only on a terrain allowed by the resource itself."
+      },
+      {
+        "text": "Use the other four Magalanadu Fabricator units for resource production on every ordinary land or water tile."
+      },
+      {
+        "text": "Adding a natural deposit replaces a resource that was previously present on the tile."
+      }
+    ]
+  }
+]

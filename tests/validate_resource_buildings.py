@@ -12,15 +12,15 @@ expected=manifest['newResourceBuildings'];assert len(expected)==35 and len(set(e
 buildings={b['name']:b for b in B}
 assert all(b in buildings for b in expected)
 nation=N[0]['uniques'];duration=manifest['resourceBuildingDurationTurns']
-assert duration>=999999 and len(nation)==84
+assert duration>=999999 and len(nation)==87
 counts=Counter()
 for name in expected:
     b=buildings[name]
     assert name not in [v['name'] for v in B[:24]]
     assert b['uniqueTo']=='Magalanadu'
-    assert b['uniques']==[f'Remove [{name}] [in this city]'],(name,b['uniques'])
+    assert b['uniques']==[f'Can be purchased with [{c}] [in all cities]' for c in ['Gold','Culture','Faith']]+['Cost increases by [5] when built',f'Remove [{name}] [in this city]'],(name,b['uniques'])
     assert not b.get('isWonder',False) and not b.get('isNationalWonder',False)
-    assert b['cost']>=100
+    assert b['cost']==5
     assert not any(x in b for x in ('food','gold','production')),'lasting yields must not vanish on self-removal'
     cat,res=next((a,c) for a,c in [('Strategic',r) for r in ['Horses','Iron','Coal','Oil','Aluminum','Uranium']]+[('Luxury',r) for r in ['Citrus','Copper','Cotton','Crab','Dyes','Furs','Gems','Gold Ore','Incense','Ivory','Jewelry','Marble','Pearls','Porcelain','Salt','Silk','Silver','Spices','Sugar','Truffles','Whales','Wine']]+[('Bonus',r) for r in ['Bananas','Cattle','Deer','Fish','Sheep','Stone','Wheat']] if name.startswith(c+' '))
     counts[cat]+=1

@@ -1,6 +1,11 @@
-# Magalanadu: Balanced Advantage + Optional Power Projects
+# Magalanadu v2.9: Balanced Advantage, Power Projects, and Enhanced Movement
 
 **For Unciv 4.22.16 (Civ V: Gods & Kings extension).** This is a rebalance of the original personal mod, `Unciv-Mod-For-Me`, preserving the civilization, all 42 custom units, the 14 original buildings, all 9 original tile improvements and the 3 promotion groups.
+
+
+## v2.9 movement upgrade (Unciv 4.22.16)
+
+Every non-settler Magalanadu custom unit has **5×** its original v2.7 base movement (64 units). The **Super Cheat Settler** now replaces the normal Settler for Magalanadu and has **300 movement**, all tiles cost 1 movement, water traversal without embarking, and broader passage permissions. Aircraft and missiles have **5×** their original `range` as well because Unciv handles their relocation with range, not movement. See [MOVEMENT_UPGRADE_GUIDE.md](MOVEMENT_UPGRADE_GUIDE.md) for a complete table and testing caveats. Existing pre-upgrade Settlers in saved games may not be replaced automatically.
 
 ## What changed?
 
@@ -12,7 +17,7 @@ The civilization is still privileged, but no longer receives automatic 1,000% or
 
 Unciv 4.22.16 does not include the newer `Can be built [amount] times in each city` feature. The version-compatible approach is:
 
-1. Construct a project as an ordinary building using Production (these cannot be purchased).
+1. Construct a project using Production, or purchase it directly using Gold, Culture, or Faith after enabling the v2.7 purchase rules.
 2. It pays the immediate reward, if any, and applies long-lasting bonus abilities stored by the civilization.
 3. The last unique removes **only that project** from the city. Therefore it is available for selection again immediately.
 4. Repeating the build adds additional temporary unique bonuses. Each lasts **9,999 turns**, effectively the rest of a normal game, but is not literally permanent.
@@ -75,3 +80,12 @@ Added a set of 35 named Resource Supply buildings, one per base Unciv resource, 
 ## v2.5: Repeatable resource-first named facilities
 
 Each of the 35 v2.4 resource supply buildings is now repeatable in the same city, and named with the resource first (e.g. **Iron Mill**, **Oil Refinery**, **Uranium Enrichment Facility**). Each construction gives another **+100** supply for 999,999 turns via a Nation-owned construction trigger and then removes the building. See [RESOURCE_SUPPLY_REPEATABLE_GUIDE.md](RESOURCE_SUPPLY_REPEATABLE_GUIDE.md). A separate custom construction category is not supported by Unciv JSON mods.
+
+
+## v2.6 - Low-cost building purchases
+
+All 59 Magalanadu buildings start at 5 Production and can be purchased with Gold, Culture, or Faith at an increasing price from 10 on Standard speed. See [PURCHASE_SYSTEM_GUIDE.md](PURCHASE_SYSTEM_GUIDE.md). The 35 resource facilities, 10 Supreme Projects, custom units, and preexisting assets are preserved. This build is offline-validated, not gameplay-certified.
+
+## v2.7 - Explicit purchase access for every Magalanadu building
+
+All **59 mod-defined buildings** now explicitly allow purchase using **Gold, Culture, and Faith**, including Supreme Projects, all 35 repeatable resource facilities, and the 14 original special wonders. This also removes any active per-building `Cannot be purchased` flag. Base costs and their escalating-price mechanics remain from v2.6. See `PURCHASE_SYSTEM_GUIDE.md`. The change does not overwrite vanilla world wonders, remove technology prerequisites, or bypass city/turn restrictions.

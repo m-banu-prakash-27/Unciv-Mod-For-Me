@@ -102,7 +102,7 @@
     "Buildings.json": "f316a8e7f9c0eb2313f7c5a5897eb05fce1fdf28a1ff3a81b19887705fd846f2",
     "UnitPromotions.json": "32f1cae247893eb8e856252f73c550ca6c158ef974a59c4f552fea0e38db3aa0"
   },
-  "newUniqueEntries": 1038,
+  "newUniqueEntries": 1272,
   "atlasPages": [
     "game",
     "MagalanaduProjects",
@@ -288,5 +288,18 @@
     "Magalanadu Resource Supply - Strategic - Iron": "Iron Mill",
     "Magalanadu Resource Supply - Strategic - Oil": "Oil Refinery",
     "Magalanadu Resource Supply - Strategic - Uranium": "Uranium Enrichment Facility"
-  }
+  },
+  "purchaseSystemVersion": "v2.7",
+  "purchaseBaseCost": 10,
+  "purchaseIncreaseParameter": 10,
+  "productionBaseCost": 5,
+  "productionIncreaseWhenBuilt": 5,
+  "explicitPurchaseCurrencies": [
+    "Gold",
+    "Culture",
+    "Faith"
+  ],
+  "purchaseUnlockBuildingCount": 59,
+  "purchaseRestrictionsRemoved": 0,
+  "purchaseRestrictionsNote": "v2.6 already removed all active Cannot be purchased building flags; v2.7 explicitly grants all three currencies to every Magalanadu building."
 }

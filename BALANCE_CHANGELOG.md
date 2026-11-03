@@ -19,7 +19,7 @@ All original 14 special buildings remain, no longer costing 1 Production or gran
 
 ## Repeatable bonus projects (10)
 
-All of these cost 300 to 420 Production and can be selected again once completed. They are optional, civ-exclusive, cannot be purchased outright, and use the supported **self-removal on completion** approach. Bonuses last **9,999 turns** and stack on each completion.
+All of these cost 300 to 420 Production and can be selected again once completed. They are optional, civ-exclusive and use the supported **self-removal on completion** approach. As of v2.7 they can also be purchased with Gold, Culture, or Faith. Bonuses last **9,999 turns** and stack on each completion.
 
 | Name | One-time payout | Stacking long-term effect |
 |---|---|---|
@@ -46,3 +46,14 @@ Important: The base game generally allows each **ordinary building** only once p
 - Gameplay reward and stack persistence need actual Unciv 4.22.16 test. Do not treat this package as runtime-certified.
 - A new game is recommended when comparing balance changes. Existing saves retain their previously accumulated high resources.
 - Unciv caps stored Gold at 2,147,483,647. Once reached, additional Gold gains will not increase the stored amount until some is spent.
+
+
+## v2.6 - Low-cost escalating construction (2026-11-03)
+
+- Added nation-wide purchase rights for Gold, Culture, Faith to all eligible buildings at starting 10, increasing by Unciv's built-in quadratic schedule.
+- Reduced base production cost of 59 Magalanadu buildings to 5, added 5 per completed build.
+- Allowed Gold purchases for all 14 Magalanadu special wonders.
+- Removed purchase prohibition from 10 optional Supreme Projects, retaining rewards and self-removal.
+- Preserved 35 repeatable resource supply factories, +100-per-completion rewards and all icons.
+- Updated tests and added `tests/validate_purchase_system.py`.
+- Purchase values round to multiples of 10 in Unciv 4.22.16. Runtime gameplay test still pending.

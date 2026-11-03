@@ -50,7 +50,7 @@ for u in nation['uniques']:
     if re.search(r'\[([+-]?\d{3,})\]%',u):errors.append('Massive passive nation bonus: '+u)
 for o in current['Buildings.json']:
     if o['name'] not in F['newRepeatableProjects']:
-        if o.get('cost',0)<100:errors.append('Legacy special building remains near-free: '+o['name'])
+        if o.get('cost')!=5:errors.append('Custom building base Production cost is not 5: '+o['name'])
         for u in o.get('uniques',[]):
             if re.search(r'\[([+-]?\d{3,})\]%',u):errors.append('Massive passive legacy building bonus: '+o['name']+' '+u)
 for o in current['Units.json']:
@@ -66,11 +66,11 @@ for name,b in projects.items():
     if b.get('uniqueTo')!='Magalanadu':errors.append(f'{name}: not limited to Magalanadu')
     if b.get('isWonder') or b.get('isNationalWonder'):errors.append(f'{name}: must be ordinary repeatable build')
     u=b.get('uniques',[])
-    if u[0]!='Cannot be purchased':errors.append(f'{name}: cash purchase blocked by missing unique')
+    if 'Cannot be purchased' in u:errors.append(f'{name}: cash purchase still blocked')
     if u[-1]!=f'Remove [{name}] [in this city]':errors.append(f'{name}: self-removal must be LAST')
     if not any('<for [9999] turns>' in a for a in u):errors.append(f'{name}: no persistent stackable reward')
     if any('Can be built [' in a for a in u):errors.append(f'{name}: 4.22.16 does not implement repeat-build unique')
-    if not isinstance(b.get('cost'),int) or b['cost']<=0:errors.append(f'{name}: no production cost')
+    if b.get('cost') != 5:errors.append(f'{name}: incorrect base production cost')
 
 treasury=projects.get('Magalanadu Treasury Contract',{})
 if 'Gain [999999999] [Gold]' not in treasury.get('uniques',[]):errors.append('Gold lump-sum reward missing')

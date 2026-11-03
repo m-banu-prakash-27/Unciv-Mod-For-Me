@@ -132,7 +132,10 @@
       "Provides [100] [Oil] <upon constructing [Oil Refinery]> <for [999999] turns>",
       "[+2 Production] [in capital] <upon constructing [Oil Refinery]> <for [999999] turns>",
       "Provides [100] [Uranium] <upon constructing [Uranium Enrichment Facility]> <for [999999] turns>",
-      "[+2 Production] [in capital] <upon constructing [Uranium Enrichment Facility]> <for [999999] turns>"
+      "[+2 Production] [in capital] <upon constructing [Uranium Enrichment Facility]> <for [999999] turns>",
+      "May buy [All] buildings for [10] [Gold] [in all cities] at an increasing price ([10])",
+      "May buy [All] buildings for [10] [Culture] [in all cities] at an increasing price ([10])",
+      "May buy [All] buildings for [10] [Faith] [in all cities] at an increasing price ([10])"
     ]
   }
 ]
