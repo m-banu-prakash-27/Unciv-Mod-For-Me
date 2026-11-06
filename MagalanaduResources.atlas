@@ -1,3 +1,4 @@
+
 MagalanaduResources.png
 size: 1024, 1024
 format: RGBA8888
@@ -5,63 +6,63 @@ filter: MipMapLinearLinear, Linear
 repeat: none
 ImprovementIcons/Magalanadu Strategic Fabricator - Horses
   rotate: false
-  xy: 8, 8
+  xy: 12, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Strategic Fabricator - Iron
   rotate: false
-  xy: 136, 8
+  xy: 136, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Strategic Fabricator - Coal
   rotate: false
-  xy: 264, 8
+  xy: 260, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Strategic Fabricator - Oil
   rotate: false
-  xy: 392, 8
+  xy: 384, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Strategic Fabricator - Aluminum
   rotate: false
-  xy: 520, 8
+  xy: 508, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Strategic Fabricator - Uranium
   rotate: false
-  xy: 648, 8
+  xy: 632, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Furs
   rotate: false
-  xy: 776, 8
+  xy: 756, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Cotton
   rotate: false
-  xy: 904, 8
+  xy: 880, 12
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Dyes
   rotate: false
-  xy: 8, 136
+  xy: 12, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
@@ -75,210 +76,203 @@ ImprovementIcons/Magalanadu Luxury Fabricator - Gems
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Gold Ore
   rotate: false
-  xy: 264, 136
+  xy: 260, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Silver
   rotate: false
-  xy: 392, 136
+  xy: 384, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Incense
   rotate: false
-  xy: 520, 136
+  xy: 508, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Ivory
   rotate: false
-  xy: 648, 136
+  xy: 632, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Silk
   rotate: false
-  xy: 776, 136
+  xy: 756, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Spices
   rotate: false
-  xy: 904, 136
+  xy: 880, 136
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Wine
   rotate: false
-  xy: 8, 264
+  xy: 12, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Sugar
   rotate: false
-  xy: 136, 264
+  xy: 136, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Marble
   rotate: false
-  xy: 264, 264
+  xy: 260, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Whales
   rotate: false
-  xy: 392, 264
+  xy: 384, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Pearls
   rotate: false
-  xy: 520, 264
+  xy: 508, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Jewelry
   rotate: false
-  xy: 648, 264
+  xy: 632, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Porcelain
   rotate: false
-  xy: 776, 264
+  xy: 756, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Citrus
   rotate: false
-  xy: 904, 264
+  xy: 880, 260
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Copper
   rotate: false
-  xy: 8, 392
+  xy: 12, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Crab
   rotate: false
-  xy: 136, 392
+  xy: 136, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Salt
   rotate: false
-  xy: 264, 392
+  xy: 260, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Luxury Fabricator - Truffles
   rotate: false
-  xy: 392, 392
+  xy: 384, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Cattle
   rotate: false
-  xy: 520, 392
+  xy: 508, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Sheep
   rotate: false
-  xy: 648, 392
+  xy: 632, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Deer
   rotate: false
-  xy: 776, 392
+  xy: 756, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Bananas
   rotate: false
-  xy: 904, 392
+  xy: 880, 384
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Wheat
   rotate: false
-  xy: 8, 520
+  xy: 12, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Stone
   rotate: false
-  xy: 136, 520
+  xy: 136, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 ImprovementIcons/Magalanadu Bonus Fabricator - Fish
   rotate: false
-  xy: 264, 520
+  xy: 260, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Magalanadu Strategic Fabricator
   rotate: false
-  xy: 392, 520
+  xy: 384, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Magalanadu Luxury Fabricator I
   rotate: false
-  xy: 520, 520
+  xy: 508, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Magalanadu Luxury Fabricator II
   rotate: false
-  xy: 648, 520
+  xy: 632, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0
   index: -1
 UnitIcons/Magalanadu Bonus Fabricator
   rotate: false
-  xy: 776, 520
-  size: 112, 112
-  orig: 112, 112
-  offset: 0, 0
-  index: -1
-UnitIcons/Magalanadu Natural Deposit Surveyor
-  rotate: false
-  xy: 904, 520
+  xy: 756, 508
   size: 112, 112
   orig: 112, 112
   offset: 0, 0

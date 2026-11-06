@@ -17,9 +17,19 @@
       "Can instantly construct a [Omni Resource Generator] improvement",
       "Can instantly construct a [Luxury Fabricator] improvement",
       "Can instantly construct a [Wonder City Core] improvement",
-      "Can instantly construct a [Artificial Freshwater Garden] improvement"
+      "Can instantly construct a [Artificial Freshwater Garden] improvement",
+      "May travel on Water tiles without embarking",
+      "Can enter ice tiles",
+      "Can pass through impassable tiles",
+      "All tiles cost 1 movement",
+      "May enter foreign tiles without open borders"
     ],
-    "cost": 100
+    "cost": 100,
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Super Cheat Settler",
@@ -40,7 +50,12 @@
       "May enter foreign tiles without open borders"
     ],
     "cost": 160,
-    "replaces": "Settler"
+    "replaces": "Settler",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Super Cheat Warrior",
@@ -68,10 +83,16 @@
       "Eliminates combat penalty for attacking across a coast",
       "May attack when embarked",
       "Eliminates combat penalty for attacking over a river",
-      "Ranged attacks may be performed over obstacles"
+      "Ranged attacks may be performed over obstacles",
+      "May enter foreign tiles without open borders"
     ],
     "cost": 120,
-    "range": 2
+    "range": 2,
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Super Cheat Trooper",
@@ -99,10 +120,16 @@
       "Eliminates combat penalty for attacking across a coast",
       "May attack when embarked",
       "Eliminates combat penalty for attacking over a river",
-      "Ranged attacks may be performed over obstacles"
+      "Ranged attacks may be performed over obstacles",
+      "May enter foreign tiles without open borders"
     ],
     "cost": 160,
-    "range": 2
+    "range": 2,
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Bowman",
@@ -117,10 +144,16 @@
     "uniqueTo": "Magalanadu",
     "uniques": [
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
     "upgradesTo": "Crossbowman",
-    "attackSound": "arrow"
+    "attackSound": "arrow",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian War Elephant",
@@ -136,9 +169,15 @@
     "obsoleteTech": "Chivalry",
     "uniques": [
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "elephant"
+    "attackSound": "elephant",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Infantry",
@@ -152,9 +191,15 @@
     "upgradesTo": "Infantry",
     "uniques": [
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "shot"
+    "attackSound": "shot",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Carrier",
@@ -168,7 +213,13 @@
     "uniques": [
       "Can carry [3] [Missile] units",
       "Can carry [4] [Aircraft] units",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -187,9 +238,15 @@
       "[+25]% Strength <vs [Air] units>",
       "[+25]% Strength <vs [Helicopter] units>",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "machinegun"
+    "attackSound": "machinegun",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Destroyer",
@@ -206,9 +263,15 @@
       "[+25]% chance to intercept air attacks",
       "Withdraws before melee combat <with [20]% chance>",
       "[+25]% Strength <vs [Submarine] units>",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "shipguns"
+    "attackSound": "shipguns",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "MAG-41",
@@ -223,11 +286,15 @@
     "requiredTech": "Radar",
     "promotions": [
       "Evasion",
-      "Siege I"
+      "Siege I",
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ],
     "uniques": [
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
     "attackSound": "bombing"
   },
@@ -243,9 +310,15 @@
     "uniques": [
       "May Paradrop to [All] tiles up to [8] tiles away",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "shot"
+    "attackSound": "shot",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Tank",
@@ -261,9 +334,15 @@
       "Can move after attacking",
       "No defensive terrain bonus",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "tankshot"
+    "attackSound": "tankshot",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Anti-Tank Gun",
@@ -278,9 +357,15 @@
     "uniques": [
       "[+25]% Strength <vs [Armored] units>",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "machinegun"
+    "attackSound": "machinegun",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Mobile SAM",
@@ -297,9 +382,15 @@
       "[+25]% Strength <vs [Air] units>",
       "[+25]% Strength <vs [Helicopter] units>",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "missile"
+    "attackSound": "missile",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Guided Missile",
@@ -314,9 +405,15 @@
     "requiredTech": "Advanced Ballistics",
     "uniques": [
       "[-20]% maintenance costs",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "missile"
+    "attackSound": "missile",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Helicopter Gunship",
@@ -335,9 +432,15 @@
       "All tiles cost 1 movement",
       "Ignores Zone of Control",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "machinegun"
+    "attackSound": "machinegun",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Nuclear Submarine",
@@ -355,9 +458,15 @@
       "[+1] Sight",
       "Can carry [3] [Missile] units",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "torpedo"
+    "attackSound": "torpedo",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Mechanized Infantry",
@@ -370,9 +479,15 @@
     "requiredTech": "Mobile Tactics",
     "uniques": [
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "tankshot"
+    "attackSound": "tankshot",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Missile Cruiser",
@@ -392,10 +507,14 @@
       "Can carry [3] [Missile] units",
       "[+25]% Strength <vs [Submarine] units>",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
     "promotions": [
-      "Indirect Fire"
+      "Indirect Fire",
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ],
     "attackSound": "shipguns"
   },
@@ -414,9 +533,15 @@
       "Can move after attacking",
       "No defensive terrain bonus",
       "Never appears as a Barbarian unit",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "tankshot"
+    "attackSound": "tankshot",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Jet Fighter",
@@ -436,9 +561,15 @@
       "[+25]% Strength <vs [Bomber] units>",
       "[+25]% Strength <vs [Helicopter] units>",
       "Can carry [3] [Missile] units",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "jetgun"
+    "attackSound": "jetgun",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Giant Death Robot",
@@ -455,9 +586,15 @@
       "No defensive terrain bonus",
       "Never appears as a Barbarian unit",
       "Can carry [2] [Missile] units",
-      "Can move immediately once bought"
+      "Can move immediately once bought",
+      "May enter foreign tiles without open borders"
     ],
-    "attackSound": "gdrAttack"
+    "attackSound": "gdrAttack",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
+    ]
   },
   {
     "name": "Indian Stealth Bomber",
@@ -476,39 +613,14 @@
       "Can carry [3] [Missile] units",
       "[+2] Sight",
       "Can see over obstacles",
-      "Can move immediately once bought"
-    ],
-    "attackSound": "bombing"
-  },
-  {
-    "name": "Magalanadu Shadow Agent",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "strength": 34,
-    "rangedStrength": 32,
-    "range": 2,
-    "cost": 180,
-    "requiredTech": "Printing Press",
-    "attackSound": "shot",
-    "uniques": [
-      "Invisible to others",
-      "Invisible to non-adjacent units",
-      "Can see invisible [All] units",
-      "May enter foreign tiles without open borders",
-      "Can move after attacking",
       "Can move immediately once bought",
-      "All tiles cost 1 movement",
-      "Can pass through impassable tiles",
-      "Can see over obstacles",
-      "Ranged attacks may be performed over obstacles",
-      "[3] Sight",
-      "[1] additional attacks per turn",
-      "Withdraws before melee combat <with [20]% chance>",
-      "No movement cost to pillage",
-      "May capture killed [All] units",
-      "Never appears as a Barbarian unit",
-      "Uncapturable"
+      "May enter foreign tiles without open borders"
+    ],
+    "attackSound": "bombing",
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -536,6 +648,11 @@
       "Religious Unit",
       "Great Person - [Faith]",
       "Only available <when religion is enabled>"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -552,84 +669,14 @@
       "Great Person - [War]",
       "Unbuildable",
       "Uncapturable",
-      "Comment [Unbuildable Great Person. Gain through Great Person rewards rather than normal city production.]"
+      "Comment [Unbuildable Great Person. Gain through Great Person rewards rather than normal city production.]",
+      "May enter foreign tiles without open borders"
     ],
-    "movement": 20
-  },
-  {
-    "name": "Magalanadu Saboteur",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
     "movement": 20,
-    "strength": 48,
-    "cost": 220,
-    "requiredTech": "Dynamite",
-    "attackSound": "shot",
-    "uniques": [
-      "Invisible to others",
-      "Invisible to non-adjacent units",
-      "May enter foreign tiles without open borders",
-      "Can see invisible [All] units",
-      "No movement cost to pillage",
-      "All tiles cost 1 movement",
-      "Can pass through impassable tiles",
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "Withdraws before melee combat <with [25]% chance>",
-      "[3] Sight",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
-      "Uncapturable"
-    ]
-  },
-  {
-    "name": "Magalanadu False Flag Operative",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "strength": 62,
-    "cost": 280,
-    "requiredTech": "Replaceable Parts",
-    "attackSound": "shot",
-    "uniques": [
-      "Invisible to others",
-      "Invisible to non-adjacent units",
-      "May enter foreign tiles without open borders",
-      "Can see invisible [All] units",
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "All tiles cost 1 movement",
-      "No movement cost to pillage",
-      "May capture killed [All] units",
-      "[+25]% Strength <vs [Wounded] units>",
-      "Withdraws before melee combat <with [20]% chance>",
-      "[3] Sight",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
-      "Uncapturable",
-      "Comment [Covert combat raider. Its attacks do not create a diplomatic false-flag incident.]"
-    ]
-  },
-  {
-    "name": "Magalanadu Proxy Commander",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 15,
-    "strength": 76,
-    "cost": 350,
-    "requiredTech": "Radio",
-    "attackSound": "shot",
-    "uniques": [
-      "[+20]% Strength bonus for [Military] units within [3] tiles",
-      "All adjacent units heal [10] HP when healing",
-      "May capture killed [All] units",
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "All tiles cost 1 movement",
-      "[3] Sight",
-      "Great Person - [War]",
-      "Never appears as a Barbarian unit",
-      "Uncapturable"
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -653,54 +700,11 @@
       "Uncapturable",
       "Religious Unit",
       "Only available <when religion is enabled>"
-    ]
-  },
-  {
-    "name": "Magalanadu Black Ops Cell",
-    "unitType": "Ranged Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "strength": 85,
-    "rangedStrength": 100,
-    "range": 3,
-    "cost": 420,
-    "requiredTech": "Radar",
-    "attackSound": "shot",
-    "uniques": [
-      "Invisible to others",
-      "Invisible to non-adjacent units",
-      "May enter foreign tiles without open borders",
-      "Can see invisible [All] units",
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "All tiles cost 1 movement",
-      "Can pass through impassable tiles",
-      "Can see over obstacles",
-      "Ranged attacks may be performed over obstacles",
-      "No movement cost to pillage",
-      "[1] additional attacks per turn",
-      "[4] Sight",
-      "Withdraws before melee combat <with [25]% chance>",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
-      "Uncapturable"
-    ]
-  },
-  {
-    "name": "Magalanadu Arms Dealer",
-    "unitType": "Civilian",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "cost": 200,
-    "requiredTech": "Economics",
-    "uniques": [
-      "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
-      "May enter foreign tiles without open borders",
-      "Can move immediately once bought",
-      "[3] Sight",
-      "Great Person - [War]",
-      "Uncapturable",
-      "Comment [Instantly builds an Arms Depot when consumed on an eligible tile. It does not trade arms with civilizations.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -728,96 +732,13 @@
       "Invisible to non-adjacent units",
       "Unable to capture cities",
       "Never appears as a Barbarian unit",
-      "Uncapturable"
-    ]
-  },
-  {
-    "name": "Magalanadu Cyber Warfare Cell",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 25,
-    "strength": 85,
-    "cost": 430,
-    "requiredTech": "Computers",
-    "attackSound": "shot",
-    "uniques": [
-      "Invisible to others",
-      "Invisible to non-adjacent units",
-      "May enter foreign tiles without open borders",
-      "Can see invisible [All] units",
-      "No movement cost to pillage",
-      "All tiles cost 1 movement",
-      "Can pass through impassable tiles",
-      "Ignores Zone of Control",
-      "Withdraws before melee combat <with [25]% chance>",
-      "[4] Sight",
-      "[+30]% Strength <vs [Wounded] units>",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
       "Uncapturable",
-      "Comment [Stealth reconnaissance and pillaging unit. It does not perform computer-network or spy-screen cyberattacks.]"
-    ]
-  },
-  {
-    "name": "Magalanadu Resource Smuggler",
-    "unitType": "Civilian",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "cost": 240,
-    "requiredTech": "Industrialization",
-    "uniques": [
-      "Can instantly construct a [Strategic Resource Generator] improvement <by consuming this unit>",
-      "Can instantly construct a [Arms Depot] improvement <by consuming this unit>",
-      "May enter foreign tiles without open borders",
-      "Can move immediately once bought",
-      "All tiles cost 1 movement",
-      "[3] Sight",
-      "Great Person - [Gold]",
-      "Uncapturable",
-      "Comment [Instantly builds a Strategic Resource Generator or Arms Depot on a valid tile; it does not transfer resources diplomatically.]"
-    ]
-  },
-  {
-    "name": "Corporate Mercenary",
-    "unitType": "Gunpowder",
-    "movement": 15,
-    "strength": 36,
-    "cost": 190,
-    "requiredTech": "Gunpowder",
-    "upgradesTo": "Infantry",
-    "attackSound": "shot",
-    "uniques": [
-      "Can move immediately once bought",
-      "[+25]% Strength <when attacking>",
-      "No movement cost to pillage",
-      "[2] XP gained from combat",
-      "Never appears as a Barbarian unit"
+      "May enter foreign tiles without open borders"
     ],
-    "uniqueTo": "Magalanadu"
-  },
-  {
-    "name": "Magalanadu War Profiteer",
-    "unitType": "Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "strength": 58,
-    "cost": 350,
-    "requiredTech": "Economics",
-    "attackSound": "shot",
-    "uniques": [
-      "[+15]% Strength bonus for [Military] units within [3] tiles",
-      "All adjacent units heal [10] HP when healing",
-      "May capture killed [All] units",
-      "[+25]% XP gained from combat",
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "No movement cost to pillage",
-      "All tiles cost 1 movement",
-      "[3] Sight",
-      "Great Person - [War]",
-      "Never appears as a Barbarian unit",
-      "Uncapturable",
-      "Comment [Combat support commander granting nearby bonuses. It does not automatically earn Gold from wars.]"
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -839,33 +760,13 @@
       "[4] Sight",
       "Can see invisible [All] units",
       "Never appears as a Barbarian unit",
-      "Uncapturable"
-    ]
-  },
-  {
-    "name": "Magalanadu Orbital Strike Team",
-    "unitType": "Ranged Gunpowder",
-    "uniqueTo": "Magalanadu",
-    "movement": 20,
-    "strength": 95,
-    "rangedStrength": 135,
-    "range": 4,
-    "cost": 550,
-    "requiredTech": "Satellites",
-    "attackSound": "missile",
-    "uniques": [
-      "Can move after attacking",
-      "Can move immediately once bought",
-      "Can see over obstacles",
-      "Ranged attacks may be performed over obstacles",
-      "[1] additional attacks per turn",
-      "[4] Sight",
-      "Can see invisible [All] units",
-      "All tiles cost 1 movement",
-      "Unable to capture cities",
-      "Never appears as a Barbarian unit",
       "Uncapturable",
-      "Comment [Long-range artillery-style land combat unit. It does not launch map-wide orbital attacks.]"
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -885,7 +786,13 @@
       "All tiles cost 1 movement",
       "[3] Sight",
       "Great Person - [Production]",
-      "Uncapturable"
+      "Uncapturable",
+      "May enter foreign tiles without open borders"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -900,7 +807,13 @@
     "uniques": [
       "Never appears as a Barbarian unit",
       "Can move immediately once bought",
-      "Comment [Move into friendly major civilization territory, then use the native Gift Unit action to transfer command.]"
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -913,7 +826,14 @@
     "uniques": [
       "Can build [Land] improvements on tiles",
       "Can move immediately once bought",
-      "Comment [Can be given to a friendly major civilization to improve roads, farms, and infrastructure.]"
+      "Comment [Can be given to a friendly major civilization to improve roads, farms, and infrastructure.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -927,7 +847,14 @@
       "Gain [650] [Science] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Human recipients can activate the Science award. AI recipients may instead use the built-in Hurry Research action.]"
+      "Comment [Human recipients can activate the Science award. AI recipients may instead use the built-in Hurry Research action.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -941,7 +868,14 @@
       "Free Technology <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Human recipients can activate Free Technology. AI behavior for the custom action is not guaranteed.]"
+      "Comment [Human recipients can activate Free Technology. AI behavior for the custom action is not guaranteed.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -955,7 +889,14 @@
       "Discover [Writing] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -969,7 +910,14 @@
       "Discover [Education] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -983,7 +931,14 @@
       "Discover [Gunpowder] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -997,7 +952,14 @@
       "Discover [Scientific Theory] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1011,7 +973,14 @@
       "Discover [Industrialization] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1025,7 +994,14 @@
       "Discover [Electricity] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1039,7 +1015,14 @@
       "Discover [Flight] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1053,7 +1036,14 @@
       "Discover [Radio] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1067,7 +1057,14 @@
       "Discover [Plastics] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1081,7 +1078,14 @@
       "Discover [Electronics] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1095,7 +1099,14 @@
       "Discover [Radar] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1109,7 +1120,14 @@
       "Discover [Rocketry] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1123,7 +1141,14 @@
       "Discover [Computers] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1137,7 +1162,14 @@
       "Discover [Satellites] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1151,7 +1183,14 @@
       "Discover [Robotics] <by consuming this unit>",
       "Can hurry technology research",
       "Can move immediately once bought",
-      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]"
+      "Comment [Gift to a friendly major civilization. Human recipients may consume for this exact technology. AI recipients are not guaranteed to use the special action but may use Hurry Research late-game.]",
+      "May enter foreign tiles without open borders",
+      "Comment [To gift to another major Civilization without Open Borders, the optional Magalanadu Unciv engine patch is required. In unmodified Unciv, only gift from friendly major-Civ territory or from a valid City-State tile.]"
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1176,7 +1215,8 @@
       "Can instantly construct a [Magalanadu Strategic Fabricator - Coal] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Strategic Fabricator - Oil] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Strategic Fabricator - Aluminum] improvement <for [1] movement>",
-      "Can instantly construct a [Magalanadu Strategic Fabricator - Uranium] improvement <for [1] movement>"
+      "Can instantly construct a [Magalanadu Strategic Fabricator - Uranium] improvement <for [1] movement>",
+      "May enter foreign tiles without open borders"
     ],
     "civilopediaText": [
       {
@@ -1188,6 +1228,11 @@
       {
         "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
       }
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1217,7 +1262,8 @@
       "Can instantly construct a [Magalanadu Luxury Fabricator - Ivory] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Luxury Fabricator - Silk] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Luxury Fabricator - Spices] improvement <for [1] movement>",
-      "Can instantly construct a [Magalanadu Luxury Fabricator - Wine] improvement <for [1] movement>"
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Wine] improvement <for [1] movement>",
+      "May enter foreign tiles without open borders"
     ],
     "civilopediaText": [
       {
@@ -1229,6 +1275,11 @@
       {
         "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
       }
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1258,7 +1309,8 @@
       "Can instantly construct a [Magalanadu Luxury Fabricator - Copper] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Luxury Fabricator - Crab] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Luxury Fabricator - Salt] improvement <for [1] movement>",
-      "Can instantly construct a [Magalanadu Luxury Fabricator - Truffles] improvement <for [1] movement>"
+      "Can instantly construct a [Magalanadu Luxury Fabricator - Truffles] improvement <for [1] movement>",
+      "May enter foreign tiles without open borders"
     ],
     "civilopediaText": [
       {
@@ -1270,6 +1322,11 @@
       {
         "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
       }
+    ],
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   },
   {
@@ -1295,7 +1352,8 @@
       "Can instantly construct a [Magalanadu Bonus Fabricator - Bananas] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Bonus Fabricator - Wheat] improvement <for [1] movement>",
       "Can instantly construct a [Magalanadu Bonus Fabricator - Stone] improvement <for [1] movement>",
-      "Can instantly construct a [Magalanadu Bonus Fabricator - Fish] improvement <for [1] movement>"
+      "Can instantly construct a [Magalanadu Bonus Fabricator - Fish] improvement <for [1] movement>",
+      "May enter foreign tiles without open borders"
     ],
     "civilopediaText": [
       {
@@ -1307,69 +1365,11 @@
       {
         "text": "Creates a resource-producing tile improvement, NOT an authentic natural resource deposit. Does not allow arbitrary placement on city centers or natural wonders."
       }
-    ]
-  },
-  {
-    "name": "Magalanadu Natural Deposit Surveyor",
-    "uniqueTo": "Magalanadu",
-    "unitType": "Civilian",
-    "movement": 25,
-    "cost": 180,
-    "requiredTech": "Mining",
-    "uniques": [
-      "Can move immediately once bought",
-      "May travel on Water tiles without embarking",
-      "Can enter ice tiles",
-      "Can pass through impassable tiles",
-      "All tiles cost 1 movement",
-      "Uncapturable",
-      "Comment [Native deposits are limited by original terrain eligibility. For universal placement use a Strategic, Luxury or Bonus Fabricator instead.]",
-      "Add [Horses] to this tile <for [1] movement>",
-      "Add [Iron] to this tile <for [1] movement>",
-      "Add [Coal] to this tile <for [1] movement>",
-      "Add [Oil] to this tile <for [1] movement>",
-      "Add [Aluminum] to this tile <for [1] movement>",
-      "Add [Uranium] to this tile <for [1] movement>",
-      "Add [Furs] to this tile <for [1] movement>",
-      "Add [Cotton] to this tile <for [1] movement>",
-      "Add [Dyes] to this tile <for [1] movement>",
-      "Add [Gems] to this tile <for [1] movement>",
-      "Add [Gold Ore] to this tile <for [1] movement>",
-      "Add [Silver] to this tile <for [1] movement>",
-      "Add [Incense] to this tile <for [1] movement>",
-      "Add [Ivory] to this tile <for [1] movement>",
-      "Add [Silk] to this tile <for [1] movement>",
-      "Add [Spices] to this tile <for [1] movement>",
-      "Add [Wine] to this tile <for [1] movement>",
-      "Add [Sugar] to this tile <for [1] movement>",
-      "Add [Marble] to this tile <for [1] movement>",
-      "Add [Whales] to this tile <for [1] movement>",
-      "Add [Pearls] to this tile <for [1] movement>",
-      "Add [Jewelry] to this tile <for [1] movement>",
-      "Add [Porcelain] to this tile <for [1] movement>",
-      "Add [Citrus] to this tile <for [1] movement>",
-      "Add [Copper] to this tile <for [1] movement>",
-      "Add [Crab] to this tile <for [1] movement>",
-      "Add [Salt] to this tile <for [1] movement>",
-      "Add [Truffles] to this tile <for [1] movement>",
-      "Add [Cattle] to this tile <for [1] movement>",
-      "Add [Sheep] to this tile <for [1] movement>",
-      "Add [Deer] to this tile <for [1] movement>",
-      "Add [Bananas] to this tile <for [1] movement>",
-      "Add [Wheat] to this tile <for [1] movement>",
-      "Add [Stone] to this tile <for [1] movement>",
-      "Add [Fish] to this tile <for [1] movement>"
     ],
-    "civilopediaText": [
-      {
-        "text": "This unit adds REAL natural resources, but Unciv permits them only on a terrain allowed by the resource itself."
-      },
-      {
-        "text": "Use the other four Magalanadu Fabricator units for resource production on every ordinary land or water tile."
-      },
-      {
-        "text": "Adding a natural deposit replaces a resource that was previously present on the tile."
-      }
+    "promotions": [
+      "1st Magalanadu Ability",
+      "2nd Magalanadu Ability",
+      "Justice For Everyone! Ability"
     ]
   }
 ]

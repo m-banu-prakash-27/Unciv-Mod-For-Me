@@ -1,4 +1,4 @@
-name: Magalanadu balance validation (Unciv 4.22.16)
+name: Magalanadu v3.2 validation (Unciv 4.22.16)
 on:
   push:
   pull_request:
@@ -13,22 +13,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate original content, balanced gameplay and repeatable projects
-        run: python tests/validate_mod.py
-      - name: Validate diplomacy, unit utility, fabrication and repeatable resource facilities
-        run: |
-          python tests/validate_diplomatic_aid.py
-          python tests/validate_unit_utility.py
-          python tests/validate_resource_fabrication.py
-          python tests/validate_resource_buildings.py
-          python tests/validate_purchase_system.py
-          python tests/validate_unrestricted_purchases.py
-          python tests/validate_movement_upgrade.py
+      - name: Install image verification dependency
+        run: python -m pip install Pillow
+      - name: Validate v3.0 ruleset, worker resource generators, removed units and atlas assets
+        run: python tests/validate_v3_0.py
+      - name: Check updated promotions and gifting rules
+        run: python tests/validate_v3_2_gifts_promotions.py
+      - name: Check v3.1 export rewards
+        run: python tests/validate_v3_1_exports.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-      - name: Official Unciv 4.22.16 mod ruleset checker
+      - name: Run official Unciv 4.22.16 mod-ci validator
         run: |
           curl --fail --location --retry 3 --silent --show-error \
             -o Unciv.jar \

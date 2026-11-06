@@ -1,0 +1,340 @@
+{
+  "version": "3.1",
+  "rewardFormula": "2 * nominal Production cost",
+  "specialCityStateGiftUnits": [
+    "Magalanadu Blueprint - Computers",
+    "Magalanadu Blueprint - Education",
+    "Magalanadu Blueprint - Electricity",
+    "Magalanadu Blueprint - Electronics",
+    "Magalanadu Blueprint - Flight",
+    "Magalanadu Blueprint - Gunpowder",
+    "Magalanadu Blueprint - Industrialization",
+    "Magalanadu Blueprint - Plastics",
+    "Magalanadu Blueprint - Radar",
+    "Magalanadu Blueprint - Radio",
+    "Magalanadu Blueprint - Robotics",
+    "Magalanadu Blueprint - Rocketry",
+    "Magalanadu Blueprint - Satellites",
+    "Magalanadu Blueprint - Scientific Theory",
+    "Magalanadu Blueprint - Writing",
+    "Magalanadu Foreign Aid Battalion",
+    "Magalanadu Peacekeeper Battalion",
+    "Magalanadu Relief Engineer",
+    "Magalanadu Science Envoy",
+    "Magalanadu Technology Ambassador"
+  ],
+  "rewardedUnits": [
+    {
+      "unit": "Super Cheat Worker",
+      "productionCost": 100,
+      "exportRewardGold": 200,
+      "rewardUnique": "Gain [200] [Gold] <upon losing a [Super Cheat Worker] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Super Cheat Settler",
+      "productionCost": 160,
+      "exportRewardGold": 320,
+      "rewardUnique": "Gain [320] [Gold] <upon losing a [Super Cheat Settler] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Super Cheat Warrior",
+      "productionCost": 120,
+      "exportRewardGold": 240,
+      "rewardUnique": "Gain [240] [Gold] <upon losing a [Super Cheat Warrior] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Super Cheat Trooper",
+      "productionCost": 160,
+      "exportRewardGold": 320,
+      "rewardUnique": "Gain [320] [Gold] <upon losing a [Super Cheat Trooper] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Bowman",
+      "productionCost": 40,
+      "exportRewardGold": 80,
+      "rewardUnique": "Gain [80] [Gold] <upon losing a [Indian Bowman] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian War Elephant",
+      "productionCost": 56,
+      "exportRewardGold": 112,
+      "rewardUnique": "Gain [112] [Gold] <upon losing a [Indian War Elephant] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Infantry",
+      "productionCost": 225,
+      "exportRewardGold": 450,
+      "rewardUnique": "Gain [450] [Gold] <upon losing a [Indian Infantry] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Carrier",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Carrier] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Anti-Aircraft Gun",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Anti-Aircraft Gun] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Destroyer",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Destroyer] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "MAG-41",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [MAG-41] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Paratrooper",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Paratrooper] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Tank",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Tank] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Anti-Tank Gun",
+      "productionCost": 300,
+      "exportRewardGold": 600,
+      "rewardUnique": "Gain [600] [Gold] <upon losing a [Indian Anti-Tank Gun] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Mobile SAM",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Mobile SAM] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Guided Missile",
+      "productionCost": 150,
+      "exportRewardGold": 300,
+      "rewardUnique": "Gain [300] [Gold] <upon losing a [Indian Guided Missile] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Helicopter Gunship",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Helicopter Gunship] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Nuclear Submarine",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Nuclear Submarine] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Mechanized Infantry",
+      "productionCost": 375,
+      "exportRewardGold": 750,
+      "rewardUnique": "Gain [750] [Gold] <upon losing a [Indian Mechanized Infantry] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Missile Cruiser",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Missile Cruiser] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Modern Armor",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Modern Armor] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Jet Fighter",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Jet Fighter] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Giant Death Robot",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Giant Death Robot] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Indian Stealth Bomber",
+      "productionCost": 425,
+      "exportRewardGold": 850,
+      "rewardUnique": "Gain [850] [Gold] <upon losing a [Indian Stealth Bomber] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Divine Apostle",
+      "productionCost": 200,
+      "exportRewardGold": 400,
+      "rewardUnique": "Gain [400] [Gold] <upon losing a [Magalanadu Divine Apostle] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Religious Agitator",
+      "productionCost": 250,
+      "exportRewardGold": 500,
+      "rewardUnique": "Gain [500] [Gold] <upon losing a [Magalanadu Religious Agitator] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Drone Swarm",
+      "productionCost": 480,
+      "exportRewardGold": 960,
+      "rewardUnique": "Gain [960] [Gold] <upon losing a [Magalanadu Drone Swarm] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Peacekeeper Battalion",
+      "productionCost": 470,
+      "exportRewardGold": 940,
+      "rewardUnique": "Gain [940] [Gold] <upon losing a [Magalanadu Peacekeeper Battalion] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Architect of Wonders",
+      "productionCost": 340,
+      "exportRewardGold": 680,
+      "rewardUnique": "Gain [680] [Gold] <upon losing a [Magalanadu Architect of Wonders] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Foreign Aid Battalion",
+      "productionCost": 350,
+      "exportRewardGold": 700,
+      "rewardUnique": "Gain [700] [Gold] <upon losing a [Magalanadu Foreign Aid Battalion] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Relief Engineer",
+      "productionCost": 180,
+      "exportRewardGold": 360,
+      "rewardUnique": "Gain [360] [Gold] <upon losing a [Magalanadu Relief Engineer] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Science Envoy",
+      "productionCost": 260,
+      "exportRewardGold": 520,
+      "rewardUnique": "Gain [520] [Gold] <upon losing a [Magalanadu Science Envoy] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Technology Ambassador",
+      "productionCost": 900,
+      "exportRewardGold": 1800,
+      "rewardUnique": "Gain [1800] [Gold] <upon losing a [Magalanadu Technology Ambassador] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Writing",
+      "productionCost": 140,
+      "exportRewardGold": 280,
+      "rewardUnique": "Gain [280] [Gold] <upon losing a [Magalanadu Blueprint - Writing] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Education",
+      "productionCost": 260,
+      "exportRewardGold": 520,
+      "rewardUnique": "Gain [520] [Gold] <upon losing a [Magalanadu Blueprint - Education] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Gunpowder",
+      "productionCost": 340,
+      "exportRewardGold": 680,
+      "rewardUnique": "Gain [680] [Gold] <upon losing a [Magalanadu Blueprint - Gunpowder] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Scientific Theory",
+      "productionCost": 420,
+      "exportRewardGold": 840,
+      "rewardUnique": "Gain [840] [Gold] <upon losing a [Magalanadu Blueprint - Scientific Theory] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Industrialization",
+      "productionCost": 480,
+      "exportRewardGold": 960,
+      "rewardUnique": "Gain [960] [Gold] <upon losing a [Magalanadu Blueprint - Industrialization] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Electricity",
+      "productionCost": 520,
+      "exportRewardGold": 1040,
+      "rewardUnique": "Gain [1040] [Gold] <upon losing a [Magalanadu Blueprint - Electricity] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Flight",
+      "productionCost": 550,
+      "exportRewardGold": 1100,
+      "rewardUnique": "Gain [1100] [Gold] <upon losing a [Magalanadu Blueprint - Flight] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Radio",
+      "productionCost": 600,
+      "exportRewardGold": 1200,
+      "rewardUnique": "Gain [1200] [Gold] <upon losing a [Magalanadu Blueprint - Radio] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Plastics",
+      "productionCost": 650,
+      "exportRewardGold": 1300,
+      "rewardUnique": "Gain [1300] [Gold] <upon losing a [Magalanadu Blueprint - Plastics] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Electronics",
+      "productionCost": 690,
+      "exportRewardGold": 1380,
+      "rewardUnique": "Gain [1380] [Gold] <upon losing a [Magalanadu Blueprint - Electronics] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Radar",
+      "productionCost": 720,
+      "exportRewardGold": 1440,
+      "rewardUnique": "Gain [1440] [Gold] <upon losing a [Magalanadu Blueprint - Radar] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Rocketry",
+      "productionCost": 800,
+      "exportRewardGold": 1600,
+      "rewardUnique": "Gain [1600] [Gold] <upon losing a [Magalanadu Blueprint - Rocketry] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Computers",
+      "productionCost": 850,
+      "exportRewardGold": 1700,
+      "rewardUnique": "Gain [1700] [Gold] <upon losing a [Magalanadu Blueprint - Computers] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Satellites",
+      "productionCost": 930,
+      "exportRewardGold": 1860,
+      "rewardUnique": "Gain [1860] [Gold] <upon losing a [Magalanadu Blueprint - Satellites] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Blueprint - Robotics",
+      "productionCost": 1030,
+      "exportRewardGold": 2060,
+      "rewardUnique": "Gain [2060] [Gold] <upon losing a [Magalanadu Blueprint - Robotics] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Strategic Fabricator",
+      "productionCost": 225,
+      "exportRewardGold": 450,
+      "rewardUnique": "Gain [450] [Gold] <upon losing a [Magalanadu Strategic Fabricator] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Luxury Fabricator I",
+      "productionCost": 185,
+      "exportRewardGold": 370,
+      "rewardUnique": "Gain [370] [Gold] <upon losing a [Magalanadu Luxury Fabricator I] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Luxury Fabricator II",
+      "productionCost": 185,
+      "exportRewardGold": 370,
+      "rewardUnique": "Gain [370] [Gold] <upon losing a [Magalanadu Luxury Fabricator II] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    },
+    {
+      "unit": "Magalanadu Bonus Fabricator",
+      "productionCost": 140,
+      "exportRewardGold": 280,
+      "rewardUnique": "Gain [280] [Gold] <upon losing a [Magalanadu Bonus Fabricator] unit> <in tiles without [your]> <in tiles without [Unowned]> <in tiles without [Enemy]>"
+    }
+  ]
+}
