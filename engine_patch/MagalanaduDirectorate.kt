@@ -10,6 +10,7 @@ import com.unciv.logic.trade.Trade
 import com.unciv.logic.trade.TradeOffer
 import com.unciv.logic.trade.TradeOfferType
 import com.unciv.models.ruleset.tile.ResourceType
+import com.unciv.models.ruleset.unique.UniqueType
 import kotlin.random.Random
 
 /**
@@ -37,11 +38,16 @@ object MagalanaduDirectorate {
                 }
             }
         }.row()
-        popup.addButton("FOREIGN RESOURCE RIGHTS: lease or 9,999 turns") {
+        popup.addButton("FOREIGN RESOURCE RIGHTS: choose supplier or bulk acquisition") {
             popup.close()
             selectCiv(user, "Choose resource supplier", { it.isMajorCiv || it.isCityState }) { supplier ->
                 selectResource(user, supplier)
             }
+        }.row()
+        // MAGALANADU_V4_5_GLOBAL_RESOURCES: optional bulk transfer from known suppliers.
+        popup.addButton("ACQUIRE ALL RESOURCES: every known civilization / City-State") {
+            popup.close()
+            selectGlobalResourceDuration(user)
         }.row()
         popup.addButton("SABOTAGE: delay a foreign city's current project") {
             popup.close()
@@ -139,21 +145,42 @@ object MagalanaduDirectorate {
         popup.open()
     }
 
+    /** Returns available, non-stockpiled, game-tradable quantities, net of existing trade
+     *  commitments. A resource already acquired therefore cannot be acquired twice.
+     *  Standard Unciv trade records do not support Bonus or stockpiled resources.
+     */
+    private fun availableResourceBundle(supplier: Civilization): Map<String, Int> =
+        supplier.getCivResourceSupply()
+            .asSequence()
+            .filter { !it.resource.isStockpiled &&
+                !it.resource.hasUnique(UniqueType.CannotBeTraded, supplier.state) &&
+                (it.resource.resourceType == ResourceType.Strategic ||
+                 it.resource.resourceType == ResourceType.Luxury) }
+            .groupBy { it.resource.name }
+            .mapValues { entry -> entry.value.sumOf { it.amount } }
+            .filterValues { it > 0 }
+            .toSortedMap()
+
     private fun selectResource(player: Civilization, supplier: Civilization) {
         if (supplier.isAtWarWith(player)) {
             message("Resource agreements are unavailable while at war with the supplier.")
             return
         }
-        val available = supplier.getCivResourceSupply()
-            .filter { it.amount > 0 && !it.resource.isStockpiled &&
-                it.resource.resourceType in setOf(ResourceType.Strategic, ResourceType.Luxury) }
-            .groupBy { it.resource.name }
-            .mapValues { (_, supplies) -> supplies.sumOf { it.amount } }
-            .filter { it.value > 0 }
+        val available = availableResourceBundle(supplier)
         val popup = newPopup("RESOURCE RIGHTS: ${supplier.civName}")
-        popup.addGoodSizedLabel("Force a 30-turn lease or 9,999-turn long-term concession. Supply is deducted from the supplier and added to Magalanadu. Contracts can terminate if the supplier runs out.").row()
-        if (available.isEmpty()) popup.addGoodSizedLabel("No available strategic or luxury resource stock.").row()
-        for ((resource, count) in available.toSortedMap()) {
+        popup.addGoodSizedLabel("Acquire one resource or ALL available resources at once. Transfers are real bilateral trade contracts. Only non-stockpiled strategic and luxury resources can be traded.").row()
+        if (available.isEmpty()) popup.addGoodSizedLabel("No available tradable resources. Existing concessions may already use the supply.").row()
+        else {
+            popup.addButton("ACQUIRE ALL ${available.size} RESOURCE TYPES (30 turns)") {
+                popup.close()
+                confirmResourceBundle(player, supplier, RESOURCE_TURNS)
+            }.row()
+            popup.addButton("ACQUIRE ALL ${available.size} RESOURCE TYPES (9,999 turns)") {
+                popup.close()
+                confirmResourceBundle(player, supplier, RESOURCE_LONG_TERM_TURNS)
+            }.row()
+        }
+        for ((resource, count) in available) {
             popup.addButton("$resource: $count available") {
                 popup.close()
                 selectQuantity(player, supplier, resource)
@@ -165,15 +192,27 @@ object MagalanaduDirectorate {
 
     private fun selectQuantity(player: Civilization, supplier: Civilization, resourceName: String) {
         val popup = newPopup("$resourceName concessions")
-        val current = supplier.getCivResourceSupply().sumBy(resourceName).coerceAtLeast(0)
-        popup.addGoodSizedLabel("Available: $current. Select quantity and duration.").row()
+        val current = availableResourceBundle(supplier)[resourceName] ?: 0
+        popup.addGoodSizedLabel("Available: $current. Choose quantity and duration.").row()
+        if (current > 0) {
+            for (duration in listOf(RESOURCE_TURNS, RESOURCE_LONG_TERM_TURNS)) {
+                popup.addButton("ACQUIRE ALL $current $resourceName ($duration turns)") {
+                    popup.close()
+                    val transferred = acquireResourceBundle(player, supplier, mapOf(resourceName to current), duration)
+                    message(if (transferred > 0)
+                        "Transferred all $transferred $resourceName from ${supplier.civName} to Magalanadu for $duration turns."
+                    else "Transfer failed: available supply or diplomatic conditions changed.")
+                }.row()
+            }
+        }
         for (quantity in listOf(1, 5, 10, 25).filter { it <= current }) {
             for (duration in listOf(RESOURCE_TURNS, RESOURCE_LONG_TERM_TURNS)) {
-                val term = if (duration == RESOURCE_TURNS) "30-turn lease" else "9,999-turn control"
-                popup.addButton("$quantity $resourceName: $term") {
+                popup.addButton("$quantity $resourceName ($duration turns)") {
                     popup.close()
-                    val ok = acquireResources(player, supplier, resourceName, quantity, duration)
-                    message(if (ok) "Contract active: +$quantity $resourceName to Magalanadu for $duration turns, deducted from ${supplier.civName}." else "Transfer failed: supply or diplomatic conditions changed.")
+                    val transferred = acquireResourceBundle(player, supplier, mapOf(resourceName to quantity), duration)
+                    message(if (transferred == quantity)
+                        "Contract active: $quantity $resourceName for $duration turns from ${supplier.civName}."
+                    else "Transfer failed: supply or diplomatic conditions changed.")
                 }.row()
             }
         }
@@ -181,20 +220,118 @@ object MagalanaduDirectorate {
         popup.open()
     }
 
-    private fun acquireResources(player: Civilization, supplier: Civilization, name: String, amount: Int, duration: Int): Boolean {
-        if (player == supplier || amount <= 0 || supplier.isDefeated() || supplier.isAtWarWith(player)) return false
-        val resource = player.gameInfo.ruleset.tileResources[name] ?: return false
-        if (resource.isStockpiled || resource.resourceType == ResourceType.Bonus) return false
-        if (supplier.getCivResourceSupply().sumBy(name) < amount) return false
-        val type = if (resource.resourceType == ResourceType.Luxury) TradeOfferType.Luxury_Resource
-                   else TradeOfferType.Strategic_Resource
-        val transfer = Trade()
-        transfer.theirOffers.add(TradeOffer(name, type, amount, duration))
-        player.getDiplomacyManager(supplier)?.trades?.add(transfer) ?: return false
-        supplier.getDiplomacyManager(player)?.trades?.add(transfer.reverse()) ?: return false
+    private fun confirmResourceBundle(player: Civilization, supplier: Civilization, duration: Int) {
+        val available = availableResourceBundle(supplier)
+        val popup = newPopup("ACQUIRE ALL: ${supplier.civName}")
+        popup.addGoodSizedLabel("Transfer all ${available.size} available resource types (${available.values.sum()} total units) for $duration turns. This deducts resources from ${supplier.civName}, creates ONE persistent trade contract, and cannot be undone by this menu.").row()
+        for ((name, amount) in available) popup.addGoodSizedLabel("$name: $amount").row()
+        if (available.isNotEmpty()) popup.addButton("CONFIRM: ACQUIRE EVERYTHING") {
+            popup.close()
+            // Re-read at confirmation time so stale menu quantities cannot overdraw.
+            val actual = availableResourceBundle(supplier)
+            val transferred = acquireResourceBundle(player, supplier, actual, duration)
+            message(if (transferred > 0)
+                "Acquired $transferred resource units from ${supplier.civName} in one contract for $duration turns."
+            else "No resources transferred. Check war status, availability and existing contracts.")
+        }.row()
+        popup.addCloseButton().row()
+        popup.open()
+    }
+
+    /** Optional GLOBAL action; only nations discovered by Magalanadu can be targeted.
+     *  One bilateral contract per supplier, not one contract per resource.
+     */
+    private fun selectGlobalResourceDuration(player: Civilization) {
+        val popup = newPopup("GLOBAL RESOURCE ACQUISITION")
+        val suppliers = eligibleBulkSuppliers(player)
+        val totalTypes = suppliers.sumOf { availableResourceBundle(it).size }
+        popup.addGoodSizedLabel("Eligible suppliers: ${suppliers.size}; resource positions: $totalTypes. Acquires all CURRENT net tradable strategic and luxury resources from every known non-hostile civilization and City-State. Existing contracts are respected.").row()
+        if (totalTypes > 0) {
+            popup.addButton("ACQUIRE ALL: 30-turn contracts") {
+                popup.close()
+                confirmGlobalResourceBundle(player, RESOURCE_TURNS)
+            }.row()
+            popup.addButton("ACQUIRE ALL: 9,999-turn contracts") {
+                popup.close()
+                confirmGlobalResourceBundle(player, RESOURCE_LONG_TERM_TURNS)
+            }.row()
+        } else popup.addGoodSizedLabel("No currently available resource supplies from eligible nations.").row()
+        popup.addCloseButton().row()
+        popup.open()
+    }
+
+    private fun eligibleBulkSuppliers(player: Civilization): List<Civilization> =
+        player.getKnownCivs()
+            .filter { it != player && !it.isDefeated() && !it.isAtWarWith(player) &&
+                (it.isMajorCiv || it.isCityState) }
+            .sortedBy { it.civName }.toList()
+
+    private fun confirmGlobalResourceBundle(player: Civilization, duration: Int) {
+        val eligible = eligibleBulkSuppliers(player)
+        val total = eligible.sumOf { availableResourceBundle(it).values.sum() }
+        val popup = newPopup("CONFIRM GLOBAL RESOURCE RIGHTS")
+        popup.addGoodSizedLabel("This will acquire up to $total resource units from ${eligible.size} discovered eligible nations for $duration turns. All valid transfers are real trade agreements; the action will NOT annex cities or alter map tiles.").row()
+        popup.addButton("CONFIRM: ACQUIRE FROM ALL") {
+            popup.close()
+            var totalReceived = 0
+            var supplierCount = 0
+            for (supplier in eligibleBulkSuppliers(player)) {
+                val bundle = availableResourceBundle(supplier)
+                if (bundle.isEmpty()) continue
+                val received = acquireResourceBundle(player, supplier, bundle, duration)
+                if (received > 0) {
+                    supplierCount++
+                    totalReceived += received
+                }
+            }
+            message("Global acquisition complete: $totalReceived total resource units acquired from $supplierCount civilizations / City-States for $duration turns. Unavailable or hostile suppliers were skipped.")
+        }.row()
+        popup.addCloseButton().row()
+        popup.open()
+    }
+
+    /** Atomic bilateral record per supplier with many resource offers. No net overdrawing,
+     *  no duplicated concessions for already-exported resources, and no bonus-resource tricks.
+     *  Return the total number of actual resource units committed.
+     */
+    private fun acquireResourceBundle(
+        player: Civilization,
+        supplier: Civilization,
+        requested: Map<String, Int>,
+        duration: Int
+    ): Int {
+        if (player == supplier || supplier.isDefeated() || supplier.isAtWarWith(player) ||
+            duration !in listOf(RESOURCE_TURNS, RESOURCE_LONG_TERM_TURNS)) return 0
+        val playerDiplo = player.getDiplomacyManager(supplier) ?: return 0
+        val supplierDiplo = supplier.getDiplomacyManager(player) ?: return 0
+        val stillAvailable = availableResourceBundle(supplier)
+        val trade = Trade()
+        var total = 0
+        for ((name, quantity) in requested) {
+            if (quantity <= 0) continue
+            val resource = player.gameInfo.ruleset.tileResources[name] ?: continue
+            if (resource.isStockpiled) continue
+            val available = stillAvailable[name] ?: 0
+            // If the menu's requested quantity went stale, do not silently
+            // transfer a partial quantity and report it as a failure.
+            if (available < quantity) return 0
+            val amount = quantity
+            val offerType = when (resource.resourceType) {
+                ResourceType.Luxury -> TradeOfferType.Luxury_Resource
+                ResourceType.Strategic -> TradeOfferType.Strategic_Resource
+                else -> continue
+            }
+            trade.theirOffers.add(TradeOffer(name, offerType, amount, duration))
+            total += amount
+        }
+        if (total == 0) return 0
+        // The mirror record is created before either side is mutated.
+        val mirror = trade.reverse()
+        playerDiplo.trades.add(trade)
+        supplierDiplo.trades.add(mirror)
         supplier.cache.updateCivResources()
         player.cache.updateCivResources()
-        return true
+        return total
     }
 
     private fun selectCity(player: Civilization, victim: Civilization) {
