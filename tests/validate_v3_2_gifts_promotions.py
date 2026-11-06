@@ -4,7 +4,7 @@ root=Path(__file__).resolve().parents[1]
 load=lambda n: json.loads((root/'jsons'/f'{n}.json').read_text('utf-8'))
 units=load('Units');n=load('Nations');promo=load('UnitPromotions');b=load('Buildings');im=load('TileImprovements')
 m=json.loads((root/'compatibility'/'v3_2_promotion_and_gift_manifest.json').read_text())
-assert (len(units),len(n),len(b),len(im),len(promo))==(53,1,24,44,3)
+assert (len(units),len(n),len(b),len(im),len(promo))==(53,1,25,44,3)
 assert len(m['standardRelevantPromotions'])==91
 assert len(set(m['standardRelevantPromotions']))==91
 assert len(n[0]['uniques'])==162+91

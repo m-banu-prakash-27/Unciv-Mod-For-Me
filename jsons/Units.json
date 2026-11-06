@@ -22,7 +22,8 @@
       "Can enter ice tiles",
       "Can pass through impassable tiles",
       "All tiles cost 1 movement",
-      "May enter foreign tiles without open borders"
+      "May enter foreign tiles without open borders",
+      "Can instantly construct a [Arms Depot] improvement"
     ],
     "cost": 100,
     "promotions": [

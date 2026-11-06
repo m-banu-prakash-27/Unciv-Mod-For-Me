@@ -53,6 +53,13 @@ BuildingIcons/Magalanadu Happiness Initiative
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Magalanadu Armament Depot
+  rotate: false
+  xy: 721, 251
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Magalanadu Military Mobilization
   rotate: false
   xy: 721, 251

@@ -4,7 +4,7 @@ r=Path(__file__).resolve().parents[1]
 get=lambda n:json.loads((r/'jsons'/f'{n}.json').read_text(encoding='utf-8'))
 u=get('Units'); n=get('Nations'); b=get('Buildings');imp=get('TileImprovements');p=get('UnitPromotions')
 m=json.loads((r/'compatibility'/'unit_export_rewards_v3_1.json').read_text())
-assert (len(u),len(n),len(b),len(imp),len(p))==(53,1,24,44,3)
+assert (len(u),len(n),len(b),len(imp),len(p))==(53,1,25,44,3)
 assert len(m['rewardedUnits'])==52 and len(set(v['unit'] for v in m['rewardedUnits']))==52
 assert len(m['specialCityStateGiftUnits'])==20
 allun=set(n[0]['uniques']);byn={v['name']:v for v in u}

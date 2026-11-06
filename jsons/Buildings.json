@@ -1,424 +1,444 @@
 [
-    {
-        "name": "Magalanadu Military Hack 2",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "When defeating a [All] unit, earn [50] Gold and recruit it",
-            "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
-            "[1] Movement",
-            "[+20]% Strength <vs [All] units>",
-            "[+1] Range",
-            "[1] additional attacks per turn",
-            "[+15]% Strength <when defending> <when [Embarked]>",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Military Hack 1",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "[1] additional attacks per turn",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "No damage penalty for wounded units",
-            "Enables [All] units to enter ocean tiles",
-            "[1] Movement point cost to disembark",
-            "[1] Movement point cost to embark",
-            "Military Units gifted from City-States start with [20] XP",
-            "New [All] units start with [20] XP [in all cities]",
-            "No movement cost to pillage",
-            "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Gold Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Gold] per [5] population [in all cities]",
-            "[+35]% [Gold] [in all cities]",
-            "No Maintenance costs for improvements in [All] tiles",
-            "[-20]% maintenance costs",
-            "[-20]% maintenance on road & railroads",
-            "[-20]% maintenance cost for [All] buildings [in all cities]",
-            "[Gold] cost of purchasing [All] units [-15]%",
-            "[Gold] cost of purchasing [All] buildings [-15]%",
-            "May buy [All] buildings for [200] [Culture] [in all cities]",
-            "May buy [All] units for [200] [Culture] [in all cities]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu City-States Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
-            "City-State territory always counts as friendly territory",
-            "[+25]% resources gifted by City-States",
-            "[-20]% City-State Influence degradation",
-            "Resting point for Influence with City-States is increased by [15]",
-            "Influence of all other civilizations with all city-states degrades [20]% faster",
-            "Gifts of Gold to City-States generate [+25]% more Influence",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Culture Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Culture] per [5] population [in all cities]",
-            "[+30]% [Culture] [in all cities]",
-            "[+15]% Golden Age length",
-            "[-10]% Culture cost of adopting new Policies",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Faith Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Faith] per [5] population [in all cities]",
-            "[+30]% [Faith] [in all cities]",
-            "May choose [1] additional belief(s) of any type when [founding] a religion",
-            "May choose [1] additional belief(s) of any type when [enhancing] a religion",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Happiness Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Happiness] per [5] population [in all cities]",
-            "[+20]% [Happiness] [in all cities]",
-            "[2] Happiness from each type of luxury resource",
-            "[-20]% Unhappiness from [Population] [in all cities]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Food Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Food] per [5] population [in all cities]",
-            "[+30]% [Food] [in all cities]",
-            "[+20]% growth [in all cities]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Science Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Science] per [5] population [in all cities]",
-            "[+30]% [Science] [in all cities]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Production Hack",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+1 Production] per [5] population [in all cities]",
-            "[+35]% [Production] [in all cities]",
-            "[+25]% [Strategic] resource production",
-            "[-20]% construction time for [All] improvements",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Justice For Everyone!",
-        "uniqueTo": "Magalanadu",
-        "isNationalWonder": true,
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Enables Open Borders agreements",
-            "Enables Research agreements",
-            "Enables Defensive Pacts",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "\"Borrows\" city names from other civilizations in the game",
-            "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
-            "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in all cities]",
-            "Enables conversion of city production to [Gold]",
-            "May buy [All] units with [Culture] for [3] times their normal Production cost",
-            "May buy [All] units with [Faith] for [3] times their normal Production cost",
-            "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
-            "May buy [All] buildings with [Faith] for [3] times their normal Production cost",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu World Forge",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Gain control over [all] tiles in a [2]-tile radius",
-            "Gain control over [12] tiles [in this city]",
-            "[-25]% Gold cost of acquiring tiles [in all cities]",
-            "[-25]% Culture cost of natural border growth [in all cities]",
-            "[+25]% Production when constructing [All] wonders [in this city]",
-            "[+25]% Production when constructing [All] buildings [in this city]",
-            "[+20]% growth [in this city]",
-            "[20]% Food is carried over after population increases [in this city]",
-            "[-15]% Food consumption by [Population] [in this city]",
-            "[-20]% Unhappiness from [Population] [in this city]",
-            "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] per [5] population [in this city]",
-            "[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from every [Wonder]",
-            "[3] population [in this city]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Infinite Borders Office",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isNationalWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "Gain control over [all] tiles in a [2]-tile radius",
-            "Gain control over [6] tiles [in all cities]",
-            "[-25]% Gold cost of acquiring tiles [in all cities]",
-            "[-25]% Culture cost of natural border growth [in all cities]",
-            "[+20]% [Culture] [in all cities]",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Natural Wonder Institute",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "isWonder": true,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Destroyed when the city is captured",
-            "Can only be built <in [Capital] cities>",
-            "[+5 Food, +5 Production, +5 Gold, +5 Science, +5 Culture, +5 Faith] for every known Natural Wonder",
-            "[+100 Gold, +100 Science, +100 Culture] for discovering a Natural Wonder (bonus enhanced to [+250 Gold, +250 Science, +250 Culture] if first to discover it)",
-            "Reveals the entire map",
-            "Cost increases by [5] when built"
-        ]
-    },
-    {
-        "name": "Magalanadu Treasury Contract",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gain [999999999] [Gold]",
-            "[+9999 Gold] [in capital] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Treasury Contract] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Science Grant",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gain [999999] [Science]",
-            "[+9999 Science] [in capital] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Science Grant] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Cultural Endowment",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gain [999999] [Culture]",
-            "[+9999 Culture] [in capital] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Cultural Endowment] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Faith Foundation",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gain [999999] [Faith]",
-            "[+9999 Faith] [in capital] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Faith Foundation] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Industrial Surge",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "[+999 Production] [in capital] <for [9999] turns>",
-            "[+15]% [Production] [in all cities] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Industrial Surge] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Agricultural Programme",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "[+999 Food] [in capital] <for [9999] turns>",
-            "[+15]% growth [in all cities] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Agricultural Programme] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Happiness Initiative",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "[+999 Happiness] [in capital] <for [9999] turns>",
-            "[-10]% Unhappiness from [Population] [in all cities] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Happiness Initiative] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Military Mobilization",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "[+10]% Strength <for [9999] turns>",
-            "[+15]% Production when constructing [All] units [in all cities] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Military Mobilization] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Frontier Initiative",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gain control over [12] tiles [in this city]",
-            "[-10]% Culture cost of natural border growth [in all cities] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Frontier Initiative] [in this city]"
-        ]
-    },
-    {
-        "name": "Magalanadu Diplomatic Initiative",
-        "uniqueTo": "Magalanadu",
-        "cost": 5,
-        "uniques": [
-            "Can be purchased with [Gold] [in all cities]",
-            "Can be purchased with [Culture] [in all cities]",
-            "Can be purchased with [Faith] [in all cities]",
-            "Gifts of Gold to City-States generate [+15]% more Influence <for [9999] turns>",
-            "Resting point for Influence with City-States is increased by [5] <for [9999] turns>",
-            "Cost increases by [5] when built",
-            "Remove [Magalanadu Diplomatic Initiative] [in this city]"
-        ]
-    }
+  {
+    "name": "Magalanadu Military Hack 2",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "When defeating a [All] unit, earn [50] Gold and recruit it",
+      "All newly-trained [All] units [in all cities] receive the [2nd Magalanadu Ability] promotion",
+      "[1] Movement",
+      "[+20]% Strength <vs [All] units>",
+      "[+1] Range",
+      "[1] additional attacks per turn",
+      "[+15]% Strength <when defending> <when [Embarked]>",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Military Hack 1",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "[1] additional attacks per turn",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "No damage penalty for wounded units",
+      "Enables [All] units to enter ocean tiles",
+      "[1] Movement point cost to disembark",
+      "[1] Movement point cost to embark",
+      "Military Units gifted from City-States start with [20] XP",
+      "New [All] units start with [20] XP [in all cities]",
+      "No movement cost to pillage",
+      "All newly-trained [All] units [in all cities] receive the [1st Magalanadu Ability] promotion",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Gold Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Gold] per [5] population [in all cities]",
+      "[+35]% [Gold] [in all cities]",
+      "No Maintenance costs for improvements in [All] tiles",
+      "[-20]% maintenance costs",
+      "[-20]% maintenance on road & railroads",
+      "[-20]% maintenance cost for [All] buildings [in all cities]",
+      "[Gold] cost of purchasing [All] units [-15]%",
+      "[Gold] cost of purchasing [All] buildings [-15]%",
+      "May buy [All] buildings for [200] [Culture] [in all cities]",
+      "May buy [All] units for [200] [Culture] [in all cities]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu City-States Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
+      "City-State territory always counts as friendly territory",
+      "[+25]% resources gifted by City-States",
+      "[-20]% City-State Influence degradation",
+      "Resting point for Influence with City-States is increased by [15]",
+      "Influence of all other civilizations with all city-states degrades [20]% faster",
+      "Gifts of Gold to City-States generate [+25]% more Influence",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Culture Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Culture] per [5] population [in all cities]",
+      "[+30]% [Culture] [in all cities]",
+      "[+15]% Golden Age length",
+      "[-10]% Culture cost of adopting new Policies",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Faith Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Faith] per [5] population [in all cities]",
+      "[+30]% [Faith] [in all cities]",
+      "May choose [1] additional belief(s) of any type when [founding] a religion",
+      "May choose [1] additional belief(s) of any type when [enhancing] a religion",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Happiness Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Happiness] per [5] population [in all cities]",
+      "[+20]% [Happiness] [in all cities]",
+      "[2] Happiness from each type of luxury resource",
+      "[-20]% Unhappiness from [Population] [in all cities]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Food Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Food] per [5] population [in all cities]",
+      "[+30]% [Food] [in all cities]",
+      "[+20]% growth [in all cities]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Science Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Science] per [5] population [in all cities]",
+      "[+30]% [Science] [in all cities]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Production Hack",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+1 Production] per [5] population [in all cities]",
+      "[+35]% [Production] [in all cities]",
+      "[+25]% [Strategic] resource production",
+      "[-20]% construction time for [All] improvements",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Justice For Everyone!",
+    "uniqueTo": "Magalanadu",
+    "isNationalWonder": true,
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Enables Open Borders agreements",
+      "Enables Research agreements",
+      "Enables Defensive Pacts",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "\"Borrows\" city names from other civilizations in the game",
+      "All newly-trained [All] units [in all cities] receive the [Justice For Everyone! Ability] promotion",
+      "[+1 Gold, +1 Production, +1 Science, +1 Food, +1 Culture, +1 Faith, +1 Happiness] per [5] population [in all cities]",
+      "Enables conversion of city production to [Gold]",
+      "May buy [All] units with [Culture] for [3] times their normal Production cost",
+      "May buy [All] units with [Faith] for [3] times their normal Production cost",
+      "May buy [All] buildings with [Culture] for [3] times their normal Production cost",
+      "May buy [All] buildings with [Faith] for [3] times their normal Production cost",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu World Forge",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Gain control over [12] tiles [in this city]",
+      "[-25]% Gold cost of acquiring tiles [in all cities]",
+      "[-25]% Culture cost of natural border growth [in all cities]",
+      "[+25]% Production when constructing [All] wonders [in this city]",
+      "[+25]% Production when constructing [All] buildings [in this city]",
+      "[+20]% growth [in this city]",
+      "[20]% Food is carried over after population increases [in this city]",
+      "[-15]% Food consumption by [Population] [in this city]",
+      "[-20]% Unhappiness from [Population] [in this city]",
+      "[+2 Food, +2 Production, +2 Gold, +2 Science, +2 Culture, +2 Faith] per [5] population [in this city]",
+      "[+3 Food, +3 Production, +3 Gold, +3 Science, +3 Culture, +3 Faith] from every [Wonder]",
+      "[3] population [in this city]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Infinite Borders Office",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isNationalWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "Gain control over [all] tiles in a [2]-tile radius",
+      "Gain control over [6] tiles [in all cities]",
+      "[-25]% Gold cost of acquiring tiles [in all cities]",
+      "[-25]% Culture cost of natural border growth [in all cities]",
+      "[+20]% [Culture] [in all cities]",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Natural Wonder Institute",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "isWonder": true,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured",
+      "Can only be built <in [Capital] cities>",
+      "[+5 Food, +5 Production, +5 Gold, +5 Science, +5 Culture, +5 Faith] for every known Natural Wonder",
+      "[+100 Gold, +100 Science, +100 Culture] for discovering a Natural Wonder (bonus enhanced to [+250 Gold, +250 Science, +250 Culture] if first to discover it)",
+      "Reveals the entire map",
+      "Cost increases by [5] when built"
+    ]
+  },
+  {
+    "name": "Magalanadu Treasury Contract",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gain [999999999] [Gold]",
+      "[+9999 Gold] [in capital] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Treasury Contract] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Science Grant",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gain [999999] [Science]",
+      "[+9999 Science] [in capital] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Science Grant] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Cultural Endowment",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gain [999999] [Culture]",
+      "[+9999 Culture] [in capital] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Cultural Endowment] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Faith Foundation",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gain [999999] [Faith]",
+      "[+9999 Faith] [in capital] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Faith Foundation] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Industrial Surge",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "[+999 Production] [in capital] <for [9999] turns>",
+      "[+15]% [Production] [in all cities] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Industrial Surge] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Agricultural Programme",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "[+999 Food] [in capital] <for [9999] turns>",
+      "[+15]% growth [in all cities] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Agricultural Programme] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Happiness Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "[+999 Happiness] [in capital] <for [9999] turns>",
+      "[-10]% Unhappiness from [Population] [in all cities] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Happiness Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Military Mobilization",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "[+10]% Strength <for [9999] turns>",
+      "[+15]% Production when constructing [All] units [in all cities] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Military Mobilization] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Frontier Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gain control over [12] tiles [in this city]",
+      "[-10]% Culture cost of natural border growth [in all cities] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Frontier Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Diplomatic Initiative",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Gifts of Gold to City-States generate [+15]% more Influence <for [9999] turns>",
+      "Resting point for Influence with City-States is increased by [5] <for [9999] turns>",
+      "Cost increases by [5] when built",
+      "Remove [Magalanadu Diplomatic Initiative] [in this city]"
+    ]
+  },
+  {
+    "name": "Magalanadu Armament Depot",
+    "uniqueTo": "Magalanadu",
+    "cost": 5,
+    "production": 3,
+    "uniques": [
+      "Can be purchased with [Gold] [in all cities]",
+      "Can be purchased with [Culture] [in all cities]",
+      "Can be purchased with [Faith] [in all cities]",
+      "Destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Military Logistics Hub. Build in any Magalanadu city to use the Strategic Directorate to deploy units directly at the city centre. You may instead select an Arms Depot improvement within this city and route future trained units there."
+      },
+      {
+        "text": "The production spawning location is saved with your game. The depot menu also offers instant deployment in batches of 1, 5 or 10, limited by legal tile space."
+      }
+    ]
+  }
 ]

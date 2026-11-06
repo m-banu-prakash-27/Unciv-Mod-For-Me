@@ -23,14 +23,14 @@ removed_buildings=set(manifest['v3Changes']['removedResourceBuildings'])
 assert len(removed)==12 and len(removed_buildings)==35
 
 def names(entities):return [o['name'] for o in entities]
-for title,entities,expected in [('Nations',N,1),('Units',U,53),('Buildings',B,24),('TileImprovements',I,44),('UnitPromotions',P,3)]:
+for title,entities,expected in [('Nations',N,1),('Units',U,53),('Buildings',B,25),('TileImprovements',I,44),('UnitPromotions',P,3)]:
     check(len(entities)==expected,f'{title}: expected {expected}, got {len(entities)}')
     check(len(set(names(entities)))==len(entities), f'{title}: duplicate object names')
     print(f'{title}: {len(entities)}')
 
 check(set(names(U)).isdisjoint(removed),'Retired units still present')
 check(set(names(B)).isdisjoint(removed_buildings),'Removed resource supply buildings still present')
-check(set(names(B))==set(manifest['originalObjectNames']['Buildings.json'])|set(manifest['newRepeatableProjects']),'Original buildings or Supreme Projects missing')
+check(set(names(B))==set(manifest['originalObjectNames']['Buildings.json'])|(set(manifest['newRepeatableProjects'])|{'Magalanadu Armament Depot'}),'Original buildings or Supreme Projects missing')
 check(set(names(I))==set(manifest['originalObjectNames']['TileImprovements.json'])|set(manifest['newResourceImprovements']),'Existing tile improvements missing')
 expected_units=(set(old['originalObjectNames']['Units.json']) | set(old['newDiplomaticAidUnits']) | set(old['newResourceUnits'])) - set(old['removedUnits']) - removed
 check(set(names(U))==expected_units,'Retained unit roster does not match v2.9 minus explicit removals')
