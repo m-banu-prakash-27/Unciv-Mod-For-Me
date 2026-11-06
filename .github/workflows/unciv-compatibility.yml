@@ -1,4 +1,4 @@
-name: Magalanadu v4.0 validation (Unciv 4.22.16)
+name: Magalanadu v4.3 validation (Unciv 4.22.16)
 on:
   push:
   pull_request:
@@ -23,6 +23,12 @@ jobs:
         run: python tests/validate_v3_1_exports.py
       - name: Check v4.0 Strategic Directorate engine patch and economic contracts
         run: python tests/validate_v4_directorate.py
+      - name: Check inherited v4.1 patch prerequisites (v4.2 replaces 108 radius)
+        run: python tests/validate_v4_1_radius.py
+      - name: Check v4.2 radius-14 and 60-40 territory controls
+        run: python tests/validate_v4_2_territory.py
+      - name: Validate live terraforming editor source and hooks
+        run: python tests/validate_v4_3_terraforming.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
