@@ -34,9 +34,23 @@ check(set(names(B))==set(manifest['originalObjectNames']['Buildings.json'])|set(
 check(set(names(I))==set(manifest['originalObjectNames']['TileImprovements.json'])|set(manifest['newResourceImprovements']),'Existing tile improvements missing')
 expected_units=(set(old['originalObjectNames']['Units.json']) | set(old['newDiplomaticAidUnits']) | set(old['newResourceUnits'])) - set(old['removedUnits']) - removed
 check(set(names(U))==expected_units,'Retained unit roster does not match v2.9 minus explicit removals')
+# Git normally converts CRLF to LF when committing text files. The original source
+# archive contains mixed CRLF/LF endings, so its raw SHA-256 hashes do not always
+# survive Git's standard line-ending normalization. Check a canonical, LF-only
+# hash instead. This remains a cryptographic content-integrity check: changing any
+# JSON text other than the CRLF vs LF representation still fails.
+normalized_expected = manifest['originalRuleHashesLFNormalized']
+check(set(normalized_expected)==set(manifest['originalRuleHashes']), 'Historical backup hash manifest incomplete')
 for fname,sha in manifest['originalRuleHashes'].items():
     backup=ROOT/'backup'/'prebalance_ruleset'/fname
-    check(backup.exists() and hashlib.sha256(backup.read_bytes()).hexdigest()==sha,'Historical source backup changed: '+fname)
+    if not backup.exists():
+        check(False, 'Historical source backup missing: '+fname)
+        continue
+    data=backup.read_bytes()
+    raw_hash=hashlib.sha256(data).hexdigest()
+    normalized_hash=hashlib.sha256(data.replace(b'\r\n', b'\n')).hexdigest()
+    check(raw_hash==sha or normalized_hash==normalized_expected[fname],
+          'Historical source backup content changed: '+fname)
 
 check(N[0]['name']=='Magalanadu','Magalanadu civilization not present')
 check(not O.get('isBaseRuleset',False),'Mod incorrectly changed to base ruleset')
