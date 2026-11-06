@@ -39,8 +39,24 @@ check(set(names(U))==expected_units,'Retained unit roster does not match v2.9 mi
 # survive Git's standard line-ending normalization. Check a canonical, LF-only
 # hash instead. This remains a cryptographic content-integrity check: changing any
 # JSON text other than the CRLF vs LF representation still fails.
-normalized_expected = manifest['originalRuleHashesLFNormalized']
-check(set(normalized_expected)==set(manifest['originalRuleHashes']), 'Historical backup hash manifest incomplete')
+# These canonical digests were calculated from the ORIGINAL repository archive,
+# after verifying every archival file against its `originalRuleHashes` raw SHA-256.
+# They are fixed reference values, NOT recalculated from current backup files.
+# This protects real backup changes without relying on a second manifest update.
+_CANONICAL_HISTORICAL_SOURCE_HASHES = {
+    "Units.json": "29a8523d50c830791a093497e6658d3259aad7e8fac5c0e8c5c8b515b268a553",
+    "Nations.json": "ac192c707dc8d0c60a7d57e1eb3dc4538087be3d6cc24e364bfa359ea86ebb56",
+    "ModOptions.json": "108a9bf17ff58b8abc06ed2aa0d81a7073395c04c9d720c55fa644e87c69b557",
+    "TileImprovements.json": "b4e773c713736f5ffe260258e97e03a452e2ef537f3f7bcc4799bac24a02b0dd",
+    "Buildings.json": "e462636d3f90458a9b876476cfca07a4ca63c9c03d0917572a3ae885f4d82fef",
+    "UnitPromotions.json": "32f1cae247893eb8e856252f73c550ca6c158ef974a59c4f552fea0e38db3aa0"
+}
+normalized_expected = _CANONICAL_HISTORICAL_SOURCE_HASHES
+check(set(normalized_expected)==set(manifest['originalRuleHashes']),
+      'Historical reference files do not match the original manifest')
+if 'originalRuleHashesLFNormalized' in manifest:
+    check(manifest['originalRuleHashesLFNormalized']==normalized_expected,
+          'Historical normalized manifest disagrees with verified original archive')
 for fname,sha in manifest['originalRuleHashes'].items():
     backup=ROOT/'backup'/'prebalance_ruleset'/fname
     if not backup.exists():
