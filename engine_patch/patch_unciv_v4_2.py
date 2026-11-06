@@ -89,13 +89,15 @@ def apply_v4_2(root: Path):
             val owned = city.getTiles().toList()
             val ownedLand = owned.count { !it.isWater }
             val total = owned.size
-            return getChoosableTiles().minWithOrNull(
-                compareBy<Tile>(
-                    // Integer math: 5 * land - 3 * total is exactly 60% imbalance.
-                    { kotlin.math.abs(5 * (ownedLand + if (it.isWater) 0 else 1) - 3 * (total + 1)) },
-                    { rankTileForExpansion(it) }
+            // Original Unciv 4.22.16 uses the @Readonly-safe minByOrNull.
+            // Use a weighted Long score to preserve 60/40 as the first priority,
+            // and the normal expansion rank as a tie breaker.
+            return getChoosableTiles().minByOrNull { tile ->
+                val deviation = kotlin.math.abs(
+                    5 * (ownedLand + if (tile.isWater) 0 else 1) - 3 * (total + 1)
                 )
-            )
+                deviation.toLong() * 1_000_000L + rankTileForExpansion(tile).toLong()
+            }
         }
         // Keep the standard game behavior for every other civilization.
         return getChoosableTiles().minByOrNull { rankTileForExpansion(it) }
