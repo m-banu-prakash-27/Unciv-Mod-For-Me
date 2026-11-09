@@ -22,3 +22,7 @@ From the patched Unciv checkout, run `.\gradlew.bat :desktop:dist :desktop:zipWi
 ## Validation
 
 The cumulative patch and earlier build entry points were checked against source files from the release tag. Ruleset and patch integration checks run before packaging. APK compilation, Windows executable packaging and in-game verification require a completed build.
+
+## Build hotfix
+
+The original v4.9.1 patch attached Kotlin's private setter to the spy agency field instead of the gold field. The corrected patch keeps the setter on gold and checks that layout during validation. After publishing the hotfix, start a new workflow run from the updated main branch. Rerunning a failed job uses its original commit.

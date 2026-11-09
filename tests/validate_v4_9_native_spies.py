@@ -18,6 +18,10 @@ data = logic.with_name('MagalanaduAgencyData.kt')
 civ = logic.with_name('Civilization.kt')
 game = engine / 'logic/GameInfo.kt'
 directorate = engine / 'ui/popups/MagalanaduDirectorate.kt'
+civilization = civ.read_text()
+assert ('    var gold = 0\n        private set\n\n'
+        '    var magalanaduAgency: MagalanaduAgencyData? = null\n') in civilization
+assert not re.search(r'var magalanaduAgency:[^\n]+\n\s+private set\b', civilization)
 snapshot = {p: p.read_bytes() for p in (spy, espionage, menu, logic, data, civ, game, directorate)}
 assert logic.read_text() == native_agency()
 assert len(re.findall(r'^    \w+\(AgencyGroup\.', data.read_text(), re.MULTILINE)) == 34

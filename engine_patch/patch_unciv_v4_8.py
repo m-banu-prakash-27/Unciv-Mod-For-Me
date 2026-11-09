@@ -27,9 +27,10 @@ def apply(root: Path):
             destination.write_bytes(source)
 
     civ = civ_dir / 'Civilization.kt'
+    # Keep the upstream private setter attached to gold.
     once(civ,
-         '    var gold = 0\n',
-         '    var gold = 0\n'
+         '    var gold = 0\n        private set\n',
+         '    var gold = 0\n        private set\n\n'
          '    var magalanaduAgency: MagalanaduAgencyData? = null\n')
     once(civ,
          '        toReturn.gold = gold\n',

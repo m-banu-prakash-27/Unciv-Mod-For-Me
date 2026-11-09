@@ -148,9 +148,11 @@ def apply(root):
     install(civ / 'MagalanaduAgency.kt', native_agency())
     install(screen / 'MagalanaduSpyMenu.kt', (SOURCE / 'MagalanaduSpyMenu.kt').read_text(encoding='utf-8'))
 
+    # Keep the upstream private setter attached to gold.
     once(civ / 'Civilization.kt',
-         '    var gold = 0\n',
-         '    var gold = 0\n    var magalanaduAgency: MagalanaduAgencyData? = null\n')
+         '    var gold = 0\n        private set\n',
+         '    var gold = 0\n        private set\n\n'
+         '    var magalanaduAgency: MagalanaduAgencyData? = null\n')
     once(civ / 'Civilization.kt',
          '        toReturn.gold = gold\n',
          '        toReturn.gold = gold\n        toReturn.magalanaduAgency = magalanaduAgency?.copy()\n')

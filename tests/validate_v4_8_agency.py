@@ -23,6 +23,10 @@ hooks = {
     ),
 }
 payloads = [civ / 'MagalanaduAgencyData.kt', civ / 'MagalanaduAgency.kt', ui / 'MagalanaduAgencyMenu.kt']
+civilization = (civ / 'Civilization.kt').read_text()
+assert ('    var gold = 0\n        private set\n\n'
+        '    var magalanaduAgency: MagalanaduAgencyData? = null\n') in civilization
+assert not re.search(r'var magalanaduAgency:[^\n]+\n\s+private set\b', civilization)
 snapshot = {path: path.read_bytes() for path in [*hooks, *payloads]}
 for path, anchors in hooks.items():
     for anchor in anchors:
