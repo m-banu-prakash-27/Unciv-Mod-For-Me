@@ -1,3 +1,5 @@
+> For the current cumulative Android release, see the [v4.9.1 build guide](V4_9_1_UNCIV_UPDATE.md). This document describes the original gifting build.
+
 # Build a patched Unciv APK with GitHub Actions (Android)
 
 **The mod ZIP alone cannot bypass Unciv's major-Civ gifting check.** That behavior is compiled into the game. To use the new gift menu without Open Borders, you need a patched Unciv application.

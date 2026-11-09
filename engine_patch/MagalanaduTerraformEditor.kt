@@ -64,7 +64,9 @@ object MagalanaduTerraformEditor {
     private fun summary(tile: Tile): String =
         "Tile ${tile.position}: ${tile.baseTerrain}" +
         (if (tile.terrainFeatures.isEmpty()) "" else " + " + tile.terrainFeatures.joinToString()) +
-        (tile.resource?.let { " | Resource: $it" } ?: "") +
+        (tile.resource?.let { " | Resource: $it" +
+            (if (tile.tileResource?.resourceType == ResourceType.Strategic) " (deposit ${tile.resourceAmount})" else "") +
+            (if (tile.magalanaduTerraformResource == it) " [terraform]" else "") } ?: "") +
         (tile.naturalWonder?.let { " | Wonder: $it" } ?: "") +
         (tile.improvement?.let { " | Improvement: $it" } ?: "")
 
@@ -136,19 +138,27 @@ object MagalanaduTerraformEditor {
 
     private fun chooseResource(screen: WorldScreen, tile: Tile) {
         val p = popup(screen, "TILE RESOURCES: ${tile.position}")
-        p.addGoodSizedLabel("Resources must match the tile's terrain. Change base terrain or features first when required. Strategic resources support configurable deposits.").row()
+        p.addGoodSizedLabel("Place ANY resource on ANY terrain, including Coal and Uranium. Custom placement survives saving and reloading. Magalanadu can see and extract its placed resources without the usual technology or improvement; the tile must belong to Magalanadu. Natural wonders cannot share a tile with resources.").row()
         p.addButton("REMOVE RESOURCE") {
             p.close()
-            apply(screen, tile, "Resource cleared") { tile.tileResource = null; tile.resourceAmount = 0 }
+            apply(screen, tile, "Resource cleared") {
+                tile.tileResource = null
+                tile.resourceAmount = 0
+                tile.magalanaduTerraformResource = null
+            }
         }.row()
         for (r in screen.gameInfo.ruleset.tileResources.values.sortedBy { it.name }) {
-            val compatible = r.terrainsCanBeFoundOn.any { it == tile.baseTerrain || it in tile.terrainFeatures }
-            p.addButton("${r.name} (${r.resourceType})" + if (compatible) "" else " (terrain mismatch)") {
+            val normalTerrain = r.terrainsCanBeFoundOn.any { it == tile.baseTerrain || it in tile.terrainFeatures }
+            val naturalLabel = if (normalTerrain) "" else " [any terrain]"
+            p.addButton("${r.name} (${r.resourceType})$naturalLabel") {
                 p.close()
                 if (tile.naturalWonder != null) notice(screen,"NOT AVAILABLE", "Remove the natural wonder before placing a resource.")
-                else if (!compatible) notice(screen,"INCOMPATIBLE RESOURCE", "${r.name} needs another terrain or feature. Change the tile's terrain first.")
                 else if (r.resourceType == ResourceType.Strategic) chooseResourceAmount(screen,tile,r.name)
-                else apply(screen,tile,"${r.name} added") { tile.setTileResource(r); tile.resourceAmount=0 }
+                else apply(screen,tile,"${r.name} added") {
+                    tile.setTileResource(r)
+                    tile.resourceAmount = 0
+                    tile.magalanaduTerraformResource = r.name
+                }
             }.row()
         }
         p.addCloseButton().row()
@@ -158,12 +168,14 @@ object MagalanaduTerraformEditor {
     private fun chooseResourceAmount(screen: WorldScreen, tile: Tile, resourceName: String) {
         val resource = screen.gameInfo.ruleset.tileResources[resourceName] ?: return
         val p = popup(screen, "$resourceName: deposit quantity")
-        for (amount in listOf(1, 5, 10, 25, 50, 100, 500)) {
+        p.addGoodSizedLabel("Normal reveal tech: ${resource.revealedBy ?: "None"}. Magalanadu can see edited deposits immediately. Other civilizations retain their usual technology requirements.").row()
+        for (amount in listOf(1, 5, 10, 25, 50, 100, 250, 500, 1000, 9999)) {
             p.addButton("$amount units") {
                 p.close()
                 apply(screen,tile,"$resourceName deposit set to $amount") {
                     tile.setTileResource(resource)
                     tile.resourceAmount = amount
+                    tile.magalanaduTerraformResource = resource.name
                 }
             }.row()
         }
@@ -194,6 +206,7 @@ object MagalanaduTerraformEditor {
                     tile.removeTerrainFeatures()
                     tile.tileResource = null
                     tile.resourceAmount = 0
+                    tile.magalanaduTerraformResource = null
                     tile.removeImprovement()
                     tile.naturalWonder = w.name
                 }
@@ -256,6 +269,7 @@ object MagalanaduTerraformEditor {
         val oldWonder = tile.naturalWonder
         val oldResource = tile.tileResource
         val oldAmount = tile.resourceAmount
+        val oldTerraformResource = tile.magalanaduTerraformResource
         val oldImprovement = tile.improvement
         val oldRoad = tile.roadStatus
         try {
@@ -263,6 +277,10 @@ object MagalanaduTerraformEditor {
             tile.setTerrainTransients()
             TileNormalizer.normalizeToRuleset(tile,screen.gameInfo.ruleset)
             tile.setTerrainTransients()
+            // No false success: catch any resource that a later normalization still drops.
+            if (tile.magalanaduTerraformResource != null &&
+                tile.resource != tile.magalanaduTerraformResource)
+                error("Edited resource was removed during terrain normalization")
             refresh(screen,tile)
             notice(screen, "TILE UPDATED", "$label. ${summary(tile)}. Save your game to retain the edit. Tap another tile to continue.")
         } catch (e: Exception) {
@@ -272,6 +290,7 @@ object MagalanaduTerraformEditor {
             tile.setTerrainFeatures(oldFeatures)
             tile.tileResource = oldResource
             tile.resourceAmount = oldAmount
+            tile.magalanaduTerraformResource = oldTerraformResource
             tile.improvement = oldImprovement
             tile.roadStatus = oldRoad
             tile.setTerrainTransients()

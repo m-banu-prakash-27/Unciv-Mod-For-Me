@@ -1,4 +1,8 @@
-# Magalanadu v3.2: Donation Support + Full Relevant Promotions
+# Magalanadu for Unciv 4.22.18-patch1
+
+**Current release: v4.9.1.** See the [Android and Windows build guide](V4_9_1_UNCIV_UPDATE.md) and the [native spy operations guide](V4_9_NATIVE_SPY_OPERATIONS_GUIDE.md).
+
+## v3.2 ruleset and gifting reference
 
 **Target game:** Unciv 4.22.16, Civ V: Gods & Kings extension mod.
 

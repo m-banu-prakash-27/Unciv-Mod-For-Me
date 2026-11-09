@@ -1,4 +1,4 @@
-name: Magalanadu v4.3 validation (Unciv 4.22.16)
+name: Magalanadu ruleset validation (Unciv 4.22.18-patch1)
 on:
   push:
   pull_request:
@@ -32,10 +32,10 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '17'
-      - name: Run official Unciv 4.22.16 mod-ci validator
+          java-version: '21'
+      - name: Run official Unciv 4.22.18-patch1 mod-ci validator
         run: |
           curl --fail --location --retry 3 --silent --show-error \
             -o Unciv.jar \
-            https://github.com/yairm210/Unciv/releases/download/4.22.16/Unciv.jar
+            https://github.com/yairm210/Unciv/releases/download/4.22.18-patch1/Unciv.jar
           java -jar Unciv.jar mod-ci

@@ -9,18 +9,18 @@ permissions:
 
 jobs:
   build-android:
-    name: Build patched Unciv 4.22.16 v4.5 APK
+    name: Build patched Unciv 4.22.18-patch1 v4.5 APK
     runs-on: ubuntu-latest
     timeout-minutes: 55
     steps:
       - name: Check out Magalanadu mod and source patch
         uses: actions/checkout@v4
 
-      - name: Check out Unciv v4.22.16 source
+      - name: Check out Unciv v4.22.18-patch1 source
         uses: actions/checkout@v4
         with:
           repository: yairm210/Unciv
-          ref: '4.22.16'
+          ref: '4.22.18-patch1'
           path: game
 
       - name: Set up Java 21
@@ -52,13 +52,13 @@ jobs:
           f=Path('game/android/build.gradle.kts')
           text=f.read_text()
           old='applicationId = BuildConfig.identifier'
-          assert text.count(old)==1, 'Expected Unciv 4.22.16 applicationId declaration'
+          assert text.count(old)==1, 'Expected Unciv 4.22.18-patch1 applicationId declaration'
           f.write_text(text.replace(old,'applicationId = "com.unciv.magalanadu.v45"',1))
           # The separate package lets an official store-signed Unciv remain installed.
           label=Path('game/android/res/values/strings.xml')
           strings=label.read_text()
           old_label='<string name="app_name">Unciv</string>'
-          assert old_label in strings, 'Expected original app label in Unciv 4.22.16'
+          assert old_label in strings, 'Expected original app label in Unciv 4.22.18-patch1'
           label.write_text(strings.replace(old_label,'<string name="app_name">Magalanadu Resources v4.5</string>',1))
           PYAPP
 

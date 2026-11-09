@@ -1,0 +1,86 @@
+name: Build Magalanadu v4.8 Intelligence Agency APK
+
+# Runs only when the owner selects Run workflow under GitHub Actions.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-android:
+    name: Build patched Unciv 4.22.18-patch1 v4.8 APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Check out Magalanadu mod and source patch
+        uses: actions/checkout@v4
+
+      - name: Check out Unciv v4.22.18-patch1 source
+        uses: actions/checkout@v4
+        with:
+          repository: yairm210/Unciv
+          ref: '4.22.18-patch1'
+          path: game
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Set up Android build tools
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platform-tools
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Apply cumulative v4.8 Intelligence Agency patch
+        run: python engine_patch/patch_unciv_v4_8.py game
+
+      - name: Validate the Agency and cumulative features
+        run: |
+          python tests/validate_v4_4_logistics.py
+          python tests/validate_v4_5_bulk_resources.py
+          python tests/validate_v4_5_1_resource_placement.py --root game
+          python tests/validate_v4_6_campaign.py game
+          python tests/validate_v4_7_secession.py game
+          python tests/validate_v4_8_agency.py game
+
+      - name: Give the patched app a separate Android package ID
+        run: |
+          python - <<'PYAPP'
+          from pathlib import Path
+          f=Path('game/android/build.gradle.kts')
+          text=f.read_text()
+          old='applicationId = BuildConfig.identifier'
+          assert text.count(old)==1, 'Expected Unciv 4.22.18-patch1 applicationId declaration'
+          f.write_text(text.replace(old,'applicationId = "com.unciv.magalanadu.v48"',1))
+          # The separate package lets an official store-signed Unciv remain installed.
+          label=Path('game/android/res/values/strings.xml')
+          strings=label.read_text()
+          old_label='<string name="app_name">Unciv</string>'
+          assert old_label in strings, 'Expected original app label in Unciv 4.22.18-patch1'
+          label.write_text(strings.replace(old_label,'<string name="app_name">Magalanadu Agency v4.8</string>',1))
+          PYAPP
+
+      - name: Build custom Android debug APK
+        working-directory: game
+        run: |
+          chmod +x ./gradlew
+          ./gradlew --no-daemon :android:assembleDebug
+
+      - name: Confirm APK produced
+        run: |
+          find game/android/build/outputs/apk/debug -name '*.apk' -size +1M -print
+          find game/android/build/outputs/apk/debug -name '*.apk' -print0 | xargs -0 -r sha256sum
+
+      - name: Downloadable patched Android app
+        uses: actions/upload-artifact@v4
+        with:
+          name: Magalanadu-v4-8-Intelligence-Agency-Android-APK
+          path: game/android/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 21
